@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ParaClub Montbéliard : trois directions</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@125,800;125,900&family=Manrope:wght@400;600;700&family=Unbounded:wght@600;800&family=Inter:wght@400;600&family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=DM+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box;margin:0}
+  body{font-family:Inter,system-ui,sans-serif;background:#e9e9e6;color:#16181d;padding:28px 18px 60px}
+  .entete{max-width:1180px;margin:0 auto 22px}
+  .entete h1{font:700 22px/1.2 Inter,sans-serif}
+  .entete p{color:#555;margin-top:6px;font-size:15px}
+  .dir{max-width:1180px;margin:0 auto 26px;border-radius:18px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,.08);background:#fff}
+  .tete{display:flex;justify-content:space-between;gap:12px;align-items:baseline;padding:16px 22px;border-bottom:1px solid #eee;flex-wrap:wrap}
+  .tete b{font-size:17px}.tete span{color:#666;font-size:14px}
+  .reco{background:#16181d;color:#fff;border-radius:99px;padding:3px 10px;font-size:12px;margin-left:8px}
+  .corps{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr)}
+  @media (max-width:860px){.corps{grid-template-columns:minmax(0,1fr)}}
+  .scene{position:relative;min-height:380px;padding:34px 32px;display:flex;flex-direction:column;justify-content:flex-end;gap:14px;overflow:hidden}
+  .scene small{font-size:12px;letter-spacing:.14em;text-transform:uppercase;opacity:.75}
+  .scene h2{font-size:clamp(34px,4.6vw,58px);line-height:.98}
+  .scene p{max-width:30em;font-size:16px;line-height:1.5;opacity:.88}
+  .btns{display:flex;gap:10px;flex-wrap:wrap}
+  .btn{border-radius:99px;padding:12px 20px;font-weight:700;font-size:15px}
+  .infos{padding:24px 24px 26px;display:flex;flex-direction:column;gap:16px;font-size:14.5px;line-height:1.5}
+  .pal{display:flex;gap:8px;flex-wrap:wrap}
+  .sw{width:92px;border-radius:10px;overflow:hidden;border:1px solid #0001;font-size:11.5px}
+  .sw i{display:block;height:46px}.sw div{padding:5px 7px;line-height:1.3}
+  .infos h3{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#777;margin-bottom:6px}
+  ul{padding-left:18px}li{margin:3px 0}
+
+  /* A */
+  .a .scene{background:linear-gradient(180deg,#9fc3e3 0%,#cfe2f1 55%,#eef4f9 100%);color:#0c1a2e}
+  .a .scene > :not(.porte){max-width:58%;position:relative}
+  .a h2{font-size:clamp(30px,3.9vw,52px)}
+  @media (max-width:860px){.a .scene > :not(.porte){max-width:100%}.a .porte{opacity:.35}}
+  .a .porte{position:absolute;inset:18px 18px auto auto;width:36%;height:62%;border:14px solid #0c1a2e;border-radius:26px 26px 40px 40px;background:linear-gradient(180deg,#6fa4d6,#bcd8ee 70%,#7fa86a 71%,#9bbd7c);opacity:.95}
+  .a .porte::after{content:"";position:absolute;left:46%;top:38%;width:44px;height:16px;border-radius:50% 50% 6px 6px;background:#ff5a1f}
+  .a h2{font-family:Archivo,sans-serif;font-stretch:125%;font-weight:900;text-transform:uppercase;letter-spacing:-.01em}
+  .a h2 em{font-style:normal;color:#ff5a1f}
+  .a .scene p,.a .infos{font-family:Manrope,sans-serif}
+  .a .b1{background:#ff5a1f;color:#0c1a2e}.a .b2{background:#0c1a2e;color:#fff}
+
+  /* B */
+  .b .scene{background:radial-gradient(120% 90% at 70% 120%,#3d6b3a 0%,#1d3a2b 30%,#13244d 62%,#0b1736 100%);color:#f2f0ea}
+  .b .cible{position:absolute;right:16%;top:20%;width:120px;height:120px;border-radius:50%;border:3px dashed #ffd31a99;box-shadow:0 0 0 22px #ffd31a14,0 0 0 50px #ffd31a0d}
+  .b .cible::after{content:"";position:absolute;inset:44px;border-radius:50%;background:#ffd31a}
+  .b h2{font-family:Unbounded,sans-serif;font-weight:800;letter-spacing:-.02em}
+  .b h2 em{font-style:normal;color:#ffd31a}
+  .b .b1{background:#ffd31a;color:#0b1736}.b .b2{border:2px solid #f2f0ea;color:#f2f0ea}
+
+  /* C */
+  .c .scene{background:#faf7f2;color:#121826}
+  .c .voile{position:absolute;right:8%;top:14%;width:260px;height:70px;border-radius:120px 120px 18px 18px;background:repeating-linear-gradient(90deg,#1f4bff 0 36px,#ffd84a 36px 72px);transform:rotate(-6deg)}
+  .c .voile::after{content:"";position:absolute;left:50%;top:70px;width:2px;height:120px;background:linear-gradient(#12182666,transparent)}
+  .c h2{font-family:"Bricolage Grotesque",sans-serif;font-weight:800;letter-spacing:-.03em}
+  .c h2 em{font-style:italic;color:#1f4bff}
+  .c .scene p,.c .infos{font-family:"DM Sans",sans-serif}
+  .c .b1{background:#1f4bff;color:#fff}.c .b2{background:#ffd84a;color:#121826}
+</style>
+</head>
+<body>
+<div class="entete">
+  <h1>ParaClub Montbéliard : trois directions artistiques</h1>
+  <p>Palette, typographies et premier écran de chaque direction. Les vraies photos du club (zip en cours) prendront la place des visuels dessinés ici.</p>
+</div>
+
+<section class="dir a">
+  <div class="tete"><b>A · Porte ouverte <span class="reco">Recommandé</span></b><span>clair, ciel et air · proche par le niveau de Cool Canyoning</span></div>
+  <div class="corps">
+    <div class="scene">
+      <div class="porte" aria-hidden="true"></div>
+      <small>École de parachutisme · Courcelles-lès-Montbéliard</small>
+      <h2>Sautez à<br><em>4 000 m</em></h2>
+      <p>Tandem ou initiation, tous les week-ends et jours fériés, au-dessus du Nord Franche-Comté.</p>
+      <div class="btns"><span class="btn b1">Réserver mon saut</span><span class="btn b2">Offrir un saut</span></div>
+    </div>
+    <div class="infos">
+      <div class="pal">
+        <div class="sw"><i style="background:#f5f8fb"></i><div>Fond ciel<br>#F5F8FB</div></div>
+        <div class="sw"><i style="background:#e3ecf4"></i><div>Second fond<br>#E3ECF4</div></div>
+        <div class="sw"><i style="background:#0c1a2e"></i><div>Bleu nuit<br>#0C1A2E</div></div>
+        <div class="sw"><i style="background:#ff5a1f"></i><div>Orange voile<br>#FF5A1F</div></div>
+      </div>
+      <div><h3>Typographies</h3>Archivo Expanded Black (titres larges, comme un horizon) · Manrope (texte)</div>
+      <div><h3>Ouverture</h3>On est dans le Cessna : le cadre sombre de la porte ouverte entoure le ciel et la campagne. À l'intro, le cadre s'élargit (on sort de l'avion) et « 4 000 m » tombe en place mot par mot.</div>
+      <div><h3>Plan de l'accueil</h3>Ouverture · Deux façons de sauter (tandem, initiation) · Le tandem en 5 temps (scène épinglée, de 4 000 m au sol) · Le terrain en chiffres · La vie au club · Progresser (brevets) · Offrir un saut · Infos pratiques et FAQ · Appel final</div>
+      <div><h3>Animations</h3>voiles qui se gonflent sur les cartes, trajectoire en pointillés qui se trace (avion, sortie, voile, cible), chiffres qui défilent, voile de transition en forme de parachute</div>
+    </div>
+  </div>
+</section>
+
+<section class="dir b">
+  <div class="tete"><b>B · Vue d'en haut</b><span>sombre puis clair, plongée vers le terrain · proche par le niveau d'Efficience Triathlon</span></div>
+  <div class="corps">
+    <div class="scene">
+      <div class="cible" aria-hidden="true"></div>
+      <small>4 000 m · 50 secondes · 200 km/h</small>
+      <h2>Le sol vous<br><em>attendra.</em></h2>
+      <p>Le défilement fait descendre de 4 000 m jusqu'à la vraie zone de saut, vue du ciel. Les sections utiles passent en clair.</p>
+      <div class="btns"><span class="btn b1">Réserver mon saut</span><span class="btn b2">Le déroulé</span></div>
+    </div>
+    <div class="infos">
+      <div class="pal">
+        <div class="sw"><i style="background:#0b1736"></i><div>Altitude<br>#0B1736</div></div>
+        <div class="sw"><i style="background:#13244d"></i><div>Second fond<br>#13244D</div></div>
+        <div class="sw"><i style="background:#f2f0ea"></i><div>Craie (clair)<br>#F2F0EA</div></div>
+        <div class="sw"><i style="background:#ffd31a"></i><div>Jaune voile<br>#FFD31A</div></div>
+      </div>
+      <div><h3>Typographies</h3>Unbounded ExtraBold (titres ronds et sportifs) · Inter (texte)</div>
+      <div><h3>Ouverture</h3>La photo aérienne du terrain se rapproche au défilement (plongée), une cible jaune se pose sur la zone d'atterrissage.</div>
+      <div><h3>Plan de l'accueil</h3>Plongée · Pourquoi sauter ici · Tandem ou initiation · Le déroulé · Le Cessna et le terrain · Le club · Brevets · Offrir · Pratique · Appel final</div>
+      <div><h3>Animations</h3>plongée pilotée par le défilement, titres qui s'étirent avec la vitesse, cible qui pulse, compteurs</div>
+    </div>
+  </div>
+</section>
+
+<section class="dir c">
+  <div class="tete"><b>C · Le club du week-end</b><span>clair et joyeux, associatif · proche par le ton de Château Haut-Piquat</span></div>
+  <div class="corps">
+    <div class="scene">
+      <div class="voile" aria-hidden="true"></div>
+      <small>Club associatif depuis 2004</small>
+      <h2>Le week-end,<br>on <em>saute.</em></h2>
+      <p>Un vrai club : un terrain, un Cessna, un hangar, des bénévoles, et un barbecue après le dernier saut.</p>
+      <div class="btns"><span class="btn b1">Faire mon premier saut</span><span class="btn b2">Rejoindre le club</span></div>
+    </div>
+    <div class="infos">
+      <div class="pal">
+        <div class="sw"><i style="background:#faf7f2"></i><div>Papier<br>#FAF7F2</div></div>
+        <div class="sw"><i style="background:#fff3c9"></i><div>Second fond<br>#FFF3C9</div></div>
+        <div class="sw"><i style="background:#121826"></i><div>Encre<br>#121826</div></div>
+        <div class="sw"><i style="background:#1f4bff"></i><div>Bleu voile<br>#1F4BFF</div></div>
+      </div>
+      <div><h3>Typographies</h3>Bricolage Grotesque ExtraBold (titres pleins de caractère, un mot en italique) · DM Sans (texte)</div>
+      <div><h3>Ouverture</h3>Une voile bleue et jaune s'ouvre caisson par caisson au-dessus du titre, puis glisse doucement vers la cible.</div>
+      <div><h3>Plan de l'accueil</h3>Ouverture · Ouvert les week-ends et jours fériés · Premier saut · La vie au club (photos en grand) · Progresser · Offrir · Pratique · Appel final</div>
+      <div><h3>Animations</h3>voile qui s'ouvre, photos qui se posent comme sur un panneau, bandeau des disciplines, compteurs</div>
+    </div>
+  </div>
+</section>
+</body>
+</html>

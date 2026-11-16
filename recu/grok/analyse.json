@@ -1,0 +1,521 @@
+{
+  "dossier": "/home/claude/epnfc-maquette/recu/grok",
+  "date": "2026-11-16T18:51:27.872Z",
+  "detection": "mesures sharp seulement",
+  "planches": [
+    "planche.jpg"
+  ],
+  "legende_planche": "cadre jaune : sujet ; croix rouge : cadrage ; fond rose : à vérifier",
+  "doublons": [],
+  "images": [
+    {
+      "fichier": "accueil-initiation.jpg",
+      "nom": "accueil-initiation",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 2400,
+      "ratio": "2:3",
+      "ratio_valeur": 0.667,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 577986,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 9.4,
+        "l": 95.5,
+        "h": 90.6,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        56
+      ],
+      "cadrage_css": "47% 56%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.3,
+          "ton": "moyen",
+          "recouvre_sujet": 0.7
+        },
+        {
+          "cote": "droite",
+          "score": 0.29,
+          "ton": "moyen",
+          "recouvre_sujet": 0.8
+        },
+        {
+          "cote": "gauche",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "bas",
+          "score": 0.07,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 37.2,
+        "bruit": 0.6,
+        "compression": 0.99,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "38f06122070419f4",
+      "drapeaux": []
+    },
+    {
+      "fichier": "accueil-ouverture-mobile.jpg",
+      "nom": "accueil-ouverture-mobile",
+      "drapeau": null,
+      "largeur": 1080,
+      "hauteur": 1920,
+      "ratio": "9:16",
+      "ratio_valeur": 0.563,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 482546,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 40.6,
+        "l": 100,
+        "h": 59.4,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        73
+      ],
+      "cadrage_css": "51% 73%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.88,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.28,
+          "ton": "moyen",
+          "recouvre_sujet": 0.59
+        },
+        {
+          "cote": "droite",
+          "score": 0.27,
+          "ton": "moyen",
+          "recouvre_sujet": 0.59
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 35.2,
+        "bruit": 0.69,
+        "compression": 0.96,
+        "faible": true,
+        "raisons": [
+          "1080 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "ffffffff2bec823c",
+      "drapeaux": [
+        "petite",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "accueil-ouverture.jpg",
+      "nom": "accueil-ouverture",
+      "drapeau": null,
+      "largeur": 1920,
+      "hauteur": 1080,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 503690,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        57,
+        62
+      ],
+      "cadrage_css": "57% 62%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.31,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "gauche",
+          "score": 0.11,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 33.1,
+        "bruit": 0.78,
+        "compression": 1.24,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "0402060022c68e86",
+      "drapeaux": []
+    },
+    {
+      "fichier": "appel-fond.jpg",
+      "nom": "appel-fond",
+      "drapeau": null,
+      "largeur": 1920,
+      "hauteur": 1080,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 517495,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 16.7,
+        "l": 100,
+        "h": 83.3,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        63
+      ],
+      "cadrage_css": "49% 63%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.62,
+          "ton": "moyen",
+          "recouvre_sujet": 0.52
+        },
+        {
+          "cote": "gauche",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0.83
+        },
+        {
+          "cote": "droite",
+          "score": 0.16,
+          "ton": "clair",
+          "recouvre_sujet": 0.83
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 31.1,
+        "bruit": 0.83,
+        "compression": 1.24,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "ffffff1b1b9f3b99",
+      "drapeaux": []
+    },
+    {
+      "fichier": "initiation-ouverture.jpg",
+      "nom": "initiation-ouverture",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 2000,
+      "ratio": "4:5",
+      "ratio_valeur": 0.8,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 540849,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 9.4,
+        "l": 96.2,
+        "h": 62.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        39
+      ],
+      "cadrage_css": "51% 39%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.59,
+          "ton": "sombre",
+          "recouvre_sujet": 0.19
+        },
+        {
+          "cote": "droite",
+          "score": 0.1,
+          "ton": "sombre",
+          "recouvre_sujet": 0.57
+        },
+        {
+          "cote": "gauche",
+          "score": 0.08,
+          "ton": "sombre",
+          "recouvre_sujet": 0.63
+        },
+        {
+          "cote": "haut",
+          "score": 0.05,
+          "ton": "moyen",
+          "recouvre_sujet": 0.7
+        }
+      ],
+      "qualite": {
+        "nettete": 49.7,
+        "bruit": 0.8,
+        "compression": 0.98,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "fee0cc8ececee198",
+      "drapeaux": []
+    },
+    {
+      "fichier": "page-404.jpg",
+      "nom": "page-404",
+      "drapeau": null,
+      "largeur": 1920,
+      "hauteur": 1080,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 205199,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 16.7,
+        "l": 100,
+        "h": 83.3,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        57,
+        87
+      ],
+      "cadrage_css": "57% 87%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.6,
+          "ton": "clair",
+          "recouvre_sujet": 0.52
+        },
+        {
+          "cote": "gauche",
+          "score": 0.27,
+          "ton": "clair",
+          "recouvre_sujet": 0.83
+        },
+        {
+          "cote": "droite",
+          "score": 0.14,
+          "ton": "clair",
+          "recouvre_sujet": 0.83
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 5.5,
+        "bruit": 0.28,
+        "compression": 1.4,
+        "faible": true,
+        "raisons": [
+          "floue"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "01222305002034c8",
+      "drapeaux": [
+        "floue"
+      ]
+    },
+    {
+      "fichier": "reserver-ouverture-mobile.jpg",
+      "nom": "reserver-ouverture-mobile",
+      "drapeau": null,
+      "largeur": 1080,
+      "hauteur": 1920,
+      "ratio": "9:16",
+      "ratio_valeur": 0.563,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 483909,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 12.5,
+        "l": 100,
+        "h": 87.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        66
+      ],
+      "cadrage_css": "51% 66%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.41,
+          "ton": "moyen",
+          "recouvre_sujet": 0.64
+        },
+        {
+          "cote": "gauche",
+          "score": 0.15,
+          "ton": "moyen",
+          "recouvre_sujet": 0.88
+        },
+        {
+          "cote": "droite",
+          "score": 0.14,
+          "ton": "moyen",
+          "recouvre_sujet": 0.88
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 18,
+        "bruit": 0.52,
+        "compression": 0.96,
+        "faible": true,
+        "raisons": [
+          "1080 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "f3b135cf4c7d692a",
+      "drapeaux": [
+        "petite"
+      ]
+    },
+    {
+      "fichier": "reserver-ouverture.jpg",
+      "nom": "reserver-ouverture",
+      "drapeau": null,
+      "largeur": 1920,
+      "hauteur": 1080,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 539328,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 11.1,
+        "l": 100,
+        "h": 88.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        71
+      ],
+      "cadrage_css": "51% 71%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.5,
+          "ton": "clair",
+          "recouvre_sujet": 0.68
+        },
+        {
+          "cote": "gauche",
+          "score": 0.23,
+          "ton": "clair",
+          "recouvre_sujet": 0.89
+        },
+        {
+          "cote": "droite",
+          "score": 0.05,
+          "ton": "moyen",
+          "recouvre_sujet": 0.89
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 33.2,
+        "bruit": 0.87,
+        "compression": 1.21,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "0505030b1012f6c0",
+      "drapeaux": []
+    }
+  ]
+}

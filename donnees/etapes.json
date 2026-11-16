@@ -1,0 +1,7 @@
+[
+  { "num": "01", "lieu": "Au sol", "duree": "Environ 15 min", "titre": "La théorie", "texte": "Le moniteur vous explique la position à la porte de l'avion, en chute libre et à l'atterrissage.", "image": "tandem-cabine", "x": 6, "y": 92 },
+  { "num": "02", "lieu": "Dans l'avion", "duree": "Pendant la montée", "titre": "L'équipement", "texte": "Votre harnais spécial est fixé au parachute biplace du moniteur, à l'intérieur de l'avion.", "image": "tandem-cabine", "x": 30, "y": 50 },
+  { "num": "03", "lieu": "La montée", "duree": "10 à 20 min", "titre": "Jusqu'à 4 000 m", "texte": "Le Cessna à turbine grimpe au-dessus du Pays de Montbéliard. La porte s'ouvre.", "image": "tandem-sortie", "x": 52, "y": 10 },
+  { "num": "04", "lieu": "La chute", "duree": "Environ 50 s à 200 km/h", "titre": "La chute libre", "texte": "Le moniteur gère cette phase : vous n'avez qu'à vivre la vitesse et le vent.", "image": "tandem-sortie", "x": 60, "y": 48 },
+  { "num": "05", "lieu": "Sous voile", "duree": "5 à 8 min", "titre": "Le vol sous voile", "texte": "Si vous le souhaitez, vous pilotez la voile ; le moniteur reprend les commandes pour le posé.", "image": "tandem-voile", "x": 88, "y": 90 }
+]

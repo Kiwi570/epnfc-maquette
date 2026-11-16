@@ -1,0 +1,19 @@
+{
+  "autonomie": [
+    { "code": "A", "titre": "Les bases", "texte": "Au moins 15 sauts en chute libre : se stabiliser face au sol, tourner, lire l'altimètre, ouvrir, se poser sans radio, s'intégrer dans une séance et plier son parachute." },
+    { "code": "B", "titre": "L'autonomie", "texte": "Parachutiste confirmé, autorisé à sauter sur un centre sans moniteur. Il ouvre les brevets de spécialité." }
+  ],
+  "specialites": [
+    { "code": "B1", "titre": "Précision et voltige", "texte": "La précision d'atterrissage, mesurée au centimètre près." },
+    { "code": "B2", "titre": "Vol relatif", "texte": "Chute libre à plusieurs, à plat face au sol : à deux (VR2), à quatre (VR4)." },
+    { "code": "B3", "titre": "Voile contact", "texte": "Des figures sous voile, en accrochant les pieds aux suspentes des autres parachutes." },
+    { "code": "B4", "titre": "Vol vertical", "texte": "Sauts de groupe tête en bas (vol relatif vertical)." },
+    { "code": "Bi4", "titre": "Tête en haut et track", "texte": "Sauts de groupe tête en haut et sauts de track, de 200 à 300 km/h et plus." },
+    { "code": "B5", "titre": "Pilotage sous voile", "texte": "Voiles rapides et compétition : brevet C, 500 sauts dont 50 dans les 6 derniers mois, et un saut probatoire." }
+  ],
+  "encadrement": [
+    { "code": "C", "titre": "Vérifier et larguer", "texte": "Vérifications de pliage, contrôles à l'embarquement, encadrement à bord et largages. Un brevet B1 à B4 et au moins 200 sauts." },
+    { "code": "D", "titre": "Démonstration", "texte": "Sauts spéciaux et sauts de démonstration." },
+    { "code": "BPA", "titre": "Parachutiste autonome", "texte": "Assurer la sécurité du largage en pratique autonome, avec accès à la vidéo en chute." }
+  ]
+}

@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="fr" data-v="1" data-curseur>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Réserver un saut en parachute : ParaClub Montbéliard</title>
+<meta name="description" content="Réservez un tandem ou une initiation, recevez les tarifs par e-mail, offrez un saut. Acompte de 50 € par formule.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://epnfc-maquette.vercel.app/reserver">
+<style>:root{--fond:#F5F8FB;--texte:#0C1A2E;--voile-fond:#0C1A2E;--ouverture-fond:#0C1A2E;--menu-fond:#0C1A2E}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/archivo.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#0C1A2E">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="ParaClub Montbéliard">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Réserver un saut en parachute : ParaClub Montbéliard">
+<meta property="og:description" content="Réservez un tandem ou une initiation, recevez les tarifs par e-mail, offrez un saut. Acompte de 50 € par formule.">
+<meta property="og:url" content="https://epnfc-maquette.vercel.app/reserver">
+<meta property="og:image" content="https://epnfc-maquette.vercel.app/assets/partage/reserver-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Réserver un saut au ParaClub Montbéliard">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SportsActivityLocation","name":"ParaClub Montbéliard (École de Parachutisme Nord Franche-Comté)","url":"https://epnfc-maquette.vercel.app/","telephone":"+33381902106","email":"epnfc@wanadoo.fr","address":{"@type":"PostalAddress","streetAddress":"Aérodrome de Courcelles-lès-Montbéliard","postalCode":"25420","addressLocality":"Courcelles-lès-Montbéliard","addressCountry":"FR"},"description":"École de parachutisme labellisée depuis 2004, affiliée à la Fédération Française de Parachutisme : sauts en tandem, initiation, progression.","sameAs":["https://www.facebook.com/parachutismemontbeliard/","https://www.instagram.com/montbeliard_parachutisme/"]}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="iris" aria-hidden="true"><div class="voile-contenu"><img class="voile-logo" src="/assets/images/logo-clair.svg" alt="" width="72" height="72"><span data-voile-libelle>Réserver</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <img class="ouverture-logo" src="/assets/images/logo-clair.svg" alt="" width="64" height="64" data-ouverture-objet>
+  <p class="ouverture-nom">ParaClub <em>Montbéliard</em></p>
+  <span class="ouverture-trait"></span>
+  <p class="ouverture-ligne">École de parachutisme</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil">
+      <img src="/assets/images/logo.svg" alt="" width="40" height="40"><span class="entete-nom">ParaClub <em>Montbéliard</em></span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/tandem" data-libelle="Tandem">Tandem</a></li><li><a href="/initiation" data-libelle="Initiation">Initiation</a></li><li><a href="/progression" data-libelle="Progression">Progression</a></li><li><a href="/reserver" data-libelle="Réserver" aria-current="page">Réserver</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/reserver#reservation" data-libelle="Réserver">Réserver</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/tandem" class="menu-lien" data-libelle="Tandem">Tandem</a></li><li style="--i:2"><a href="/initiation" class="menu-lien" data-libelle="Initiation">Initiation</a></li><li style="--i:3"><a href="/progression" class="menu-lien" data-libelle="Progression">Progression</a></li><li style="--i:4"><a href="/reserver" class="menu-lien" data-libelle="Réserver" aria-current="page">Réserver</a></li><li style="--i:5"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p><a class="bouton" href="tel:+33381902106">Appeler 03 81 90 21 06</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="ouv ouv-resa" id="debut" data-ouverture-page>
+  <figure class="media ouv-resa-media" data-grok data-fx="parallaxe" data-fx-force="8" style="--cadrage:60% 55%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/reserver-ouverture-mobile-640.webp 640w, /assets/images/grok/reserver-ouverture-mobile-1080.webp 1080w" sizes="100vw">
+    <img src="/assets/images/grok/reserver-ouverture-1280.webp" srcset="/assets/images/grok/reserver-ouverture-640.webp 640w, /assets/images/grok/reserver-ouverture-1280.webp 1280w, /assets/images/grok/reserver-ouverture-1920.webp 1920w" sizes="100vw" alt="Un parachutiste sous voile arrive au-dessus de la zone de saut" width="1280" height="720" fetchpriority="high" loading="eager" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  <div class="conteneur ouv-resa-grille">
+    <div class="ouv-texte">
+      <p class="surtitre" data-anime="gsap">Réservation</p>
+      <h1 class="ouv-titre" data-anime="gsap">Réservez <em>votre saut</em></h1>
+      <p class="chapeau masque-ecran-bas" data-anime="gsap">Choisissez votre formule et une date un samedi, un dimanche ou un jour férié. La réservation est confirmée à réception de l&#39;acompte.</p>
+      <p class="ouv-actions" data-anime="gsap"><a class="bouton" href="#reservation" data-action-principale data-survol="magnetique">Commencer la réservation</a></p>
+      <p class="hero-info" data-info-cle data-anime="gsap"><span class="pastille" aria-hidden="true"></span>Acompte de 50 € par formule</p>
+    </div>
+    <article class="embarquement" data-effet="embarquement" data-iris-centre aria-label="Carte d&#39;embarquement">
+      <div class="embarquement-tete"><img src="/assets/images/logo-clair.svg" alt="" width="36" height="36"><p>Carte d&#39;embarquement</p></div>
+      <dl class="embarquement-infos">
+        <div><dt>Avion</dt><dd>Cessna 206</dd></div>
+        <div><dt>Jours de saut</dt><dd>Sam., dim. et fériés</dd></div>
+        <div><dt>Tandem</dt><dd>4 000 m</dd></div>
+        <div><dt>Initiation</dt><dd>1 200 m</dd></div>
+      </dl>
+      <div class="embarquement-pied"><span class="code-barres" aria-hidden="true"></span><svg class="voile-svg embarquement-voile" viewBox="0 0 200 150" aria-hidden="true" focusable="false">
+  <g class="voile-caissons">
+    <path class="voile-caisson" d="M14 52 Q30 34 50 27 L54 44 Q36 50 24 62 Z"/>
+    <path class="voile-caisson voile-caisson--b" d="M50 27 Q75 19 100 18 L100 36 Q78 37 54 44 Z"/>
+    <path class="voile-caisson" d="M100 18 Q125 19 150 27 L146 44 Q122 37 100 36 Z"/>
+    <path class="voile-caisson voile-caisson--b" d="M150 27 Q170 34 186 52 L176 62 Q164 50 146 44 Z"/>
+  </g>
+  <g class="voile-suspentes" fill="none" stroke-width="1.4" stroke-linecap="round">
+    <path d="M24 62 L100 122 M54 44 L100 122 M100 36 L100 122 M146 44 L100 122 M176 62 L100 122"/>
+  </g>
+  <g class="voile-pilote"><circle cx="100" cy="127" r="6"/><path d="M95 133 L100 146 L105 133 Z"/></g>
+</svg></div>
+    </article>
+  </div>
+</section>
+<section class="resa" id="reservation">
+  <div class="conteneur">
+    <div class="tete-section">
+      <p class="surtitre" data-anime>En 4 étapes</p>
+      <h2 class="titre-section" data-anime="lignes">Votre réservation</h2>
+      <p class="chapeau" data-anime>Formule, date, vérifications, coordonnées : un récapitulatif vous suit jusqu&#39;au bout.</p>
+    </div>
+    <form class="resa-grille" data-formulaire novalidate>
+      <div class="resa-principal">
+        <ol class="resa-puces" aria-label="En 4 étapes" data-anime="cascade">
+          <li class="resa-puce"><span>1</span>Formule</li><li class="resa-puce"><span>2</span>Date</li><li class="resa-puce"><span>3</span>Vérifications</li><li class="resa-puce"><span>4</span>Coordonnées</li>
+        </ol>
+        <fieldset class="resa-etape">
+          <legend>Quelle formule ?</legend>
+          <div class="resa-formules"><label class="formule"><input type="radio" name="formule" value="tandem" data-libelle="Saut en tandem"><span class="formule-nom">Saut en tandem</span><span class="formule-detail">4 000 m · environ 50 s de chute</span></label><label class="formule"><input type="radio" name="formule" value="video" data-libelle="Tandem avec vidéo"><span class="formule-nom">Tandem avec vidéo</span><span class="formule-detail">Film HD remis sur clé USB</span></label><label class="formule"><input type="radio" name="formule" value="initiation" data-libelle="Saut d&#39;initiation"><span class="formule-nom">Saut d&#39;initiation</span><span class="formule-detail">Formation de 6 h et saut à 1 200 m</span></label><label class="formule"><input type="radio" name="formule" value="cadeau" data-libelle="Bon cadeau"><span class="formule-nom">Bon cadeau</span><span class="formule-detail">Tandem ou initiation à offrir</span></label></div>
+          <p class="resa-nav"><button type="button" class="bouton" data-resa="suivant">Continuer</button></p>
+        </fieldset>
+        <fieldset class="resa-etape" hidden>
+          <legend>Quel jour ?</legend>
+          <p class="resa-aide">Seuls les samedis, dimanches et jours fériés sont proposés. Les jours passés sont grisés.</p>
+          <p class="resa-aide resa-aide--cadeau">Pour un bon cadeau, la personne qui reçoit le saut choisira sa date.</p>
+          <div class="calendrier" data-calendrier data-ferie="férié" data-aujourdhui="aujourd&#39;hui" data-cadeau="Pour un bon cadeau, la personne qui reçoit le saut choisira sa date.">
+            <div class="cal-tete">
+              <button type="button" class="cal-nav" data-cal="prec" aria-label="Mois précédent">←</button>
+              <p class="cal-mois" aria-live="polite"></p>
+              <button type="button" class="cal-nav" data-cal="suiv" aria-label="Mois suivant">→</button>
+            </div>
+            <div class="cal-jours" aria-hidden="true"><span>L</span><span>M</span><span>M</span><span>J</span><span>V</span><span>S</span><span>D</span></div>
+            <div class="cal-grille"></div>
+            <p class="champ-erreur cal-erreur" hidden>Quel jour ?</p>
+          </div>
+          <input type="hidden" name="date" value="">
+          <p class="resa-nav"><button type="button" class="bouton bouton--contour" data-resa="precedent">Retour</button><button type="button" class="bouton" data-resa="suivant">Continuer</button></p>
+        </fieldset>
+        <fieldset class="resa-etape resa-verif" hidden>
+          <legend>Quelques vérifications</legend>
+          <div class="champ champ--court"><label for="resa-personnes">Nombre de personnes</label><select id="resa-personnes" name="personnes"><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option></select></div>
+          <label class="case"><input type="checkbox" name="v15"><span>Chaque personne aura 15 ans ou plus le jour du saut</span></label>
+          <label class="case"><input type="checkbox" name="v90"><span>Chaque personne pèse 90 kg ou moins</span></label>
+          <label class="case"><input type="checkbox" name="vcertif"><span>Chaque personne aura un certificat médical de moins d&#39;un an</span></label>
+          <p class="champ-erreur verif-erreur" aria-live="polite" hidden>Cochez les trois vérifications pour continuer : en cas de doute, appelez le club.</p>
+          <p class="resa-nav"><button type="button" class="bouton bouton--contour" data-resa="precedent">Retour</button><button type="button" class="bouton" data-resa="suivant">Continuer</button></p>
+        </fieldset>
+        <fieldset class="resa-etape" hidden>
+          <legend>Coordonnées</legend>
+          <div class="champ"><label for="resa-nom">Nom et prénom</label><input id="resa-nom" name="nom" autocomplete="name" required></div>
+          <div class="champs-2">
+            <div class="champ"><label for="resa-tel">Téléphone</label><input id="resa-tel" name="telephone" type="tel" autocomplete="tel" required></div>
+            <div class="champ"><label for="resa-email">E-mail</label><input id="resa-email" name="email" type="email" autocomplete="email" required></div>
+          </div>
+          <div class="champ"><label for="resa-message">Un message pour le club (facultatif)</label><textarea id="resa-message" name="message" rows="3"></textarea></div>
+          <p class="mention-donnees">Vos coordonnées servent uniquement à traiter votre réservation. Politique de confidentialité : à compléter</p>
+          <p class="resa-nav"><button type="button" class="bouton bouton--contour" data-resa="precedent">Retour</button><button type="submit" class="bouton">Envoyer la demande</button></p>
+          <p data-message-envoi hidden>Maquette : rien n&#39;a été envoyé. Sur le vrai site, le club confirmera votre date et l&#39;acompte à régler.</p>
+        </fieldset>
+      </div>
+      <aside class="resa-recap" aria-live="polite">
+        <p class="resa-recap-titre">Récapitulatif</p>
+        <dl>
+          <div><dt>Formule</dt><dd data-recap="formule">À choisir</dd></div>
+          <div><dt>Date</dt><dd data-recap="date">À choisir</dd></div>
+          <div><dt>Personnes</dt><dd data-recap="personnes">1</dd></div>
+          <div class="resa-recap-acompte"><dt>Acompte</dt><dd data-recap="acompte" data-prix>50 €</dd></div>
+        </dl>
+        <p class="petit">Chèque à l&#39;ordre d&#39;EPNFC, carte ou espèces sur place, ou virement.</p>
+      </aside>
+    </form>
+  </div>
+</section>
+<section class="tarifs" id="tarifs">
+  <div class="conteneur tarifs-grille">
+    <div>
+      <p class="surtitre surtitre--clair" data-anime>Les tarifs</p>
+      <h2 class="titre-section" data-anime="lignes">Recevoir les tarifs par e-mail</h2>
+      <p class="chapeau" data-anime>En tant que club associatif (loi 1901), le club ne publie pas ses tarifs. Laissez votre adresse : ils vous sont envoyés aussitôt par e-mail.</p>
+    </div>
+    <form class="tarifs-form" data-formulaire novalidate data-anime>
+      <div class="champ"><label for="tarifs-email">Votre e-mail</label><input id="tarifs-email" name="email" type="email" autocomplete="email" required></div>
+      <p class="mention-donnees">Vos coordonnées servent uniquement à traiter votre réservation. Politique de confidentialité : à compléter</p>
+      <button type="submit" class="bouton">Recevoir les tarifs</button>
+      <p data-message-envoi hidden>Maquette : rien n&#39;a été envoyé. Sur le vrai site, les tarifs arrivent par e-mail automatique.</p>
+    </form>
+  </div>
+</section>
+<section class="acompte" id="acompte">
+  <div class="conteneur">
+    <div class="tete-section">
+      <p class="surtitre" data-anime>Acompte et report</p>
+      <h2 class="titre-section" data-anime="lignes">Les règles du jeu</h2>
+    </div>
+    <div class="pratique-grille" data-anime="cascade">
+      <article class="pratique-carte pratique-carte--meteo"><p class="pratique-num">01</p><h3>50 € par formule</h3><p>La réservation d&#39;un tandem, d&#39;une initiation, d&#39;un forfait ou d&#39;un stage est confirmée à réception de l&#39;acompte : chèque à l&#39;ordre d&#39;EPNFC, carte ou espèces sur place, ou virement.</p></article><article class="pratique-carte"><p class="pratique-num">02</p><h3>Sous deux semaines</h3><p>Sans acompte reçu dans les deux semaines, le créneau peut être proposé à quelqu&#39;un d&#39;autre.</p></article><article class="pratique-carte"><p class="pratique-num">03</p><h3>Annulation</h3><p>L&#39;acompte n&#39;est pas remboursé en cas d&#39;annulation moins d&#39;une semaine avant, d&#39;absence, ou si un report ne peut pas être réattribué.</p></article><article class="pratique-carte"><p class="pratique-num">04</p><h3>Météo</h3><p>Si le temps ne permet pas de sauter, le club fixe avec vous un nouveau rendez-vous. Seul le club peut décider d&#39;un report.</p></article>
+    </div>
+  </div>
+</section>
+<section class="faq" id="faq">
+  <div class="conteneur faq-grille">
+    <div class="faq-tete">
+      <p class="surtitre" data-anime>Questions fréquentes</p>
+      <h2 class="titre-section" data-anime="lignes">Tout ce qu&#39;on nous demande</h2>
+      <svg class="voile-svg faq-voile" viewBox="0 0 200 150" aria-hidden="true" focusable="false" data-effet="voile">
+  <g class="voile-caissons">
+    <path class="voile-caisson" d="M14 52 Q30 34 50 27 L54 44 Q36 50 24 62 Z"/>
+    <path class="voile-caisson voile-caisson--b" d="M50 27 Q75 19 100 18 L100 36 Q78 37 54 44 Z"/>
+    <path class="voile-caisson" d="M100 18 Q125 19 150 27 L146 44 Q122 37 100 36 Z"/>
+    <path class="voile-caisson voile-caisson--b" d="M150 27 Q170 34 186 52 L176 62 Q164 50 146 44 Z"/>
+  </g>
+  <g class="voile-suspentes" fill="none" stroke-width="1.4" stroke-linecap="round">
+    <path d="M24 62 L100 122 M54 44 L100 122 M100 36 L100 122 M146 44 L100 122 M176 62 L100 122"/>
+  </g>
+  <g class="voile-pilote"><circle cx="100" cy="127" r="6"/><path d="M95 133 L100 146 L105 133 Z"/></g>
+</svg>
+    </div>
+    <div class="faq-liste" data-anime="cascade"><details class="faq-item"><summary>Qui peut sauter ?</summary><p>À partir de 15 ans, avec une morphologie adaptée et une bonne condition physique : il faut pouvoir bien lever les genoux et les pieds. Un certificat médical de non-contre-indication de moins d&#39;un an est demandé.</p></details><details class="faq-item"><summary>Y a-t-il une limite de poids ou de taille ?</summary><p>Le poids maximum est de 90 kg. Les harnais sont réglables, mais l&#39;adaptation devient difficile en dessous de 1,40 m.</p></details><details class="faq-item"><summary>Y a-t-il des contre-indications ?</summary><p>Pas de plongée dans les 48 heures avant le saut, pas d&#39;alcool dans les 12 heures avant, et pas de saut pendant une grossesse. Le club peut refuser un saut si le gabarit ou l&#39;état de santé n&#39;est pas compatible.</p></details><details class="faq-item"><summary>Combien de temps faut-il prévoir ?</summary><p>Une demi-journée pour un tandem, même si le saut lui-même dure environ 30 minutes. L&#39;heure du rendez-vous est l&#39;heure d&#39;arrivée sur le site, pas celle du saut. Pour une initiation, toute la journée, dès 8 h.</p></details><details class="faq-item"><summary>Faut-il manger avant ?</summary><p>Oui : sans avoir mangé, on risque des vertiges ou un malaise après l&#39;ouverture du parachute.</p></details><details class="faq-item"><summary>Comment s&#39;habiller ?</summary><p>Des vêtements décontractés adaptés à la saison, des baskets basses et un pull : il fait souvent plus frais en altitude. Une combinaison peut être prêtée.</p></details><details class="faq-item"><summary>Je porte des lunettes, est-ce un problème ?</summary><p>Non. Les lentilles sont plus confortables, mais des lunettes de chute sont fournies et se portent par-dessus les lunettes de vue.</p></details><details class="faq-item"><summary>Mes proches peuvent-ils venir ?</summary><p>Oui, famille et amis sont les bienvenus sur le terrain, sans approcher l&#39;avion ni la zone de saut. Le repas tiré du sac est possible sur place.</p></details><details class="faq-item"><summary>Et si la météo n&#39;est pas bonne ?</summary><p>Vent fort, pluie ou nuages trop bas empêchent le saut. La météo peut varier entre deux lieux proches : venez sur place, le club vous donne des consignes par téléphone en cas de doute. Un nouveau rendez-vous est fixé d&#39;un commun accord ; seul le club peut décider d&#39;un report.</p></details><details class="faq-item"><summary>Le tandem est-il sûr ?</summary><p>Le tandem est encadré en France par des qualifications strictes. Les moniteurs ont des milliers de sauts, les parachutes principaux sont pliés et vérifiés par des personnes qualifiées et des ouvreurs de sécurité déclenchent l&#39;ouverture automatiquement à une altitude donnée.</p></details><details class="faq-item"><summary>Comment se passe l&#39;atterrissage ?</summary><p>Le moniteur, professionnel diplômé, gère le posé pour qu&#39;il ne soit pas brutal. La position d&#39;atterrissage est répétée pendant le briefing.</p></details><details class="faq-item"><summary>Puis-je filmer avec ma propre caméra ?</summary><p>Non, les caméras personnelles de type GoPro sont interdites pour des raisons de sécurité. L&#39;option vidéo du club, avec un caméraman, se choisit à la réservation ou sur place.</p></details></div>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <p class="pied-logo"><img src="/assets/images/logo-clair.svg" alt="" width="44" height="44"><strong>ParaClub Montbéliard</strong></p>
+      <p>École de Parachutisme Nord Franche-Comté<br>Club école labellisé depuis 2004 et affilié à la Fédération Française de Parachutisme.</p>
+    </div>
+    <div>
+      <p><strong>Samedis, dimanches et jours fériés</strong></p>
+      <p>Aérodrome de Courcelles-lès-Montbéliard, 25420 Courcelles-lès-Montbéliard<br><a href="tel:+33381902106">03 81 90 21 06</a><br><a href="mailto:epnfc@wanadoo.fr">epnfc@wanadoo.fr</a></p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p><strong>Sommaire</strong></p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/tandem" data-libelle="Tandem">Tandem</a></li><li><a href="/initiation" data-libelle="Initiation">Initiation</a></li><li><a href="/progression" data-libelle="Progression">Progression</a></li><li><a href="/reserver" data-libelle="Réserver" aria-current="page">Réserver</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li><li><a href="#haut" data-sans-transition>Retour en haut</a></li></ul>
+    </nav>
+    <div>
+      <p><strong>Le club en images</strong></p>
+      <ul>
+        <li><a href="https://www.facebook.com/parachutismemontbeliard/" target="_blank" rel="noopener">Facebook<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="https://www.instagram.com/montbeliard_parachutisme/" target="_blank" rel="noopener">Instagram<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Maquette de démonstration : formulaires et réservations simulés, rien n&#39;est envoyé.</p><p>Mentions légales : à compléter · Politique de confidentialité : à compléter</p><p>© ParaClub Montbéliard</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33381902106">Appeler</a>
+  <a class="bouton" href="/reserver#reservation" data-libelle="Réserver">Réserver</a>
+</div>
+</body>
+</html>

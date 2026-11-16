@@ -1,0 +1,118 @@
+{
+  "client": "ParaClub Montbéliard",
+  "activite": "sport",
+  "direction": "Porte ouverte",
+  "date": "2026-11-16T17:35:36.685Z",
+  "images": [
+    {
+      "nom": "accueil-ouverture",
+      "fichier": "accueil-ouverture.jpg",
+      "page": "Accueil",
+      "emplacement": "Ouverture : la vue par la porte ouverte de l'avion (ordinateur)",
+      "role": "ouverture",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [
+        "paysage qui dérive"
+      ],
+      "consigne": "Wide landscape of patchwork farmland, small villages and dark forested hills seen obliquely from 4,000 metres of altitude, scattered white cumulus clouds drifting below, a distant line of low blue hills on the horizon, the upper third pure clear blue sky in crisp clear daylight with a warm sun from the side, crisp shadows, a single faint trace of the sport crossing the frame at most, nothing else, no people. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Cinematic editorial sports photography, airy, bright and exhilarating yet calm mood, palette of clear sky blues, bright white cumulus, soft greens of farmland and a single small touch of vivid orange, crisp clear daylight with a warm sun from the side, tactile ripstop parachute nylon, mown grass and soft cumulus clouds, set in the rolling green countryside of eastern France, patchwork fields, small villages and low forested hills on a clear late-spring day, high contrast, a single rim light, soft film grain, shallow depth of field, clean modern composition with generous negative space, 35mm look, photorealistic. No visible face, no brand on equipment or clothing, no race bib number, no podium, no medal, no mechanically wrong equipment, no posture that contradicts the sport. The rolling green countryside of eastern France, patchwork fields, small villages and low forested hills landscape only, described by its real features: no tea plantation, no rice terraces, no high mountains, no tropical vegetation, no power lines, no pylons, no modern buildings. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "accueil-ouverture",
+      "fichier": "accueil-ouverture-mobile.jpg",
+      "page": "Accueil",
+      "emplacement": "Ouverture : la vue par la porte ouverte de l'avion (téléphone)",
+      "role": "ouverture",
+      "format": "9:16",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [
+        "paysage qui dérive"
+      ],
+      "consigne": "Wide landscape of patchwork farmland, small villages and dark forested hills seen obliquely from 4,000 metres of altitude, scattered white cumulus clouds drifting below, a distant line of low blue hills on the horizon, the upper third pure clear blue sky in crisp clear daylight with a warm sun from the side, crisp shadows, a single faint trace of the sport crossing the frame at most, nothing else, no people. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Cinematic editorial sports photography, airy, bright and exhilarating yet calm mood, palette of clear sky blues, bright white cumulus, soft greens of farmland and a single small touch of vivid orange, crisp clear daylight with a warm sun from the side, tactile ripstop parachute nylon, mown grass and soft cumulus clouds, set in the rolling green countryside of eastern France, patchwork fields, small villages and low forested hills on a clear late-spring day, high contrast, a single rim light, soft film grain, shallow depth of field, clean modern composition with generous negative space, 35mm look, photorealistic. No visible face, no brand on equipment or clothing, no race bib number, no podium, no medal, no mechanically wrong equipment, no posture that contradicts the sport. The rolling green countryside of eastern France, patchwork fields, small villages and low forested hills landscape only, described by its real features: no tea plantation, no rice terraces, no high mountains, no tropical vegetation, no power lines, no pylons, no modern buildings. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "carte-initiation",
+      "fichier": "accueil-initiation.jpg",
+      "page": "Accueil",
+      "emplacement": "Carte « Saut d'initiation »",
+      "role": "carte-service",
+      "format": "2:3",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "A single student skydiver under a large rectangular white and navy training parachute with one small orange panel, seen from below and slightly behind, the jumper a small dark silhouette hanging in the harness, steering lines taut, deep clear blue sky, a few small white clouds. Vertical composition, aspect ratio 2:3. Cinematic editorial sports photography, airy, bright and exhilarating yet calm mood, palette of clear sky blues, bright white cumulus, soft greens of farmland and a single small touch of vivid orange, crisp clear daylight with a warm sun from the side, tactile ripstop parachute nylon, mown grass and soft cumulus clouds, set in the rolling green countryside of eastern France, patchwork fields, small villages and low forested hills on a clear late-spring day, high contrast, a single rim light, soft film grain, shallow depth of field, clean modern composition with generous negative space, 35mm look, photorealistic. No visible face, no brand on equipment or clothing, no race bib number, no podium, no medal, no mechanically wrong equipment, no posture that contradicts the sport. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "initiation-ouverture",
+      "fichier": "initiation-ouverture.jpg",
+      "page": "Initiation",
+      "emplacement": "Ouverture : la porte de l'avion",
+      "role": "ouverture",
+      "format": "4:5",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [
+        "mains en trop"
+      ],
+      "consigne": "View from inside the cabin of a small high-wing aircraft toward its wide open side door, a student skydiver seen from behind as a dark silhouette sitting in the door frame ready to exit, helmet on, gloved hands hidden against the body, bright clear sky and green patchwork fields far below outside, the dark cabin framing the light. Vertical composition, aspect ratio 4:5, main subject well inside the central area with generous margins on every side, so the image can be cropped, the lower third stays dark and simple for text overlay. Cinematic editorial sports photography, airy, bright and exhilarating yet calm mood, palette of clear sky blues, bright white cumulus, soft greens of farmland and a single small touch of vivid orange, crisp clear daylight with a warm sun from the side, tactile ripstop parachute nylon, mown grass and soft cumulus clouds, set in the rolling green countryside of eastern France, patchwork fields, small villages and low forested hills on a clear late-spring day, high contrast, a single rim light, soft film grain, shallow depth of field, clean modern composition with generous negative space, 35mm look, photorealistic. No visible face, no brand on equipment or clothing, no race bib number, no podium, no medal, no mechanically wrong equipment, no posture that contradicts the sport. Only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "reserver-ouverture",
+      "fichier": "reserver-ouverture.jpg",
+      "page": "Réserver",
+      "emplacement": "Ouverture : l'arrivée sur la zone (ordinateur)",
+      "role": "ouverture",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "A single parachutist under a rectangular navy and white canopy on final approach, gliding low above a wide freshly mown grass field in late afternoon with a warm low sun, the figure small in the frame and seen from the side, a red-and-white striped windsock on a mast at the field edge, long soft shadows, low forested hills behind. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Cinematic editorial sports photography, airy, bright and exhilarating yet calm mood, palette of clear sky blues, bright white cumulus, soft greens of farmland and a single small touch of vivid orange, crisp clear daylight with a warm sun from the side, tactile ripstop parachute nylon, mown grass and soft cumulus clouds, set in the rolling green countryside of eastern France, patchwork fields, small villages and low forested hills on a clear late-spring day, high contrast, a single rim light, soft film grain, shallow depth of field, clean modern composition with generous negative space, 35mm look, photorealistic. No visible face, no brand on equipment or clothing, no race bib number, no podium, no medal, no mechanically wrong equipment, no posture that contradicts the sport. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "reserver-ouverture",
+      "fichier": "reserver-ouverture-mobile.jpg",
+      "page": "Réserver",
+      "emplacement": "Ouverture : l'arrivée sur la zone (téléphone)",
+      "role": "ouverture",
+      "format": "9:16",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "A single parachutist under a rectangular navy and white canopy on final approach, gliding low above a wide freshly mown grass field in late afternoon with a warm low sun, the figure small in the frame and seen from the side, a red-and-white striped windsock on a mast at the field edge, long soft shadows, low forested hills behind. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Cinematic editorial sports photography, airy, bright and exhilarating yet calm mood, palette of clear sky blues, bright white cumulus, soft greens of farmland and a single small touch of vivid orange, crisp clear daylight with a warm sun from the side, tactile ripstop parachute nylon, mown grass and soft cumulus clouds, set in the rolling green countryside of eastern France, patchwork fields, small villages and low forested hills on a clear late-spring day, high contrast, a single rim light, soft film grain, shallow depth of field, clean modern composition with generous negative space, 35mm look, photorealistic. No visible face, no brand on equipment or clothing, no race bib number, no podium, no medal, no mechanically wrong equipment, no posture that contradicts the sport. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "appel-fond",
+      "fichier": "appel-fond.jpg",
+      "page": "Toutes les pages",
+      "emplacement": "Fond de l'appel final",
+      "role": "section-fond",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "section-fond",
+      "pieges": [],
+      "consigne": "An endless sea of soft white cumulus clouds seen from above at 4,000 metres in late afternoon light, gentle golden highlights on the cloud tops, deep calm blue sky above, no aircraft, no people. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Cinematic editorial sports photography, airy, bright and exhilarating yet calm mood, palette of clear sky blues, bright white cumulus, soft greens of farmland and a single small touch of vivid orange, crisp clear daylight with a warm sun from the side, tactile ripstop parachute nylon, mown grass and soft cumulus clouds, set in the rolling green countryside of eastern France, patchwork fields, small villages and low forested hills on a clear late-spring day, high contrast, a single rim light, soft film grain, shallow depth of field, clean modern composition with generous negative space, 35mm look, photorealistic. No visible face, no brand on equipment or clothing, no race bib number, no podium, no medal, no mechanically wrong equipment, no posture that contradicts the sport. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "page-404",
+      "fichier": "page-404.jpg",
+      "page": "404",
+      "emplacement": "Image de la page introuvable",
+      "role": "404",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "404",
+      "pieges": [],
+      "consigne": "A lone red-and-white striped windsock hanging limp on its mast at the edge of an empty mown grass field in late afternoon, warm low sun, long shadow, calm, a gentle touch of humour, no people. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Cinematic editorial sports photography, airy, bright and exhilarating yet calm mood, palette of clear sky blues, bright white cumulus, soft greens of farmland and a single small touch of vivid orange, crisp clear daylight with a warm sun from the side, tactile ripstop parachute nylon, mown grass and soft cumulus clouds, set in the rolling green countryside of eastern France, patchwork fields, small villages and low forested hills on a clear late-spring day, high contrast, a single rim light, soft film grain, shallow depth of field, clean modern composition with generous negative space, 35mm look, photorealistic. No visible face, no brand on equipment or clothing, no race bib number, no podium, no medal, no mechanically wrong equipment, no posture that contradicts the sport. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    }
+  ]
+}

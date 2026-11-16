@@ -1,0 +1,2370 @@
+{
+  "grok/accueil-ouverture": {
+    "nom": "grok/accueil-ouverture",
+    "source": "recu/grok/accueil-ouverture.jpg",
+    "role": "ouverture",
+    "alt": "La campagne et les nuages vus depuis 4 000 mètres d'altitude",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "26141c114e783fee",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "51% 73%"
+    },
+    "cadrage": "57% 62%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.31,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.11,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1080,
+      "source": [
+        1920,
+        1080
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/accueil-ouverture-640.webp",
+      "grok/accueil-ouverture-1280.webp",
+      "grok/accueil-ouverture-1920.webp",
+      "grok/accueil-ouverture-mobile-640.webp",
+      "grok/accueil-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/accueil-ouverture-640.webp": 28782,
+      "grok/accueil-ouverture-1280.webp": 83968,
+      "grok/accueil-ouverture-1920.webp": 145406,
+      "grok/accueil-ouverture-mobile-640.webp": 65054,
+      "grok/accueil-ouverture-mobile-1080.webp": 136032
+    },
+    "media": "c.media({ nom: 'grok/accueil-ouverture', alt: \"La campagne et les nuages vus depuis 4 000 mètres d'altitude\", cadrage: '57% 62%', cadrageMobile: '51% 73%', sizes: '100vw', priorite: true })"
+  },
+  "carte-tandem": {
+    "nom": "carte-tandem",
+    "source": "recu/tandem.jpg",
+    "role": "carte-service",
+    "alt": "Un moniteur et son passager en chute libre en tandem, sous un ciel bleu",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "21dbca7fea6780ea",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "50% 60%",
+    "sujet": {
+      "x": 29.7,
+      "y": 36.2,
+      "l": 39.1,
+      "h": 51.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.75,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.61,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.58,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.53,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 556,
+      "top": 0,
+      "width": 889,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "recadrage fort : 44 % de l'image gardée"
+    ],
+    "fichiers": [
+      "carte-tandem-480.webp",
+      "carte-tandem-640.webp",
+      "carte-tandem-784.webp"
+    ],
+    "poids": {
+      "carte-tandem-480.webp": 28842,
+      "carte-tandem-640.webp": 41634,
+      "carte-tandem-784.webp": 53350
+    },
+    "media": "c.media({ nom: 'carte-tandem', alt: \"Un moniteur et son passager en chute libre en tandem, sous un ciel bleu\", cadrage: '50% 60%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '2 / 3' })"
+  },
+  "grok/carte-initiation": {
+    "nom": "grok/carte-initiation",
+    "source": "recu/grok/accueil-initiation.jpg",
+    "role": "carte-service",
+    "alt": "Un élève parachutiste sous sa voile d'école, vu d'en dessous",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "abc134c45758939f",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "47% 56%",
+    "sujet": {
+      "x": 0,
+      "y": 9.4,
+      "l": 95.5,
+      "h": 90.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.3,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.29,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.2,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.07,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 2400,
+      "source": [
+        1600,
+        2400
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/carte-initiation-480.webp",
+      "grok/carte-initiation-640.webp",
+      "grok/carte-initiation-784.webp"
+    ],
+    "poids": {
+      "grok/carte-initiation-480.webp": 29146,
+      "grok/carte-initiation-640.webp": 46228,
+      "grok/carte-initiation-784.webp": 64004
+    },
+    "media": "c.media({ nom: 'grok/carte-initiation', alt: \"Un élève parachutiste sous sa voile d'école, vu d'en dessous\", cadrage: '47% 56%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '2 / 3' })"
+  },
+  "terrain-avion": {
+    "nom": "terrain-avion",
+    "source": "recu/avion-cessna-206-soloy.jpg",
+    "role": "galerie",
+    "alt": "Le Cessna 206 Soloy du club posé dans l'herbe fleurie de l'aérodrome",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "3e17371e7f5364f2",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "35% 40%",
+    "sujet": {
+      "x": 1.7,
+      "y": 16.1,
+      "l": 59.1,
+      "h": 43.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.56,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.29,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.29,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.06,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 960,
+      "height": 720,
+      "source": [
+        960,
+        720
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "960 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "terrain-avion-480.webp",
+      "terrain-avion-640.webp",
+      "terrain-avion-960.webp"
+    ],
+    "poids": {
+      "terrain-avion-480.webp": 28958,
+      "terrain-avion-640.webp": 42930,
+      "terrain-avion-960.webp": 74712
+    },
+    "media": "c.media({ nom: 'terrain-avion', alt: \"Le Cessna 206 Soloy du club posé dans l'herbe fleurie de l'aérodrome\", cadrage: '35% 40%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
+  },
+  "terrain-hangar": {
+    "nom": "terrain-hangar",
+    "source": "recu/partie-activite.jpg",
+    "role": "vignette",
+    "alt": "Parachutistes en train de plier leurs voiles dans le hangar",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "bb8c91f8ffa3f6e4",
+    "ratio": "16:9",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "53% 56%",
+    "sujet": {
+      "x": 26.5,
+      "y": 36.8,
+      "l": 52.9,
+      "h": 36.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.26,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.22,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.17,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.14,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 960,
+      "height": 540,
+      "source": [
+        960,
+        540
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "960 px de large",
+      "compression visible"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "terrain-hangar-480.webp",
+      "terrain-hangar-640.webp",
+      "terrain-hangar-800.webp"
+    ],
+    "poids": {
+      "terrain-hangar-480.webp": 27756,
+      "terrain-hangar-640.webp": 39750,
+      "terrain-hangar-800.webp": 51562
+    },
+    "media": "c.media({ nom: 'terrain-hangar', alt: \"Parachutistes en train de plier leurs voiles dans le hangar\", cadrage: '53% 56%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '16 / 9' })"
+  },
+  "club-table": {
+    "nom": "club-table",
+    "source": "recu/paraclub-montbeliard-29.jpg",
+    "role": "galerie",
+    "alt": "Repas entre membres du club autour d'une grande table au clubhouse",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "496f566a6b659058",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 2.1,
+      "y": 10.6,
+      "l": 96.9,
+      "h": 84.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.41,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.02,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 210,
+      "top": 0,
+      "width": 1500,
+      "height": 1125,
+      "source": [
+        2000,
+        1125
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "club-table-480.webp",
+      "club-table-640.webp",
+      "club-table-960.webp"
+    ],
+    "poids": {
+      "club-table-480.webp": 30414,
+      "club-table-640.webp": 47164,
+      "club-table-960.webp": 88768
+    },
+    "media": "c.media({ nom: 'club-table', alt: \"Repas entre membres du club autour d'une grande table au clubhouse\", sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
+  },
+  "club-barbecue": {
+    "nom": "club-barbecue",
+    "source": "recu/paraclub-montbeliard-45.jpg",
+    "role": "galerie",
+    "alt": "Trois membres du club devant le barbecue garni de saucisses",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "b3690d20dff76168",
+    "ratio": "3:4",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 32%",
+    "sujet": {
+      "x": 14.3,
+      "y": 16.3,
+      "l": 79.7,
+      "h": 56.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.2,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.1,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.05,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.03,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 720,
+      "height": 960,
+      "source": [
+        720,
+        960
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "720 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,33 fois (source de 720 px après recadrage)"
+    ],
+    "fichiers": [
+      "club-barbecue-480.webp",
+      "club-barbecue-640.webp",
+      "club-barbecue-960.webp"
+    ],
+    "poids": {
+      "club-barbecue-480.webp": 90096,
+      "club-barbecue-640.webp": 152756,
+      "club-barbecue-960.webp": 262030
+    },
+    "media": "c.media({ nom: 'club-barbecue', alt: \"Trois membres du club devant le barbecue garni de saucisses\", cadrage: '50% 32%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  },
+  "club-grill": {
+    "nom": "club-grill",
+    "source": "recu/paraclub-montbeliard-42.jpg",
+    "role": "galerie",
+    "alt": "Saucisses sur le grill, l'avion du club au loin sur la piste",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "ec88ea3c27a6a93d",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "65% 67%",
+    "sujet": {
+      "x": 37.8,
+      "y": 58.7,
+      "l": 61.5,
+      "h": 25.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.53,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.22,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.11,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.1,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 960,
+      "height": 720,
+      "source": [
+        960,
+        720
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "960 px de large",
+      "compression visible"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "club-grill-480.webp",
+      "club-grill-640.webp",
+      "club-grill-960.webp"
+    ],
+    "poids": {
+      "club-grill-480.webp": 20536,
+      "club-grill-640.webp": 30684,
+      "club-grill-960.webp": 56142
+    },
+    "media": "c.media({ nom: 'club-grill', alt: \"Saucisses sur le grill, l'avion du club au loin sur la piste\", cadrage: '65% 67%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
+  },
+  "club-equipes": {
+    "nom": "club-equipes",
+    "source": "recu/paraclub-montbeliard-33.jpg",
+    "role": "galerie",
+    "alt": "Trois parachutistes équipés discutent avant d'embarquer",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "de7dabca604832af",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "59% 44%",
+    "sujet": {
+      "x": 5.6,
+      "y": 18.9,
+      "l": 94.3,
+      "h": 81.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.08,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1728,
+      "height": 1152,
+      "source": [
+        1728,
+        1152
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "club-equipes-480.webp",
+      "club-equipes-640.webp",
+      "club-equipes-960.webp"
+    ],
+    "poids": {
+      "club-equipes-480.webp": 27226,
+      "club-equipes-640.webp": 40332,
+      "club-equipes-960.webp": 69970
+    },
+    "media": "c.media({ nom: 'club-equipes', alt: \"Trois parachutistes équipés discutent avant d'embarquer\", cadrage: '59% 44%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "club-vehicule": {
+    "nom": "club-vehicule",
+    "source": "recu/vehicules-piste.jpg",
+    "role": "galerie",
+    "alt": "Un véhicule de piste multicolore ramène des parachutistes après leur saut",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "6f52ce4f87ffa9a1",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "53% 32%",
+    "sujet": {
+      "x": 43.4,
+      "y": 14.5,
+      "l": 19.7,
+      "h": 36.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.25,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.25,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.19,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.17,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1728,
+      "height": 1152,
+      "source": [
+        1728,
+        1152
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "club-vehicule-480.webp",
+      "club-vehicule-640.webp",
+      "club-vehicule-960.webp"
+    ],
+    "poids": {
+      "club-vehicule-480.webp": 39724,
+      "club-vehicule-640.webp": 65326,
+      "club-vehicule-960.webp": 123842
+    },
+    "media": "c.media({ nom: 'club-vehicule', alt: \"Un véhicule de piste multicolore ramène des parachutistes après leur saut\", cadrage: '53% 32%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "club-amis": {
+    "nom": "club-amis",
+    "source": "recu/paraclub-montbeliard-43.jpg",
+    "role": "galerie",
+    "alt": "Quatre membres du club, bières à la main, au clubhouse",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "4c64df893b7709b6",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "40% 34%",
+    "sujet": {
+      "x": 0.3,
+      "y": 0,
+      "l": 79.6,
+      "h": 74.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.17,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.12,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 960,
+      "height": 720,
+      "source": [
+        960,
+        720
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "960 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "club-amis-480.webp",
+      "club-amis-640.webp",
+      "club-amis-960.webp"
+    ],
+    "poids": {
+      "club-amis-480.webp": 27966,
+      "club-amis-640.webp": 41498,
+      "club-amis-960.webp": 71780
+    },
+    "media": "c.media({ nom: 'club-amis', alt: \"Quatre membres du club, bières à la main, au clubhouse\", cadrage: '40% 34%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
+  },
+  "club-canape": {
+    "nom": "club-canape",
+    "source": "recu/canape-biere.jpg",
+    "role": "galerie",
+    "alt": "Un parachutiste se repose sur un sac de voile jaune posé dans l'herbe",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "a9b57913462fcb95",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 48%",
+    "sujet": {
+      "x": 36.8,
+      "y": 25.8,
+      "l": 26.1,
+      "h": 72.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.54,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.37,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.26,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.17,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 58,
+      "top": 0,
+      "width": 1685,
+      "height": 1123,
+      "source": [
+        2000,
+        1123
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "club-canape-480.webp",
+      "club-canape-640.webp",
+      "club-canape-960.webp"
+    ],
+    "poids": {
+      "club-canape-480.webp": 36134,
+      "club-canape-640.webp": 60254,
+      "club-canape-960.webp": 113428
+    },
+    "media": "c.media({ nom: 'club-canape', alt: \"Un parachutiste se repose sur un sac de voile jaune posé dans l'herbe\", cadrage: '50% 48%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "club-soiree": {
+    "nom": "club-soiree",
+    "source": "recu/paraclub-montbeliard-47.jpg",
+    "role": "galerie",
+    "alt": "Soirée animée dans la grande salle du clubhouse",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "6664cbf48c99c415",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "49% 41%",
+    "sujet": {
+      "x": 10.3,
+      "y": 30.9,
+      "l": 75,
+      "h": 20.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.2,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.2,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.16,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.15,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 960,
+      "height": 720,
+      "source": [
+        960,
+        720
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "960 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "club-soiree-480.webp",
+      "club-soiree-640.webp",
+      "club-soiree-960.webp"
+    ],
+    "poids": {
+      "club-soiree-480.webp": 33722,
+      "club-soiree-640.webp": 48624,
+      "club-soiree-960.webp": 82382
+    },
+    "media": "c.media({ nom: 'club-soiree', alt: \"Soirée animée dans la grande salle du clubhouse\", cadrage: '49% 41%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
+  },
+  "accueil-freefly": {
+    "nom": "accueil-freefly",
+    "source": "recu/freefly.jpg",
+    "role": "galerie",
+    "alt": "Un parachutiste en freefly, debout dans le ciel au-dessus des nuages",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "a66f31c6f866704d",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 46%",
+    "sujet": {
+      "x": 36.9,
+      "y": 31.7,
+      "l": 24.8,
+      "h": 53.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.68,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.65,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.64,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.61,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 134,
+      "top": 0,
+      "width": 1152,
+      "height": 768,
+      "source": [
+        1366,
+        768
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "accueil-freefly-480.webp",
+      "accueil-freefly-640.webp",
+      "accueil-freefly-960.webp"
+    ],
+    "poids": {
+      "accueil-freefly-480.webp": 9654,
+      "accueil-freefly-640.webp": 15316,
+      "accueil-freefly-960.webp": 27334
+    },
+    "media": "c.media({ nom: 'accueil-freefly', alt: \"Un parachutiste en freefly, debout dans le ciel au-dessus des nuages\", cadrage: '50% 46%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "tandem-ouverture": {
+    "nom": "tandem-ouverture",
+    "source": "recu/paraclub-montbeliard.jpg",
+    "role": "ouverture",
+    "alt": "Saut en tandem au-dessus du Pays de Montbéliard, la ville en contrebas",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "2c4ac1eff9dee705",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      800,
+      1100
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 43%"
+    },
+    "cadrage": "46% 43%",
+    "sujet": {
+      "x": 34.6,
+      "y": 26.6,
+      "l": 22.4,
+      "h": 35.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.65,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.6,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.58,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.57,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1148,
+      "height": 1435,
+      "source": [
+        1438,
+        1435
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "tandem-ouverture-480.webp",
+      "tandem-ouverture-800.webp",
+      "tandem-ouverture-1100.webp",
+      "tandem-ouverture-mobile-640.webp",
+      "tandem-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "tandem-ouverture-480.webp": 26162,
+      "tandem-ouverture-800.webp": 47744,
+      "tandem-ouverture-1100.webp": 68066,
+      "tandem-ouverture-mobile-640.webp": 41872,
+      "tandem-ouverture-mobile-1080.webp": 75776
+    },
+    "media": "c.media({ nom: 'tandem-ouverture', alt: \"Saut en tandem au-dessus du Pays de Montbéliard, la ville en contrebas\", cadrage: '46% 43%', cadrageMobile: '50% 43%', sizes: '100vw', priorite: true })"
+  },
+  "tandem-cabine": {
+    "nom": "tandem-cabine",
+    "source": "recu/paraclub-montbeliard-18.jpg",
+    "role": "galerie",
+    "alt": "Parachutistes assis dans la cabine du Cessna, porte ouverte, pendant la montée",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "0cb32aa093c4430a",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "33% 41%",
+    "sujet": {
+      "x": 17.6,
+      "y": 28.9,
+      "l": 30.4,
+      "h": 26.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.28,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.24,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.2,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.15,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1728,
+      "height": 1152,
+      "source": [
+        1728,
+        1152
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "tandem-cabine-480.webp",
+      "tandem-cabine-640.webp",
+      "tandem-cabine-960.webp"
+    ],
+    "poids": {
+      "tandem-cabine-480.webp": 19390,
+      "tandem-cabine-640.webp": 29122,
+      "tandem-cabine-960.webp": 51878
+    },
+    "media": "c.media({ nom: 'tandem-cabine', alt: \"Parachutistes assis dans la cabine du Cessna, porte ouverte, pendant la montée\", cadrage: '33% 41%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "tandem-sortie": {
+    "nom": "tandem-sortie",
+    "source": "recu/paraclub-montbeliard-21.jpg",
+    "role": "galerie",
+    "alt": "Un parachutiste casqué se prépare à sortir par la porte de l'avion",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "aa569e42f30adee5",
+    "ratio": "3:4",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "51% 35%",
+    "sujet": {
+      "x": 13.8,
+      "y": 13.6,
+      "l": 75.3,
+      "h": 70.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.16,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.15,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.13,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.07,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 768,
+      "height": 1024,
+      "source": [
+        768,
+        1024
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "768 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,25 fois (source de 768 px après recadrage)"
+    ],
+    "fichiers": [
+      "tandem-sortie-480.webp",
+      "tandem-sortie-640.webp",
+      "tandem-sortie-960.webp"
+    ],
+    "poids": {
+      "tandem-sortie-480.webp": 31012,
+      "tandem-sortie-640.webp": 44186,
+      "tandem-sortie-960.webp": 67048
+    },
+    "media": "c.media({ nom: 'tandem-sortie', alt: \"Un parachutiste casqué se prépare à sortir par la porte de l'avion\", cadrage: '51% 35%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  },
+  "tandem-voile": {
+    "nom": "tandem-voile",
+    "source": "recu/saut-tandem-experience-unique.jpg",
+    "role": "galerie",
+    "alt": "Un tandem sous voile, accompagné d'un parachutiste en chute",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "b75493c40722005e",
+    "ratio": "16:9",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "41% 58%",
+    "sujet": {
+      "x": 34.8,
+      "y": 48.4,
+      "l": 25.7,
+      "h": 30.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.84,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.83,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.45,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.44,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1244,
+      "height": 700,
+      "source": [
+        1280,
+        700
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "compression visible"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "tandem-voile-480.webp",
+      "tandem-voile-640.webp",
+      "tandem-voile-960.webp"
+    ],
+    "poids": {
+      "tandem-voile-480.webp": 9116,
+      "tandem-voile-640.webp": 14506,
+      "tandem-voile-960.webp": 32796
+    },
+    "media": "c.media({ nom: 'tandem-voile', alt: \"Un tandem sous voile, accompagné d'un parachutiste en chute\", cadrage: '41% 58%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '16 / 9' })"
+  },
+  "tandem-video": {
+    "nom": "tandem-video",
+    "source": "recu/paraclub-montbeliard-28.jpg",
+    "role": "galerie",
+    "alt": "Le caméraman du club, appareil photo et caméra fixés sur le casque",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "4d8e98c072de5460",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "58% 56%",
+    "sujet": {
+      "x": 20.5,
+      "y": 5.8,
+      "l": 79.5,
+      "h": 94.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.32,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.26,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.01,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "tandem-video-480.webp",
+      "tandem-video-640.webp",
+      "tandem-video-960.webp"
+    ],
+    "poids": {
+      "tandem-video-480.webp": 24270,
+      "tandem-video-640.webp": 38770,
+      "tandem-video-960.webp": 78810
+    },
+    "media": "c.media({ nom: 'tandem-video', alt: \"Le caméraman du club, appareil photo et caméra fixés sur le casque\", cadrage: '58% 56%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
+  },
+  "grok/initiation-ouverture": {
+    "nom": "grok/initiation-ouverture",
+    "source": "recu/grok/initiation-ouverture.jpg",
+    "role": "ouverture",
+    "alt": "Un élève parachutiste assis à la porte ouverte de l'avion, prêt à sortir",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "7432fb450bdc7048",
+    "ratio": "4:5",
+    "largeurs": [
+      640,
+      1280
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 39%"
+    },
+    "cadrage": "51% 39%",
+    "sujet": {
+      "x": 0,
+      "y": 9.4,
+      "l": 96.2,
+      "h": 62.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.59,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.1,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.08,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.05,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "bas",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 2000,
+      "source": [
+        1600,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/initiation-ouverture-640.webp",
+      "grok/initiation-ouverture-1280.webp",
+      "grok/initiation-ouverture-mobile-640.webp",
+      "grok/initiation-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/initiation-ouverture-640.webp": 50844,
+      "grok/initiation-ouverture-1280.webp": 135346,
+      "grok/initiation-ouverture-mobile-640.webp": 59288,
+      "grok/initiation-ouverture-mobile-1080.webp": 121016
+    },
+    "media": "c.media({ nom: 'grok/initiation-ouverture', alt: \"Un élève parachutiste assis à la porte ouverte de l'avion, prêt à sortir\", cadrage: '51% 39%', cadrageMobile: '50% 39%', sizes: '100vw', priorite: true })"
+  },
+  "initiation-cours": {
+    "nom": "initiation-cours",
+    "source": "recu/paraclub-montbeliard-54.jpg",
+    "role": "galerie",
+    "alt": "Élèves en formation théorique dans une salle de cours du club",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "c2246af865667303",
+    "ratio": "16:9",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "51% 41%",
+    "sujet": {
+      "x": 0.4,
+      "y": 8.2,
+      "l": 98.9,
+      "h": 91.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.16,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 960,
+      "height": 540,
+      "source": [
+        960,
+        540
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "960 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "initiation-cours-480.webp",
+      "initiation-cours-640.webp",
+      "initiation-cours-960.webp"
+    ],
+    "poids": {
+      "initiation-cours-480.webp": 16950,
+      "initiation-cours-640.webp": 23624,
+      "initiation-cours-960.webp": 39688
+    },
+    "media": "c.media({ nom: 'initiation-cours', alt: \"Élèves en formation théorique dans une salle de cours du club\", cadrage: '51% 41%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '16 / 9' })"
+  },
+  "initiation-groupe": {
+    "nom": "initiation-groupe",
+    "source": "recu/sauts-initiation-2.jpg",
+    "role": "galerie",
+    "alt": "Un groupe d'élèves en combinaisons rouges dans le hangar, le jour de l'initiation",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "33eddf91195bc5ff",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "37% 49%",
+    "sujet": {
+      "x": 0.1,
+      "y": 26.8,
+      "l": 73.3,
+      "h": 72.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.47,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.16,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 960,
+      "height": 720,
+      "source": [
+        960,
+        720
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "960 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "initiation-groupe-480.webp",
+      "initiation-groupe-640.webp",
+      "initiation-groupe-960.webp"
+    ],
+    "poids": {
+      "initiation-groupe-480.webp": 36094,
+      "initiation-groupe-640.webp": 53496,
+      "initiation-groupe-960.webp": 92638
+    },
+    "media": "c.media({ nom: 'initiation-groupe', alt: \"Un groupe d'élèves en combinaisons rouges dans le hangar, le jour de l'initiation\", cadrage: '37% 49%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
+  },
+  "initiation-maquette": {
+    "nom": "initiation-maquette",
+    "source": "recu/maquette-echelle-1-1.jpg",
+    "role": "galerie",
+    "alt": "Deux parachutistes devant la maquette d'avion à l'échelle 1:1 du club",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "aa15bd250d51c54d",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "24% 46%",
+    "sujet": {
+      "x": 9.1,
+      "y": 23.1,
+      "l": 30.4,
+      "h": 76.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.26,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.2,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.17,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1728,
+      "height": 1152,
+      "source": [
+        1728,
+        1152
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "initiation-maquette-480.webp",
+      "initiation-maquette-640.webp",
+      "initiation-maquette-960.webp"
+    ],
+    "poids": {
+      "initiation-maquette-480.webp": 24826,
+      "initiation-maquette-640.webp": 38808,
+      "initiation-maquette-960.webp": 74510
+    },
+    "media": "c.media({ nom: 'initiation-maquette', alt: \"Deux parachutistes devant la maquette d'avion à l'échelle 1:1 du club\", cadrage: '24% 46%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "progression-ouverture": {
+    "nom": "progression-ouverture",
+    "source": "recu/paraclub-montbeliard-2.jpg",
+    "role": "ouverture",
+    "alt": "Huit parachutistes en formation de vol relatif au-dessus d'une mer de nuages",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "cc7a88d05ff0c392",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640
+      ],
+      "cadrage": "50% 46%"
+    },
+    "cadrage": "51% 66%",
+    "sujet": {
+      "x": 13.1,
+      "y": 51,
+      "l": 75.9,
+      "h": 34.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.71,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.62,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.39,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.35,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "haut",
+    "recadrage": {
+      "left": 0,
+      "top": 35,
+      "width": 1569,
+      "height": 883,
+      "source": [
+        1569,
+        1211
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "version téléphone sans 1080 px (source trop petite)",
+      "agrandie 1,22 fois (source de 1569 px après recadrage)"
+    ],
+    "fichiers": [
+      "progression-ouverture-640.webp",
+      "progression-ouverture-1280.webp",
+      "progression-ouverture-1920.webp",
+      "progression-ouverture-mobile-640.webp"
+    ],
+    "poids": {
+      "progression-ouverture-640.webp": 24196,
+      "progression-ouverture-1280.webp": 62098,
+      "progression-ouverture-1920.webp": 99868,
+      "progression-ouverture-mobile-640.webp": 21460
+    },
+    "media": "c.media({ nom: 'progression-ouverture', alt: \"Huit parachutistes en formation de vol relatif au-dessus d'une mer de nuages\", cadrage: '51% 66%', cadrageMobile: '50% 46%', sizes: '100vw', priorite: true })"
+  },
+  "progression-precision": {
+    "nom": "progression-precision",
+    "source": "recu/paraclub-montbeliard-16.jpg",
+    "role": "galerie",
+    "alt": "Un parachutiste pose le pied sur la cible lors d'une compétition de précision d'atterrissage",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "c5b71ef13913ed41",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 12%",
+    "sujet": {
+      "x": 42.1,
+      "y": 5.1,
+      "l": 15.4,
+      "h": 16.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.44,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.21,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.2,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.18,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 461,
+      "top": 0,
+      "width": 1108,
+      "height": 1385,
+      "source": [
+        1720,
+        1385
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "progression-precision-480.webp",
+      "progression-precision-640.webp",
+      "progression-precision-960.webp"
+    ],
+    "poids": {
+      "progression-precision-480.webp": 45560,
+      "progression-precision-640.webp": 65958,
+      "progression-precision-960.webp": 108474
+    },
+    "media": "c.media({ nom: 'progression-precision', alt: \"Un parachutiste pose le pied sur la cible lors d'une compétition de précision d'atterrissage\", cadrage: '50% 12%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "progression-voile": {
+    "nom": "progression-voile",
+    "source": "recu/paraclub-montbeliard-20.jpg",
+    "role": "galerie",
+    "alt": "Pilote de voile qui rase l'eau d'un plan d'eau avant de se poser",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "baee0a6a01c6cd14",
+    "ratio": "16:9",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "61% 55%",
+    "sujet": {
+      "x": 55.9,
+      "y": 17,
+      "l": 21.2,
+      "h": 62.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.38,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.33,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.29,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.13,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720,
+      "source": [
+        1280,
+        720
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "compression visible"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "progression-voile-480.webp",
+      "progression-voile-640.webp",
+      "progression-voile-960.webp"
+    ],
+    "poids": {
+      "progression-voile-480.webp": 27862,
+      "progression-voile-640.webp": 46470,
+      "progression-voile-960.webp": 84964
+    },
+    "media": "c.media({ nom: 'progression-voile', alt: \"Pilote de voile qui rase l'eau d'un plan d'eau avant de se poser\", cadrage: '61% 55%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '16 / 9' })"
+  },
+  "progression-vr": {
+    "nom": "progression-vr",
+    "source": "recu/maxresdefault.webp",
+    "role": "galerie",
+    "alt": "Quatre parachutistes en vol relatif au-dessus d'une couche de nuages",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "fad7000d8f83ca58",
+    "ratio": "16:9",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "48% 37%",
+    "sujet": {
+      "x": 30.9,
+      "y": 17,
+      "l": 38,
+      "h": 52.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.63,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.58,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.54,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.5,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720,
+      "source": [
+        1280,
+        720
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "progression-vr-480.webp",
+      "progression-vr-640.webp",
+      "progression-vr-960.webp"
+    ],
+    "poids": {
+      "progression-vr-480.webp": 9672,
+      "progression-vr-640.webp": 13614,
+      "progression-vr-960.webp": 21464
+    },
+    "media": "c.media({ nom: 'progression-vr', alt: \"Quatre parachutistes en vol relatif au-dessus d'une couche de nuages\", cadrage: '48% 37%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '16 / 9' })"
+  },
+  "progression-parc": {
+    "nom": "progression-parc",
+    "source": "recu/parc-parachutes.jpg",
+    "role": "vignette",
+    "alt": "Harnais et sacs-harnais colorés du parc de parachutes du club",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "73cc0bde77973a64",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "47% 44%",
+    "sujet": {
+      "x": 0,
+      "y": 8.9,
+      "l": 91.8,
+      "h": 91.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.01,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 623,
+      "height": 467,
+      "source": [
+        640,
+        467
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "640 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,28 fois (source de 623 px après recadrage)"
+    ],
+    "fichiers": [
+      "progression-parc-480.webp",
+      "progression-parc-640.webp",
+      "progression-parc-800.webp"
+    ],
+    "poids": {
+      "progression-parc-480.webp": 32278,
+      "progression-parc-640.webp": 45586,
+      "progression-parc-800.webp": 58802
+    },
+    "media": "c.media({ nom: 'progression-parc', alt: \"Harnais et sacs-harnais colorés du parc de parachutes du club\", cadrage: '47% 44%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "grok/reserver-ouverture": {
+    "nom": "grok/reserver-ouverture",
+    "source": "recu/grok/reserver-ouverture.jpg",
+    "role": "ouverture",
+    "alt": "Un parachutiste sous voile arrive au-dessus de la zone de saut, en fin d'après-midi",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "abcdcb48f1cd9ba2",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "51% 66%"
+    },
+    "cadrage": "51% 71%",
+    "sujet": {
+      "x": 0,
+      "y": 11.1,
+      "l": 100,
+      "h": 88.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.5,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.23,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.05,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1080,
+      "source": [
+        1920,
+        1080
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/reserver-ouverture-640.webp",
+      "grok/reserver-ouverture-1280.webp",
+      "grok/reserver-ouverture-1920.webp",
+      "grok/reserver-ouverture-mobile-640.webp",
+      "grok/reserver-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/reserver-ouverture-640.webp": 27348,
+      "grok/reserver-ouverture-1280.webp": 84998,
+      "grok/reserver-ouverture-1920.webp": 153040,
+      "grok/reserver-ouverture-mobile-640.webp": 62532,
+      "grok/reserver-ouverture-mobile-1080.webp": 119110
+    },
+    "media": "c.media({ nom: 'grok/reserver-ouverture', alt: \"Un parachutiste sous voile arrive au-dessus de la zone de saut, en fin d'après-midi\", cadrage: '51% 71%', cadrageMobile: '51% 66%', sizes: '100vw', priorite: true })"
+  },
+  "contact-ouverture": {
+    "nom": "contact-ouverture",
+    "source": "recu/paraclub-montbeliard-35.jpg",
+    "role": "ouverture",
+    "alt": "Le véhicule du club peint aux couleurs de l'École de parachutisme Nord Franche-Comté",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "8ae468ba934102ed",
+    "ratio": "4:3",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640
+      ],
+      "cadrage": "50% 40%"
+    },
+    "cadrage": "52% 40%",
+    "sujet": {
+      "x": 13.2,
+      "y": 10.7,
+      "l": 86.9,
+      "h": 83.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.1,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.07,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "bas",
+    "recadrage": {
+      "left": 192,
+      "top": 0,
+      "width": 1536,
+      "height": 1152,
+      "source": [
+        1728,
+        1152
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "version téléphone sans 1080 px (source trop petite)",
+      "agrandie 1,25 fois (source de 1536 px après recadrage)"
+    ],
+    "fichiers": [
+      "contact-ouverture-640.webp",
+      "contact-ouverture-1280.webp",
+      "contact-ouverture-1920.webp",
+      "contact-ouverture-mobile-640.webp"
+    ],
+    "poids": {
+      "contact-ouverture-640.webp": 44166,
+      "contact-ouverture-1280.webp": 119902,
+      "contact-ouverture-1920.webp": 193928,
+      "contact-ouverture-mobile-640.webp": 61862
+    },
+    "media": "c.media({ nom: 'contact-ouverture', alt: \"Le véhicule du club peint aux couleurs de l'École de parachutisme Nord Franche-Comté\", cadrage: '52% 40%', cadrageMobile: '50% 40%', sizes: '100vw', priorite: true })"
+  },
+  "grok/appel-fond": {
+    "nom": "grok/appel-fond",
+    "source": "recu/grok/appel-fond.jpg",
+    "role": "section-fond",
+    "alt": "Une mer de nuages vue d'en haut en fin d'après-midi",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "5632d190c44ac3e1",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "49% 63%",
+    "sujet": {
+      "x": 0,
+      "y": 16.7,
+      "l": 100,
+      "h": 83.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.62,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.2,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.16,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "haut",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1080,
+      "source": [
+        1920,
+        1080
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/appel-fond-640.webp",
+      "grok/appel-fond-1280.webp",
+      "grok/appel-fond-1920.webp"
+    ],
+    "poids": {
+      "grok/appel-fond-640.webp": 27412,
+      "grok/appel-fond-1280.webp": 84876,
+      "grok/appel-fond-1920.webp": 147620
+    },
+    "media": "c.media({ nom: 'grok/appel-fond', alt: \"Une mer de nuages vue d'en haut en fin d'après-midi\", cadrage: '49% 63%', sizes: '100vw' })"
+  },
+  "grok/page-404": {
+    "nom": "grok/page-404",
+    "source": "recu/grok/page-404.jpg",
+    "role": "404",
+    "alt": "Une manche à air au repos au bord d'un champ vide, en fin de journée",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "86e981b68677d5ea",
+    "ratio": "16:9",
+    "largeurs": [
+      800,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "57% 87%",
+    "sujet": {
+      "x": 0,
+      "y": 16.7,
+      "l": 100,
+      "h": 83.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.6,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.27,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.14,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1080,
+      "source": [
+        1920,
+        1080
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "floue"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "grok/page-404-800.webp",
+      "grok/page-404-1600.webp"
+    ],
+    "poids": {
+      "grok/page-404-800.webp": 22080,
+      "grok/page-404-1600.webp": 48602
+    },
+    "media": "c.media({ nom: 'grok/page-404', alt: \"Une manche à air au repos au bord d'un champ vide, en fin de journée\", cadrage: '57% 87%', sizes: '100vw', ratio: '16 / 9' })"
+  }
+}

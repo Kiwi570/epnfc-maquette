@@ -1,0 +1,11 @@
+{
+  "@context": "https://schema.org",
+  "@type": "SportsActivityLocation",
+  "name": "ParaClub Montbéliard (École de Parachutisme Nord Franche-Comté)",
+  "url": "https://epnfc-maquette.vercel.app/",
+  "telephone": "+33381902106",
+  "email": "epnfc@wanadoo.fr",
+  "address": { "@type": "PostalAddress", "streetAddress": "Aérodrome de Courcelles-lès-Montbéliard", "postalCode": "25420", "addressLocality": "Courcelles-lès-Montbéliard", "addressCountry": "FR" },
+  "description": "École de parachutisme labellisée depuis 2004, affiliée à la Fédération Française de Parachutisme : sauts en tandem, initiation, progression.",
+  "sameAs": ["https://www.facebook.com/parachutismemontbeliard/", "https://www.instagram.com/montbeliard_parachutisme/"]
+}

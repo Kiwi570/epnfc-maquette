@@ -1,0 +1,10 @@
+[
+  { "image": "club-table", "legende": "Repas au clubhouse", "ratio": "4 / 3" },
+  { "image": "club-equipes", "legende": "Avant d'embarquer", "ratio": "3 / 2" },
+  { "image": "club-barbecue", "legende": "Le barbecue", "ratio": "3 / 4" },
+  { "image": "club-vehicule", "legende": "Retour en véhicule de piste", "ratio": "3 / 2" },
+  { "image": "club-grill", "legende": "Le Cessna au bout de la piste", "ratio": "4 / 3" },
+  { "image": "club-canape", "legende": "Pause sur un sac de voile", "ratio": "3 / 2" },
+  { "image": "club-amis", "legende": "Au bar du clubhouse", "ratio": "4 / 3" },
+  { "image": "club-soiree", "legende": "Soirée au club", "ratio": "4 / 3" }
+]

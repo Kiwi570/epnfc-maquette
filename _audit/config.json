@@ -1,0 +1,6 @@
+{
+  "siteActuel": "epnfc.fr",
+  "pagesTypes": ["/", "/tandem", "/reserver"],
+  "effets": ["porte", "voile", "trajectoire", "rangee", "manche-a-air", "bon-cadeau", "chrono", "etapes", "rec", "journee", "bandeau", "embarquement", "numero", "carte"],
+  "grille": { "dispenses": {} }
+}

@@ -1,0 +1,16 @@
+{
+ "id": "20261116-193147-complet-cible-partiel",
+ "date": "2026-11-16T19:34:33.800Z",
+ "niveau": "complet",
+ "pages": "/tandem,/initiation,/contact",
+ "etapes": [
+  "fichiers",
+  "mesures"
+ ],
+ "version": "1",
+ "echecs": 0,
+ "aRegarder": 8,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "complet"
+}

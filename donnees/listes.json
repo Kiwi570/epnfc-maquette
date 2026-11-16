@@ -1,0 +1,81 @@
+{
+  "conditionsTandem": [
+    "Dès 15 ans, avec une morphologie adaptée",
+    "90 kg au maximum ; difficile sous 1,40 m",
+    "Certificat médical de moins d'un an",
+    "Ni plongée dans les 48 h, ni alcool dans les 12 h avant",
+    "Pas de saut pendant une grossesse"
+  ],
+  "securite": [
+    "Des moniteurs qui ont des milliers de sauts",
+    "Des parachutes pliés et vérifiés par des personnes qualifiées",
+    "Des ouvreurs de sécurité qui déclenchent l'ouverture automatiquement",
+    "Un posé géré par le moniteur, répété au briefing"
+  ],
+  "jourJ": [
+    "Prévoir une demi-journée",
+    "Avoir mangé avant de venir",
+    "Baskets basses, tenue de saison et un pull",
+    "Lunettes de chute fournies, combinaison prêtée si besoin"
+  ],
+  "conditionsInitiation": [
+    "Dès 15 ans",
+    "90 kg au maximum recommandés",
+    "Bonne condition physique",
+    "Certificat médical d'un médecin généraliste"
+  ],
+  "apporter": [
+    "Vos lunettes avec un cordon, si vous en portez",
+    "Des baskets basses",
+    "Une tenue de sport chaude",
+    "Votre repas de midi",
+    "Ni alcool, ni substance interdite avant de sauter"
+  ],
+  "amis": [
+    {
+      "nom": "Fédération Française de Parachutisme",
+      "url": "https://www.ffp.asso.fr"
+    },
+    {
+      "nom": "Adrenalin Base",
+      "url": "https://www.adrenalinbase.com"
+    },
+    {
+      "nom": "Paramag",
+      "url": "https://www.paramag.fr"
+    },
+    {
+      "nom": "Basik",
+      "url": "https://www.basik.fr"
+    },
+    {
+      "nom": "Sports et Loisirs",
+      "url": "https://www.sports-et-loisirs.fr"
+    }
+  ],
+  "tandemPoints": [
+    "Environ 50 secondes de chute libre à 200 km/h",
+    "Attaché à un moniteur diplômé, sans formation",
+    "5 à 8 minutes sous voile",
+    "Prévoir une demi-journée"
+  ],
+  "initiationPoints": [
+    "Environ 6 heures de formation au sol",
+    "Ouverture automatique du parachute",
+    "Vous pilotez votre voile, guidé par radio",
+    "Toute une journée, dès 8 h"
+  ],
+  "frise": [
+    "A",
+    "B",
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "Bi4",
+    "B5",
+    "C",
+    "D",
+    "BPA"
+  ]
+}

@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="fr" data-v="1" data-curseur>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Progresser en parachutisme : brevets, vol relatif, freefly</title>
+<meta name="description" content="Du brevet A à l&#39;autonomie, puis le vol relatif, le freefly, la précision ou le pilotage sous voile, au ParaClub Montbéliard.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://epnfc-maquette.vercel.app/progression">
+<style>:root{--fond:#F5F8FB;--texte:#0C1A2E;--voile-fond:#0C1A2E;--ouverture-fond:#0C1A2E;--menu-fond:#0C1A2E}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/archivo.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#0C1A2E">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="ParaClub Montbéliard">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Progresser en parachutisme : brevets, vol relatif, freefly">
+<meta property="og:description" content="Du brevet A à l&#39;autonomie, puis le vol relatif, le freefly, la précision ou le pilotage sous voile, au ParaClub Montbéliard.">
+<meta property="og:url" content="https://epnfc-maquette.vercel.app/progression">
+<meta property="og:image" content="https://epnfc-maquette.vercel.app/assets/partage/progression-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Progresser au ParaClub Montbéliard">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SportsActivityLocation","name":"ParaClub Montbéliard (École de Parachutisme Nord Franche-Comté)","url":"https://epnfc-maquette.vercel.app/","telephone":"+33381902106","email":"epnfc@wanadoo.fr","address":{"@type":"PostalAddress","streetAddress":"Aérodrome de Courcelles-lès-Montbéliard","postalCode":"25420","addressLocality":"Courcelles-lès-Montbéliard","addressCountry":"FR"},"description":"École de parachutisme labellisée depuis 2004, affiliée à la Fédération Française de Parachutisme : sauts en tandem, initiation, progression.","sameAs":["https://www.facebook.com/parachutismemontbeliard/","https://www.instagram.com/montbeliard_parachutisme/"]}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="iris" aria-hidden="true"><div class="voile-contenu"><img class="voile-logo" src="/assets/images/logo-clair.svg" alt="" width="72" height="72"><span data-voile-libelle>Progression</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <img class="ouverture-logo" src="/assets/images/logo-clair.svg" alt="" width="64" height="64" data-ouverture-objet>
+  <p class="ouverture-nom">ParaClub <em>Montbéliard</em></p>
+  <span class="ouverture-trait"></span>
+  <p class="ouverture-ligne">École de parachutisme</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil">
+      <img src="/assets/images/logo.svg" alt="" width="40" height="40"><span class="entete-nom">ParaClub <em>Montbéliard</em></span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/tandem" data-libelle="Tandem">Tandem</a></li><li><a href="/initiation" data-libelle="Initiation">Initiation</a></li><li><a href="/progression" data-libelle="Progression" aria-current="page">Progression</a></li><li><a href="/reserver" data-libelle="Réserver">Réserver</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/reserver#reservation" data-libelle="Réserver">Réserver</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/tandem" class="menu-lien" data-libelle="Tandem">Tandem</a></li><li style="--i:2"><a href="/initiation" class="menu-lien" data-libelle="Initiation">Initiation</a></li><li style="--i:3"><a href="/progression" class="menu-lien" data-libelle="Progression" aria-current="page">Progression</a></li><li style="--i:4"><a href="/reserver" class="menu-lien" data-libelle="Réserver">Réserver</a></li><li style="--i:5"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p><a class="bouton" href="tel:+33381902106">Appeler 03 81 90 21 06</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="ouv ouv-prog" id="debut" data-ouverture-page>
+  <div class="conteneur ouv-prog-tete">
+    <p class="surtitre" data-anime="gsap">Licence, brevets et disciplines</p>
+    <h1 class="ouv-titre ouv-prog-titre" data-iris-centre data-anime="gsap">Du premier saut <em>à l&#39;autonomie</em></h1>
+    <div class="ouv-prog-bas">
+      <p class="chapeau masque-ecran-bas" data-anime="gsap">Après le premier saut et la licence annuelle, les moniteurs de l&#39;équipe vous donnent un programme d&#39;exercices en chute et sous voile, de brevet en brevet.</p>
+      <div data-anime="gsap">
+        <p class="ouv-actions"><a href="/contact?sujet=progression#formulaire" class="bouton" data-libelle="Contact" data-action-principale data-survol="magnetique">Rejoindre le club</a></p>
+        <p class="hero-info" data-info-cle><span class="pastille" aria-hidden="true"></span>Brevets de la Fédération Française de Parachutisme</p>
+      </div>
+    </div>
+  </div>
+  <div class="ouv-prog-bandeau" data-effet="bandeau">
+    <figure class="media ouv-prog-media" data-fx="parallaxe" data-fx-force="8" style="--cadrage:51% 50%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/progression-ouverture-mobile-640.webp 640w" sizes="100vw">
+    <img src="/assets/images/progression-ouverture-1280.webp" srcset="/assets/images/progression-ouverture-640.webp 640w, /assets/images/progression-ouverture-1280.webp 1280w, /assets/images/progression-ouverture-1920.webp 1920w" sizes="100vw" alt="Huit parachutistes en formation au-dessus d&#39;une mer de nuages" width="1280" height="720" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure>
+  </div>
+</section>
+<section class="brevets" id="brevets">
+  <div class="conteneur">
+    <div class="tete-section">
+      <p class="surtitre" data-anime>Les brevets</p>
+      <h2 class="titre-section" data-anime="lignes">Une progression par étapes</h2>
+      <p class="chapeau" data-anime>Les brevets A et B mènent à l&#39;autonomie. Le brevet B ouvre ensuite les brevets de spécialité.</p>
+    </div>
+    <div class="brevets-autonomie" data-anime="cascade"><article class="brevet brevet--grand"><p class="brevet-code">A</p><h3>Les bases</h3><p>Au moins 15 sauts en chute libre : se stabiliser face au sol, tourner, lire l&#39;altimètre, ouvrir, se poser sans radio, s&#39;intégrer dans une séance et plier son parachute.</p></article><article class="brevet brevet--grand"><p class="brevet-code">B</p><h3>L&#39;autonomie</h3><p>Parachutiste confirmé, autorisé à sauter sur un centre sans moniteur. Il ouvre les brevets de spécialité.</p></article></div>
+    <svg class="brevets-trait" viewBox="0 0 1200 24" preserveAspectRatio="none" aria-hidden="true" data-fx="trace"><path d="M4 12 C 300 0, 600 24, 1196 12" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+    <h3 class="brevets-sous-titre" data-anime>Les spécialités</h3>
+    <div class="brevets-grille" data-anime="cascade"><article class="brevet "><p class="brevet-code">B1</p><h3>Précision et voltige</h3><p>La précision d&#39;atterrissage, mesurée au centimètre près.</p></article><article class="brevet "><p class="brevet-code">B2</p><h3>Vol relatif</h3><p>Chute libre à plusieurs, à plat face au sol : à deux (VR2), à quatre (VR4).</p></article><article class="brevet "><p class="brevet-code">B3</p><h3>Voile contact</h3><p>Des figures sous voile, en accrochant les pieds aux suspentes des autres parachutes.</p></article><article class="brevet "><p class="brevet-code">B4</p><h3>Vol vertical</h3><p>Sauts de groupe tête en bas (vol relatif vertical).</p></article><article class="brevet "><p class="brevet-code">Bi4</p><h3>Tête en haut et track</h3><p>Sauts de groupe tête en haut et sauts de track, de 200 à 300 km/h et plus.</p></article><article class="brevet "><p class="brevet-code">B5</p><h3>Pilotage sous voile</h3><p>Voiles rapides et compétition : brevet C, 500 sauts dont 50 dans les 6 derniers mois, et un saut probatoire.</p></article></div>
+    <h3 class="brevets-sous-titre" data-anime>Encadrer et démontrer</h3>
+    <div class="brevets-grille brevets-grille--3" data-anime="cascade"><article class="brevet brevet--nuit"><p class="brevet-code">C</p><h3>Vérifier et larguer</h3><p>Vérifications de pliage, contrôles à l&#39;embarquement, encadrement à bord et largages. Un brevet B1 à B4 et au moins 200 sauts.</p></article><article class="brevet brevet--nuit"><p class="brevet-code">D</p><h3>Démonstration</h3><p>Sauts spéciaux et sauts de démonstration.</p></article><article class="brevet brevet--nuit"><p class="brevet-code">BPA</p><h3>Parachutiste autonome</h3><p>Assurer la sécurité du largage en pratique autonome, avec accès à la vidéo en chute.</p></article></div>
+  </div>
+</section>
+<section class="disciplines" id="disciplines">
+  <div class="conteneur">
+    <div class="tete-section">
+      <p class="surtitre surtitre--clair" data-anime>Les disciplines</p>
+      <h2 class="titre-section" data-anime="lignes">Voler à plusieurs</h2>
+    </div>
+    <article class="discipline">
+      <figure class="media discipline-media" data-fx="parallaxe" data-fx-force="10" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/progression-vr-960.webp" srcset="/assets/images/progression-vr-480.webp 480w, /assets/images/progression-vr-640.webp 640w, /assets/images/progression-vr-960.webp 960w" sizes="(max-width: 760px) 100vw, 50vw" alt="Quatre parachutistes en vol relatif au-dessus d&#39;une couche de nuages" width="960" height="540" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <div class="discipline-texte">
+        <h3>Vol relatif</h3>
+        <p>Une équipe de 4 ou 8 enchaîne des figures tirées au sort, sous l&#39;œil d&#39;un vidéoman qui filme pour les juges. C&#39;est la discipline la plus pratiquée en France.</p>
+        <ul class="chiffres discipline-chiffres" data-anime="cascade">
+          <li><strong class="chiffre">35 s</strong><span>en VR4</span></li>
+          <li><strong class="chiffre">50 s</strong><span>en VR8</span></li>
+          <li><strong class="chiffre" data-compteur="10">10</strong><span>manches en compétition</span></li>
+        </ul>
+        <p class="etiquette">Brevet B2 requis</p>
+      </div>
+    </article>
+    <article class="discipline discipline--inverse">
+      <figure class="media discipline-media" data-fx="parallaxe" data-fx-force="10" style="--cadrage:52% 40%">
+  <picture>
+    <img src="/assets/images/accueil-freefly-960.webp" srcset="/assets/images/accueil-freefly-480.webp 480w, /assets/images/accueil-freefly-640.webp 640w, /assets/images/accueil-freefly-960.webp 960w" sizes="(max-width: 760px) 100vw, 50vw" alt="Un parachutiste en freefly, debout dans le ciel au-dessus des nuages" width="960" height="640" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <div class="discipline-texte">
+        <h3>Freefly</h3>
+        <p>Né dans les années 1990, le freefly explore toutes les positions : tête en bas, tête en haut, sur le dos ou sur le côté. Une équipe de trois présente un programme libre de 45 secondes. L&#39;équipe de France Kristal a été sacrée championne du monde en 2012.</p>
+        <p class="etiquette">Brevet B4 requis</p>
+      </div>
+    </article>
+    <div class="disciplines-petites" data-anime="cascade">
+      <article class="discipline-petite"><figure class="media discipline-petite-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/progression-precision-960.webp" srcset="/assets/images/progression-precision-480.webp 480w, /assets/images/progression-precision-640.webp 640w, /assets/images/progression-precision-960.webp 960w" sizes="(max-width: 760px) 100vw, 25vw" alt="Un parachutiste pose le pied sur la cible lors d&#39;une compétition de précision d&#39;atterrissage" width="960" height="1200" loading="lazy" decoding="async">
+  </picture>
+</figure><div><h3>Précision d&#39;atterrissage</h3><p>Poser le pied sur la cible, au centimètre près : c&#39;est le brevet B1.</p></div></article>
+      <article class="discipline-petite"><figure class="media discipline-petite-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/progression-voile-960.webp" srcset="/assets/images/progression-voile-480.webp 480w, /assets/images/progression-voile-640.webp 640w, /assets/images/progression-voile-960.webp 960w" sizes="(max-width: 760px) 100vw, 25vw" alt="Pilote de voile qui rase l&#39;eau d&#39;un plan d&#39;eau avant de se poser" width="960" height="540" loading="lazy" decoding="async">
+  </picture>
+</figure><div><h3>Pilotage sous voile</h3><p>Voiles rapides et compétition : le brevet B5, après le brevet C et 500 sauts.</p></div></article>
+    </div>
+  </div>
+</section>
+<section class="materiel" id="materiel">
+  <div class="conteneur materiel-grille">
+    <div>
+      <p class="surtitre" data-anime>Sur place</p>
+      <h2 class="titre-section" data-anime="lignes">Tout pour progresser</h2>
+      <p class="chapeau" data-anime>Un parc de voiles adapté à chaque étape, une maquette d&#39;avion à l&#39;échelle 1:1 pour répéter les sorties, une salle vidéo pour les débriefings et de quoi dormir sur place.</p>
+      <ul class="chiffres terrain-chiffres" data-anime="cascade">
+        <li><strong class="chiffre materiel-petit">210 à 260 pieds²</strong><span>voiles des débutants, sauts en ouverture automatique</span></li>
+        <li><strong class="chiffre materiel-petit">170 à 260 pieds²</strong><span>voiles des élèves en progression</span></li>
+        <li><strong class="chiffre" data-compteur="25">25</strong><span>couchages : chambres, dortoir, et camping-caravaning</span></li>
+        <li><strong class="chiffre materiel-petit">500 m²</strong><span>de hangar : deux aires de pliage, magasin, atelier, salle vidéo</span></li>
+      </ul>
+    </div>
+    <figure class="media materiel-media" data-anime="rideau" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/progression-parc-800.webp" srcset="/assets/images/progression-parc-480.webp 480w, /assets/images/progression-parc-640.webp 640w, /assets/images/progression-parc-800.webp 800w" sizes="(max-width: 760px) 100vw, 40vw" alt="Harnais et sacs-harnais colorés du parc de parachutes du club" width="800" height="600" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  </div>
+</section>
+<section class="appel" id="appel">
+  <figure class="media appel-fond" data-grok data-fx="parallaxe" data-fx-force="12" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/appel-fond-1280.webp" srcset="/assets/images/grok/appel-fond-640.webp 640w, /assets/images/grok/appel-fond-1280.webp 1280w, /assets/images/grok/appel-fond-1920.webp 1920w" sizes="100vw" alt="" width="1280" height="720" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  <div class="appel-contenu conteneur">
+    <svg class="voile-svg appel-voile" viewBox="0 0 200 150" aria-hidden="true" focusable="false" data-effet="voile" data-grille="fil">
+  <g class="voile-caissons">
+    <path class="voile-caisson" d="M14 52 Q30 34 50 27 L54 44 Q36 50 24 62 Z"/>
+    <path class="voile-caisson voile-caisson--b" d="M50 27 Q75 19 100 18 L100 36 Q78 37 54 44 Z"/>
+    <path class="voile-caisson" d="M100 18 Q125 19 150 27 L146 44 Q122 37 100 36 Z"/>
+    <path class="voile-caisson voile-caisson--b" d="M150 27 Q170 34 186 52 L176 62 Q164 50 146 44 Z"/>
+  </g>
+  <g class="voile-suspentes" fill="none" stroke-width="1.4" stroke-linecap="round">
+    <path d="M24 62 L100 122 M54 44 L100 122 M100 36 L100 122 M146 44 L100 122 M176 62 L100 122"/>
+  </g>
+  <g class="voile-pilote"><circle cx="100" cy="127" r="6"/><path d="M95 133 L100 146 L105 133 Z"/></g>
+</svg>
+    <p class="surtitre surtitre--clair" data-anime>4 000 m vous attendent</p>
+    <h2 class="appel-titre" data-anime="lignes">Prêt à passer <em>la porte ?</em></h2>
+    <p class="appel-texte" data-anime>Tandem ou initiation : réservez en ligne ou appelez le club. On saute les samedis, dimanches et jours fériés.</p>
+    <p class="appel-actions" data-anime>
+      <a href="/reserver#reservation" class="bouton" data-libelle="Réserver" data-survol="magnetique">Réserver mon saut</a>
+      <a href="/reserver?formule=cadeau#reservation" class="bouton bouton--clair" data-libelle="Réserver" data-survol="magnetique">Offrir un saut</a>
+      <a class="appel-tel" href="tel:+33381902106">03 81 90 21 06</a>
+    </p>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <p class="pied-logo"><img src="/assets/images/logo-clair.svg" alt="" width="44" height="44"><strong>ParaClub Montbéliard</strong></p>
+      <p>École de Parachutisme Nord Franche-Comté<br>Club école labellisé depuis 2004 et affilié à la Fédération Française de Parachutisme.</p>
+    </div>
+    <div>
+      <p><strong>Samedis, dimanches et jours fériés</strong></p>
+      <p>Aérodrome de Courcelles-lès-Montbéliard, 25420 Courcelles-lès-Montbéliard<br><a href="tel:+33381902106">03 81 90 21 06</a><br><a href="mailto:epnfc@wanadoo.fr">epnfc@wanadoo.fr</a></p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p><strong>Sommaire</strong></p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/tandem" data-libelle="Tandem">Tandem</a></li><li><a href="/initiation" data-libelle="Initiation">Initiation</a></li><li><a href="/progression" data-libelle="Progression" aria-current="page">Progression</a></li><li><a href="/reserver" data-libelle="Réserver">Réserver</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li><li><a href="#haut" data-sans-transition>Retour en haut</a></li></ul>
+    </nav>
+    <div>
+      <p><strong>Le club en images</strong></p>
+      <ul>
+        <li><a href="https://www.facebook.com/parachutismemontbeliard/" target="_blank" rel="noopener">Facebook<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="https://www.instagram.com/montbeliard_parachutisme/" target="_blank" rel="noopener">Instagram<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Maquette de démonstration : formulaires et réservations simulés, rien n&#39;est envoyé.</p><p>Mentions légales : à compléter · Politique de confidentialité : à compléter</p><p>© ParaClub Montbéliard</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33381902106">Appeler</a>
+  <a class="bouton" href="/reserver#reservation" data-libelle="Réserver">Réserver</a>
+</div>
+</body>
+</html>

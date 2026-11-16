@@ -1,0 +1,6657 @@
+{
+  "dossier": "/Users/paul/Downloads/epnfc-recu",
+  "date": "2026-11-16T17:32:55.103Z",
+  "detection": "Vision (macOS) + mesures sharp",
+  "planches": [
+    "planche.jpg",
+    "planche-2.jpg",
+    "planche-3.jpg",
+    "planche-4.jpg",
+    "planche-5.jpg"
+  ],
+  "legende_planche": "cadre jaune : sujet ; croix rouge : cadrage ; fond rose : à vérifier",
+  "doublons": [],
+  "images": [
+    {
+      "fichier": "tandem.jpg",
+      "nom": "tandem",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 229203,
+      "transparence": false,
+      "sujet": {
+        "x": 41,
+        "y": 36.2,
+        "l": 17.4,
+        "h": 51.3,
+        "source": "visage"
+      },
+      "visages": 2,
+      "cadrage": [
+        50,
+        60
+      ],
+      "cadrage_css": "50% 60%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.75,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.61,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.58,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.53,
+          "ton": "clair",
+          "recouvre_sujet": 0.11
+        }
+      ],
+      "qualite": {
+        "nettete": 27.1,
+        "bruit": 0.53,
+        "compression": 1.25,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "e4c8d3dececc8cf0",
+      "drapeaux": [
+        "autre",
+        "2 visages",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "canape-biere.jpg",
+      "nom": "canape-biere",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1123,
+      "ratio": "16:9",
+      "ratio_valeur": 1.781,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 544309,
+      "transparence": false,
+      "sujet": {
+        "x": 33.9,
+        "y": 25.8,
+        "l": 22,
+        "h": 72.5,
+        "source": "corps"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        48
+      ],
+      "cadrage_css": "45% 48%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.54,
+          "ton": "moyen",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "droite",
+          "score": 0.37,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.26,
+          "ton": "moyen",
+          "recouvre_sujet": 0.11
+        },
+        {
+          "cote": "bas",
+          "score": 0.17,
+          "ton": "moyen",
+          "recouvre_sujet": 0.21
+        }
+      ],
+      "qualite": {
+        "nettete": 75.1,
+        "bruit": 0.99,
+        "compression": 1.18,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "67054b0e109edcd9",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "vol-relatif.jpg",
+      "nom": "vol-relatif",
+      "drapeau": "autre",
+      "largeur": 1920,
+      "hauteur": 1080,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 110573,
+      "transparence": false,
+      "sujet": {
+        "x": 40.9,
+        "y": 27.3,
+        "l": 17.2,
+        "h": 28.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        40
+      ],
+      "cadrage_css": "49% 40%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.82,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.64,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.61,
+          "ton": "moyen",
+          "recouvre_sujet": 0.04
+        },
+        {
+          "cote": "gauche",
+          "score": 0.59,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        }
+      ],
+      "qualite": {
+        "nettete": 3.8,
+        "bruit": 0.26,
+        "compression": 2.15,
+        "faible": true,
+        "raisons": [
+          "floue",
+          "compression visible"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "e0f0c8c880004000",
+      "drapeaux": [
+        "autre",
+        "floue",
+        "compression visible",
+        "calme bas"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard.jpg",
+      "nom": "paraclub-montbeliard",
+      "drapeau": "autre",
+      "largeur": 1438,
+      "hauteur": 1435,
+      "ratio": "1:1",
+      "ratio_valeur": 1.002,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 134614,
+      "transparence": false,
+      "sujet": {
+        "x": 27.6,
+        "y": 26.6,
+        "l": 17.9,
+        "h": 35.1,
+        "source": "visage"
+      },
+      "visages": 2,
+      "cadrage": [
+        37,
+        43
+      ],
+      "cadrage_css": "37% 43%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.65,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.6,
+          "ton": "clair",
+          "recouvre_sujet": 0.04
+        },
+        {
+          "cote": "gauche",
+          "score": 0.58,
+          "ton": "clair",
+          "recouvre_sujet": 0.11
+        },
+        {
+          "cote": "droite",
+          "score": 0.57,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        }
+      ],
+      "qualite": {
+        "nettete": 12.1,
+        "bruit": 0.36,
+        "compression": 0.79,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "634d0f0f8c604040",
+      "drapeaux": [
+        "autre",
+        "2 visages",
+        "calme bas"
+      ]
+    },
+    {
+      "fichier": "barbec11.jpg",
+      "nom": "barbec11",
+      "drapeau": "autre",
+      "largeur": 1728,
+      "hauteur": 1152,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 377829,
+      "transparence": false,
+      "sujet": {
+        "x": 51.2,
+        "y": 29.4,
+        "l": 26,
+        "h": 57.5,
+        "source": "corps"
+      },
+      "visages": 1,
+      "cadrage": [
+        65,
+        48
+      ],
+      "cadrage_css": "65% 48%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.28,
+          "ton": "sombre",
+          "recouvre_sujet": 0.04
+        },
+        {
+          "cote": "gauche",
+          "score": 0.22,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.21,
+          "ton": "sombre",
+          "recouvre_sujet": 0.16
+        },
+        {
+          "cote": "droite",
+          "score": 0.11,
+          "ton": "sombre",
+          "recouvre_sujet": 0.25
+        }
+      ],
+      "qualite": {
+        "nettete": 45.2,
+        "bruit": 1.13,
+        "compression": 1.16,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "marque",
+        "a_verifier": true,
+        "texte": "www.soloy.com · F-HPGR",
+        "blocs": 2,
+        "surface": 2.8,
+        "details": [
+          {
+            "texte": "www.soloy.com",
+            "niveau": "marque"
+          },
+          {
+            "texte": "F-HPGR",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "ce8ecb69627776fe",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "filigrane ou marque"
+      ]
+    },
+    {
+      "fichier": "staff.jpg",
+      "nom": "staff",
+      "drapeau": "portrait",
+      "largeur": 1728,
+      "hauteur": 1152,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 243821,
+      "transparence": false,
+      "sujet": {
+        "x": 88.4,
+        "y": 65.3,
+        "l": 11.6,
+        "h": 32.8,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        97,
+        79
+      ],
+      "cadrage_css": "97% 79%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.49,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.27,
+          "ton": "moyen",
+          "recouvre_sujet": 0.1
+        },
+        {
+          "cote": "gauche",
+          "score": 0.24,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.17,
+          "ton": "moyen",
+          "recouvre_sujet": 0.11
+        }
+      ],
+      "qualite": {
+        "nettete": 32.2,
+        "bruit": 0.79,
+        "compression": 1.19,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "1c1d1b5b95d7923a",
+      "drapeaux": [
+        "portrait",
+        "visage"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-2.jpg",
+      "nom": "paraclub-montbeliard-2",
+      "drapeau": "autre",
+      "largeur": 1569,
+      "hauteur": 1211,
+      "ratio": "1.3",
+      "ratio_valeur": 1.296,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 373750,
+      "transparence": false,
+      "sujet": {
+        "x": 13.1,
+        "y": 40.1,
+        "l": 75.9,
+        "h": 24.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        51
+      ],
+      "cadrage_css": "51% 51%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.71,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.62,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.39,
+          "ton": "sombre",
+          "recouvre_sujet": 0.17
+        },
+        {
+          "cote": "droite",
+          "score": 0.35,
+          "ton": "moyen",
+          "recouvre_sujet": 0.18
+        }
+      ],
+      "qualite": {
+        "nettete": 37.3,
+        "bruit": 0.6,
+        "compression": 1.11,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "fffcceb173d6dfff",
+      "drapeaux": [
+        "autre",
+        "calme bas"
+      ]
+    },
+    {
+      "fichier": "freefly.jpg",
+      "nom": "freefly",
+      "drapeau": "autre",
+      "largeur": 1366,
+      "hauteur": 768,
+      "ratio": "16:9",
+      "ratio_valeur": 1.779,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 65583,
+      "transparence": false,
+      "sujet": {
+        "x": 40.9,
+        "y": 31.7,
+        "l": 20.9,
+        "h": 53.9,
+        "source": "corps"
+      },
+      "visages": 1,
+      "cadrage": [
+        52,
+        46
+      ],
+      "cadrage_css": "52% 46%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.68,
+          "ton": "moyen",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "haut",
+          "score": 0.65,
+          "ton": "moyen",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "bas",
+          "score": 0.64,
+          "ton": "moyen",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "gauche",
+          "score": 0.61,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        }
+      ],
+      "qualite": {
+        "nettete": 21.6,
+        "bruit": 0.41,
+        "compression": 0.92,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "0002030c0c04078f",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "calme droite/haut"
+      ]
+    },
+    {
+      "fichier": "fun.jpg",
+      "nom": "fun",
+      "drapeau": "autre",
+      "largeur": 995,
+      "hauteur": 570,
+      "ratio": "16:9",
+      "ratio_valeur": 1.746,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 170418,
+      "transparence": false,
+      "sujet": {
+        "x": 45.6,
+        "y": 2.9,
+        "l": 30.9,
+        "h": 61.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        61,
+        30
+      ],
+      "cadrage_css": "61% 30%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.48,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.38,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.22,
+          "ton": "moyen",
+          "recouvre_sujet": 0.25
+        },
+        {
+          "cote": "haut",
+          "score": 0.19,
+          "ton": "moyen",
+          "recouvre_sujet": 0.28
+        }
+      ],
+      "qualite": {
+        "nettete": 33.6,
+        "bruit": 1.44,
+        "compression": 1.07,
+        "faible": true,
+        "raisons": [
+          "995 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "PARACLUB MONTBELIARD",
+        "blocs": 1,
+        "surface": 0.6,
+        "details": [
+          {
+            "texte": "PARACLUB MONTBELIARD",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "3170c2d2d4989367",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-3.jpg",
+      "nom": "paraclub-montbeliard-3",
+      "drapeau": "autre",
+      "largeur": 900,
+      "hauteur": 596,
+      "ratio": "3:2",
+      "ratio_valeur": 1.51,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 61551,
+      "transparence": false,
+      "sujet": {
+        "x": 30.5,
+        "y": 13.4,
+        "l": 55,
+        "h": 71.5,
+        "source": "corps"
+      },
+      "visages": 0,
+      "cadrage": [
+        58,
+        35
+      ],
+      "cadrage_css": "58% 35%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.49,
+          "ton": "moyen",
+          "recouvre_sujet": 0.34
+        },
+        {
+          "cote": "gauche",
+          "score": 0.34,
+          "ton": "moyen",
+          "recouvre_sujet": 0.17
+        },
+        {
+          "cote": "bas",
+          "score": 0.34,
+          "ton": "clair",
+          "recouvre_sujet": 0.31
+        },
+        {
+          "cote": "droite",
+          "score": 0.33,
+          "ton": "clair",
+          "recouvre_sujet": 0.46
+        }
+      ],
+      "qualite": {
+        "nettete": 36.9,
+        "bruit": 0.63,
+        "compression": 1.22,
+        "faible": true,
+        "raisons": [
+          "900 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "ff3f170f2e2e9e75",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "saut-initiation.png",
+      "nom": "saut-initiation",
+      "drapeau": "autre",
+      "largeur": 629,
+      "hauteur": 483,
+      "ratio": "4:3",
+      "ratio_valeur": 1.302,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 599170,
+      "transparence": true,
+      "sujet": {
+        "x": 18.4,
+        "y": 29.1,
+        "l": 56.9,
+        "h": 51.6,
+        "source": "corps"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        45
+      ],
+      "cadrage_css": "47% 45%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.28,
+          "ton": "moyen",
+          "recouvre_sujet": 0.26
+        },
+        {
+          "cote": "gauche",
+          "score": 0.25,
+          "ton": "moyen",
+          "recouvre_sujet": 0.28
+        },
+        {
+          "cote": "haut",
+          "score": 0.25,
+          "ton": "moyen",
+          "recouvre_sujet": 0.1
+        },
+        {
+          "cote": "droite",
+          "score": 0.18,
+          "ton": "moyen",
+          "recouvre_sujet": 0.2
+        }
+      ],
+      "qualite": {
+        "nettete": 54.5,
+        "bruit": 1.6,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "629 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "7f7f9bd86e287971",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "cb-scout5-hdpi.png",
+      "nom": "cb-scout5-hdpi",
+      "drapeau": "autre",
+      "largeur": 430,
+      "hauteur": 1670,
+      "ratio": "0.26",
+      "ratio_valeur": 0.257,
+      "orientation": "portrait",
+      "format": "png",
+      "poids": 104139,
+      "transparence": true,
+      "sujet": {
+        "x": 5.9,
+        "y": 4.4,
+        "l": 69.1,
+        "h": 63.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        37,
+        34
+      ],
+      "cadrage_css": "37% 34%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.77,
+          "ton": "clair",
+          "recouvre_sujet": 0.24
+        },
+        {
+          "cote": "bas",
+          "score": 0.65,
+          "ton": "clair",
+          "recouvre_sujet": 0.05
+        },
+        {
+          "cote": "haut",
+          "score": 0.28,
+          "ton": "clair",
+          "recouvre_sujet": 0.6
+        },
+        {
+          "cote": "gauche",
+          "score": 0.14,
+          "ton": "clair",
+          "recouvre_sujet": 0.54
+        }
+      ],
+      "qualite": {
+        "nettete": 54.7,
+        "bruit": 0.17,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "430 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "d7555552d0d0d0d0",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme droite/bas"
+      ]
+    },
+    {
+      "fichier": "staticmapservice.png",
+      "nom": "staticmapservice",
+      "drapeau": "autre",
+      "largeur": 701,
+      "hauteur": 424,
+      "ratio": "1.65",
+      "ratio_valeur": 1.653,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 81323,
+      "transparence": false,
+      "sujet": {
+        "x": 29.4,
+        "y": 4.4,
+        "l": 52.9,
+        "h": 51.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        55,
+        33
+      ],
+      "cadrage_css": "55% 33%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.55,
+          "ton": "clair",
+          "recouvre_sujet": 0.14
+        },
+        {
+          "cote": "bas",
+          "score": 0.44,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.42,
+          "ton": "clair",
+          "recouvre_sujet": 0.46
+        },
+        {
+          "cote": "droite",
+          "score": 0.33,
+          "ton": "clair",
+          "recouvre_sujet": 0.29
+        }
+      ],
+      "qualite": {
+        "nettete": 74.9,
+        "bruit": 1,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "701 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "Rue du Port · Rue du Petit Chenois · McDonald's · E. Leclerc · MONTBELIARD · Pterd Audincourt · Rue de Dung · Aérodrome de · Montbéliard · L'Axone · Bart · D472",
+        "blocs": 25,
+        "surface": 12,
+        "details": [
+          {
+            "texte": "Rue du Port",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue du Petit Chenois",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "McDonald's",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "E. Leclerc",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "MONTBELIARD",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Pterd Audincourt",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue de Dung",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Aérodrome de",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Montbéliard",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "L'Axone",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Bart",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "D472",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "6968624865655357",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-4.webp",
+      "nom": "paraclub-montbeliard-4",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 42604,
+      "transparence": false,
+      "sujet": {
+        "x": 44.7,
+        "y": 51.4,
+        "l": 34.2,
+        "h": 26.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        54,
+        58
+      ],
+      "cadrage_css": "54% 58%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.64,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.62,
+          "ton": "clair",
+          "recouvre_sujet": 0.13
+        },
+        {
+          "cote": "droite",
+          "score": 0.52,
+          "ton": "clair",
+          "recouvre_sujet": 0.13
+        },
+        {
+          "cote": "haut",
+          "score": 0.46,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        }
+      ],
+      "qualite": {
+        "nettete": 70.6,
+        "bruit": 0.86,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "CITADELLE DE · MONTBÉLIARD · Rte d'Allondans · Cha · Fbg de Besa · Rue de Besançon · Rue du l",
+        "blocs": 7,
+        "surface": 14.8,
+        "details": [
+          {
+            "texte": "CITADELLE DE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "MONTBÉLIARD",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rte d'Allondans",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Cha",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Fbg de Besa",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue de Besançon",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue du l",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "cf3b444a9190bb30",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-5.webp",
+      "nom": "paraclub-montbeliard-5",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 16486,
+      "transparence": false,
+      "sujet": {
+        "x": 11.8,
+        "y": 35.3,
+        "l": 63.2,
+        "h": 29.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        42,
+        52
+      ],
+      "cadrage_css": "42% 52%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.89,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.84,
+          "ton": "clair",
+          "recouvre_sujet": 0.11
+        },
+        {
+          "cote": "bas",
+          "score": 0.64,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.44,
+          "ton": "clair",
+          "recouvre_sujet": 0.21
+        }
+      ],
+      "qualite": {
+        "nettete": 50.1,
+        "bruit": 0.32,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "D326 · Rte d'Allondans · le 25 - · Frères · Brasserie Nimbus · du Mon... · Dung",
+        "blocs": 7,
+        "surface": 11.3,
+        "details": [
+          {
+            "texte": "D326",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rte d'Allondans",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "le 25 -",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Frères",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Brasserie Nimbus",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "du Mon...",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Dung",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "c0c0605211533ab0",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme haut/droite"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-6.webp",
+      "nom": "paraclub-montbeliard-6",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 43482,
+      "transparence": false,
+      "sujet": {
+        "x": 32.4,
+        "y": 7.4,
+        "l": 42.6,
+        "h": 67.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        45
+      ],
+      "cadrage_css": "52% 45%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.65,
+          "ton": "clair",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "gauche",
+          "score": 0.58,
+          "ton": "clair",
+          "recouvre_sujet": 0.13
+        },
+        {
+          "cote": "droite",
+          "score": 0.37,
+          "ton": "clair",
+          "recouvre_sujet": 0.25
+        },
+        {
+          "cote": "haut",
+          "score": 0.26,
+          "ton": "clair",
+          "recouvre_sujet": 0.34
+        }
+      ],
+      "qualite": {
+        "nettete": 68,
+        "bruit": 0.73,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "que du Petit Cher · le la Petite Hollande · E. Leclerc · MONTBELIARD · Pterd Audincourt · D472 · que de Courcelles",
+        "blocs": 7,
+        "surface": 29.3,
+        "details": [
+          {
+            "texte": "que du Petit Cher",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "le la Petite Hollande",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "E. Leclerc",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "MONTBELIARD",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Pterd Audincourt",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "D472",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "que de Courcelles",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "90435b8de9d018a6",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme bas"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-7.webp",
+      "nom": "paraclub-montbeliard-7",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 35280,
+      "transparence": false,
+      "sujet": {
+        "x": 34.5,
+        "y": 23.7,
+        "l": 28.8,
+        "h": 32.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        40
+      ],
+      "cadrage_css": "45% 40%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.68,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.64,
+          "ton": "clair",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "haut",
+          "score": 0.56,
+          "ton": "clair",
+          "recouvre_sujet": 0.09
+        },
+        {
+          "cote": "gauche",
+          "score": 0.45,
+          "ton": "clair",
+          "recouvre_sujet": 0.04
+        }
+      ],
+      "qualite": {
+        "nettete": 50.8,
+        "bruit": 0.72,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Le Doubs · Grand Frais V · Bois et Dérivés · Voujeaucourt... · D126 · Rue du 752 Ème Ri- · urt",
+        "blocs": 7,
+        "surface": 18.3,
+        "details": [
+          {
+            "texte": "Le Doubs",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Grand Frais V",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Bois et Dérivés",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Voujeaucourt...",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "D126",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue du 752 Ème Ri-",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "urt",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "6559b6566c3b77ec",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme bas"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-8.webp",
+      "nom": "paraclub-montbeliard-8",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 26184,
+      "transparence": false,
+      "sujet": {
+        "x": 29.3,
+        "y": 20.3,
+        "l": 55.9,
+        "h": 48.3,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        54,
+        44
+      ],
+      "cadrage_css": "54% 44%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.68,
+          "ton": "clair",
+          "recouvre_sujet": 0.13
+        },
+        {
+          "cote": "haut",
+          "score": 0.65,
+          "ton": "clair",
+          "recouvre_sujet": 0.23
+        },
+        {
+          "cote": "bas",
+          "score": 0.5,
+          "ton": "clair",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "droite",
+          "score": 0.38,
+          "ton": "clair",
+          "recouvre_sujet": 0.3
+        }
+      ],
+      "qualite": {
+        "nettete": 47.7,
+        "bruit": 0.54,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "D663 · pierre · Fort du Mont-Bart · Gedibois · Voujeauco",
+        "blocs": 5,
+        "surface": 7.7,
+        "details": [
+          {
+            "texte": "D663",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "pierre",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Fort du Mont-Bart",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Gedibois",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Voujeauco",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "031a807923132300",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme gauche/haut"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-9.webp",
+      "nom": "paraclub-montbeliard-9",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 34328,
+      "transparence": false,
+      "sujet": {
+        "x": 4.4,
+        "y": 11.8,
+        "l": 66.2,
+        "h": 33.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        43,
+        28
+      ],
+      "cadrage_css": "43% 28%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.92,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.61,
+          "ton": "clair",
+          "recouvre_sujet": 0.3
+        },
+        {
+          "cote": "droite",
+          "score": 0.55,
+          "ton": "clair",
+          "recouvre_sujet": 0.09
+        },
+        {
+          "cote": "haut",
+          "score": 0.27,
+          "ton": "clair",
+          "recouvre_sujet": 0.44
+        }
+      ],
+      "qualite": {
+        "nettete": 47.6,
+        "bruit": 0.72,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "oujeaucourt, · (A36) · BELCHAMP · D126 · Groupe",
+        "blocs": 5,
+        "surface": 4.9,
+        "details": [
+          {
+            "texte": "oujeaucourt,",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "(A36)",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "BELCHAMP",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "D126",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Groupe",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "0c438a3b65946604",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme bas"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-10.webp",
+      "nom": "paraclub-montbeliard-10",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 42742,
+      "transparence": false,
+      "sujet": {
+        "x": 32.4,
+        "y": 0,
+        "l": 52.9,
+        "h": 55.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        61,
+        29
+      ],
+      "cadrage_css": "61% 29%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.65,
+          "ton": "clair",
+          "recouvre_sujet": 0.11
+        },
+        {
+          "cote": "bas",
+          "score": 0.62,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.33,
+          "ton": "clair",
+          "recouvre_sujet": 0.35
+        },
+        {
+          "cote": "haut",
+          "score": 0.23,
+          "ton": "clair",
+          "recouvre_sujet": 0.53
+        }
+      ],
+      "qualite": {
+        "nettete": 51.4,
+        "bruit": 0.92,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "L'Aventure Peugeot · Sochaux · 3 Brasseurs S · A36",
+        "blocs": 4,
+        "surface": 6.3,
+        "details": [
+          {
+            "texte": "L'Aventure Peugeot",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Sochaux",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "3 Brasseurs S",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "A36",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "45a08143cb3cb1c7",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme gauche"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-11.webp",
+      "nom": "paraclub-montbeliard-11",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 60402,
+      "transparence": false,
+      "sujet": {
+        "x": 17.7,
+        "y": 37.6,
+        "l": 31.2,
+        "h": 31,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        35,
+        53
+      ],
+      "cadrage_css": "35% 53%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.51,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.5,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.36,
+          "ton": "clair",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "gauche",
+          "score": 0.26,
+          "ton": "clair",
+          "recouvre_sujet": 0.17
+        }
+      ],
+      "qualite": {
+        "nettete": 58.1,
+        "bruit": 1.2,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "marque",
+        "a_verifier": true,
+        "texte": "Lidl · amas Tacos · Montbéliard · Montbéliard · çon · Parc du Près-la-Rose · Port · Rte & Audincourt · McDonald'",
+        "blocs": 9,
+        "surface": 18.4,
+        "details": [
+          {
+            "texte": "Lidl",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "amas Tacos",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Montbéliard",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Montbéliard",
+            "niveau": "marque"
+          },
+          {
+            "texte": "çon",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Parc du Près-la-Rose",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Port",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rte & Audincourt",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "McDonald'",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "3e18982d6d06246a",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "filigrane ou marque"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-12.webp",
+      "nom": "paraclub-montbeliard-12",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 34476,
+      "transparence": false,
+      "sujet": {
+        "x": 20.4,
+        "y": 16.7,
+        "l": 51.9,
+        "h": 59.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        59,
+        51
+      ],
+      "cadrage_css": "59% 51%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.68,
+          "ton": "clair",
+          "recouvre_sujet": 0.27
+        },
+        {
+          "cote": "droite",
+          "score": 0.64,
+          "ton": "clair",
+          "recouvre_sujet": 0.18
+        },
+        {
+          "cote": "bas",
+          "score": 0.59,
+          "ton": "clair",
+          "recouvre_sujet": 0.17
+        },
+        {
+          "cote": "gauche",
+          "score": 0.49,
+          "ton": "clair",
+          "recouvre_sujet": 0.29
+        }
+      ],
+      "qualite": {
+        "nettete": 48.5,
+        "bruit": 0.67,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Dung · Aérodrome de · Montbéliard · Bart · D663 · D438",
+        "blocs": 6,
+        "surface": 5.3,
+        "details": [
+          {
+            "texte": "Dung",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Aérodrome de",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Montbéliard",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Bart",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "D663",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "D438",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "782a336a49695976",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-13.webp",
+      "nom": "paraclub-montbeliard-13",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 26980,
+      "transparence": false,
+      "sujet": {
+        "x": 62.5,
+        "y": 42.9,
+        "l": 34.3,
+        "h": 27.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        71,
+        63
+      ],
+      "cadrage_css": "71% 63%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.87,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.73,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.69,
+          "ton": "clair",
+          "recouvre_sujet": 0.23
+        },
+        {
+          "cote": "bas",
+          "score": 0.65,
+          "ton": "clair",
+          "recouvre_sujet": 0.05
+        }
+      ],
+      "qualite": {
+        "nettete": 40.7,
+        "bruit": 0.5,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "nent · Rte de Présentevillers · Rue de · Parcours Sportif Forestier",
+        "blocs": 4,
+        "surface": 9.9,
+        "details": [
+          {
+            "texte": "nent",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rte de Présentevillers",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue de",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Parcours Sportif Forestier",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "2019194a4f884143",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme haut/gauche/droite/bas"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-14.webp",
+      "nom": "paraclub-montbeliard-14",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 38794,
+      "transparence": false,
+      "sujet": {
+        "x": 11.5,
+        "y": 43.5,
+        "l": 28.2,
+        "h": 46.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        33,
+        55
+      ],
+      "cadrage_css": "33% 55%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.62,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.57,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.5,
+          "ton": "clair",
+          "recouvre_sujet": 0.2
+        },
+        {
+          "cote": "gauche",
+          "score": 0.38,
+          "ton": "clair",
+          "recouvre_sujet": 0.33
+        }
+      ],
+      "qualite": {
+        "nettete": 54.6,
+        "bruit": 0.78,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "A36 · L'Axone · rbouans · Rue d'Egoutte · Exinco · AV. Jean Ja,",
+        "blocs": 6,
+        "surface": 13.3,
+        "details": [
+          {
+            "texte": "A36",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "L'Axone",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "rbouans",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue d'Egoutte",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Exinco",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "AV. Jean Ja,",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "1999325c5a58c1e1",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-15.webp",
+      "nom": "paraclub-montbeliard-15",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 31690,
+      "transparence": false,
+      "sujet": {
+        "x": 38.2,
+        "y": 14.7,
+        "l": 33.8,
+        "h": 32.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        53,
+        31
+      ],
+      "cadrage_css": "53% 31%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.85,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.72,
+          "ton": "clair",
+          "recouvre_sujet": 0.01
+        },
+        {
+          "cote": "droite",
+          "score": 0.59,
+          "ton": "clair",
+          "recouvre_sujet": 0.1
+        },
+        {
+          "cote": "haut",
+          "score": 0.44,
+          "ton": "clair",
+          "recouvre_sujet": 0.2
+        }
+      ],
+      "qualite": {
+        "nettete": 48.9,
+        "bruit": 0.64,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "marque",
+        "a_verifier": true,
+        "texte": "PSA · Rtede Belchamp · Transports Vecatel © · uis",
+        "blocs": 4,
+        "surface": 10,
+        "details": [
+          {
+            "texte": "PSA",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rtede Belchamp",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Transports Vecatel ©",
+            "niveau": "marque"
+          },
+          {
+            "texte": "uis",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "64417c8235e1aa37",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "filigrane ou marque",
+        "calme bas/gauche"
+      ]
+    },
+    {
+      "fichier": "certificat-medical.png",
+      "nom": "certificat-medical",
+      "drapeau": "autre",
+      "largeur": 1095,
+      "hauteur": 533,
+      "ratio": "2.05",
+      "ratio_valeur": 2.054,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 841729,
+      "transparence": true,
+      "sujet": {
+        "x": 53.6,
+        "y": 12,
+        "l": 14.9,
+        "h": 54.7,
+        "source": "visage"
+      },
+      "visages": 2,
+      "cadrage": [
+        61,
+        37
+      ],
+      "cadrage_css": "61% 37%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.23,
+          "ton": "moyen",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "haut",
+          "score": 0.22,
+          "ton": "moyen",
+          "recouvre_sujet": 0.1
+        },
+        {
+          "cote": "gauche",
+          "score": 0.2,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0.01
+        }
+      ],
+      "qualite": {
+        "nettete": 59.5,
+        "bruit": 0.65,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "1095 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "www.epnfc.fr · Ecole · Parachutisme · Nord - · Franchol · Comté · Montbéliard-Belfort ASM · BON CADEAU · Aérodrome Courcelles lès Montbéliard · 25420 COURCELLES",
+        "blocs": 12,
+        "surface": 13.6,
+        "details": [
+          {
+            "texte": "www.epnfc.fr",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Ecole",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Parachutisme",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Nord -",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Franchol",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Comté",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Montbéliard-Belfort ASM",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "BON CADEAU",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Aérodrome Courcelles lès Montbéliard",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "25420 COURCELLES",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Tél.: 03 81 90 21 06",
+            "niveau": "document"
+          },
+          {
+            "texte": "E-mail : epnfc@wanadoo.fr",
+            "niveau": "document"
+          }
+        ]
+      },
+      "empreinte": "2d27274fc791899d",
+      "drapeaux": [
+        "autre",
+        "2 visages",
+        "petite",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "certificat-medical-2.png",
+      "nom": "certificat-medical-2",
+      "drapeau": "autre",
+      "largeur": 711,
+      "hauteur": 367,
+      "ratio": "1.94",
+      "ratio_valeur": 1.937,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 658951,
+      "transparence": true,
+      "sujet": {
+        "x": 42.7,
+        "y": 14.9,
+        "l": 39.7,
+        "h": 62.9,
+        "source": "corps"
+      },
+      "visages": 1,
+      "cadrage": [
+        46,
+        47
+      ],
+      "cadrage_css": "46% 47%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.23,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.15,
+          "ton": "clair",
+          "recouvre_sujet": 0.23
+        },
+        {
+          "cote": "bas",
+          "score": 0.15,
+          "ton": "moyen",
+          "recouvre_sujet": 0.15
+        },
+        {
+          "cote": "droite",
+          "score": 0.08,
+          "ton": "moyen",
+          "recouvre_sujet": 0.35
+        }
+      ],
+      "qualite": {
+        "nettete": 102.7,
+        "bruit": 1.64,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "711 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "Bon cadeau pour un saut · www.epnfc.rr · Ecole · Parachutisme · Nord - · Franche · Comté · Montbéliard-Belfort ASM · Aérodrome Courcelles les Montbéliard · 2542",
+        "blocs": 13,
+        "surface": 19.1,
+        "details": [
+          {
+            "texte": "Bon cadeau pour un saut",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "www.epnfc.rr",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Ecole",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Parachutisme",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Nord -",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Franche",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Comté",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Montbéliard-Belfort ASM",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Aérodrome Courcelles les Montbéliard",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "25420",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "COURCELLES",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Tél.: 03 81 90 21 06",
+            "niveau": "document"
+          }
+        ]
+      },
+      "empreinte": "b636264acc8595d1",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "petite",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-16.jpg",
+      "nom": "paraclub-montbeliard-16",
+      "drapeau": "autre",
+      "largeur": 1720,
+      "hauteur": 1385,
+      "ratio": "5:4",
+      "ratio_valeur": 1.242,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 749342,
+      "transparence": false,
+      "sujet": {
+        "x": 53.9,
+        "y": 5.1,
+        "l": 9.9,
+        "h": 16.2,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        59,
+        12
+      ],
+      "cadrage_css": "59% 12%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.44,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.21,
+          "ton": "moyen",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "gauche",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.18,
+          "ton": "moyen",
+          "recouvre_sujet": 0.05
+        }
+      ],
+      "qualite": {
+        "nettete": 31.3,
+        "bruit": 0.8,
+        "compression": 0.98,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "AXIS2 · ©2012 Montfortls@me.com",
+        "blocs": 2,
+        "surface": 1.3,
+        "details": [
+          {
+            "texte": "AXIS2",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "©2012 Montfortls@me.com",
+            "niveau": "document"
+          }
+        ]
+      },
+      "empreinte": "951b7b3a1918800e",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-17.jpg",
+      "nom": "paraclub-montbeliard-17",
+      "drapeau": "autre",
+      "largeur": 1728,
+      "hauteur": 1152,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 51898,
+      "transparence": false,
+      "sujet": {
+        "x": 27.9,
+        "y": 19.1,
+        "l": 23.5,
+        "h": 42.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        39,
+        45
+      ],
+      "cadrage_css": "39% 45%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.97,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.9,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.86,
+          "ton": "moyen",
+          "recouvre_sujet": 0.13
+        },
+        {
+          "cote": "haut",
+          "score": 0.86,
+          "ton": "moyen",
+          "recouvre_sujet": 0.11
+        }
+      ],
+      "qualite": {
+        "nettete": 5.3,
+        "bruit": 0.15,
+        "compression": 1.59,
+        "faible": true,
+        "raisons": [
+          "floue",
+          "compression visible"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "f0c8f8c894b0f0f0",
+      "drapeaux": [
+        "autre",
+        "floue",
+        "compression visible",
+        "calme bas/droite/gauche/haut"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-18.jpg",
+      "nom": "paraclub-montbeliard-18",
+      "drapeau": "autre",
+      "largeur": 1728,
+      "hauteur": 1152,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 237968,
+      "transparence": false,
+      "sujet": {
+        "x": 17.6,
+        "y": 28.9,
+        "l": 30.4,
+        "h": 26.3,
+        "source": "visage"
+      },
+      "visages": 3,
+      "cadrage": [
+        33,
+        41
+      ],
+      "cadrage_css": "33% 41%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.28,
+          "ton": "clair",
+          "recouvre_sujet": 0.05
+        },
+        {
+          "cote": "droite",
+          "score": 0.24,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.2,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.15,
+          "ton": "moyen",
+          "recouvre_sujet": 0.15
+        }
+      ],
+      "qualite": {
+        "nettete": 30.3,
+        "bruit": 0.66,
+        "compression": 1.3,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "e2071b1b3eea3306",
+      "drapeaux": [
+        "autre",
+        "3 visages"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-19.jpg",
+      "nom": "paraclub-montbeliard-19",
+      "drapeau": "autre",
+      "largeur": 1280,
+      "hauteur": 720,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 26699,
+      "transparence": false,
+      "sujet": {
+        "x": 36.8,
+        "y": 7.4,
+        "l": 19.1,
+        "h": 57.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        36
+      ],
+      "cadrage_css": "47% 36%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.77,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.76,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.71,
+          "ton": "moyen",
+          "recouvre_sujet": 0.15
+        },
+        {
+          "cote": "gauche",
+          "score": 0.7,
+          "ton": "clair",
+          "recouvre_sujet": 0.05
+        }
+      ],
+      "qualite": {
+        "nettete": 8.5,
+        "bruit": 0.16,
+        "compression": 2.54,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "510848484a080000",
+      "drapeaux": [
+        "autre",
+        "compression visible",
+        "calme bas/droite/haut/gauche"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-20.jpg",
+      "nom": "paraclub-montbeliard-20",
+      "drapeau": "autre",
+      "largeur": 1280,
+      "hauteur": 720,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 164105,
+      "transparence": false,
+      "sujet": {
+        "x": 55.9,
+        "y": 17,
+        "l": 21.2,
+        "h": 62.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        61,
+        55
+      ],
+      "cadrage_css": "61% 55%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.38,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.33,
+          "ton": "clair",
+          "recouvre_sujet": 0.09
+        },
+        {
+          "cote": "haut",
+          "score": 0.29,
+          "ton": "sombre",
+          "recouvre_sujet": 0.11
+        },
+        {
+          "cote": "droite",
+          "score": 0.13,
+          "ton": "moyen",
+          "recouvre_sujet": 0.27
+        }
+      ],
+      "qualite": {
+        "nettete": 26.3,
+        "bruit": 1.04,
+        "compression": 1.48,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "e566c482c2cbd3b7",
+      "drapeaux": [
+        "autre",
+        "compression visible"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-21.jpg",
+      "nom": "paraclub-montbeliard-21",
+      "drapeau": "autre",
+      "largeur": 768,
+      "hauteur": 1024,
+      "ratio": "3:4",
+      "ratio_valeur": 0.75,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 149956,
+      "transparence": false,
+      "sujet": {
+        "x": 13.8,
+        "y": 13.6,
+        "l": 75.3,
+        "h": 70.2,
+        "source": "corps"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        35
+      ],
+      "cadrage_css": "51% 35%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.16,
+          "ton": "sombre",
+          "recouvre_sujet": 0.51
+        },
+        {
+          "cote": "bas",
+          "score": 0.15,
+          "ton": "moyen",
+          "recouvre_sujet": 0.4
+        },
+        {
+          "cote": "gauche",
+          "score": 0.13,
+          "ton": "clair",
+          "recouvre_sujet": 0.46
+        },
+        {
+          "cote": "haut",
+          "score": 0.07,
+          "ton": "moyen",
+          "recouvre_sujet": 0.46
+        }
+      ],
+      "qualite": {
+        "nettete": 19.7,
+        "bruit": 0.67,
+        "compression": 1.14,
+        "faible": true,
+        "raisons": [
+          "768 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "46333b122c091173",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-22.jpg",
+      "nom": "paraclub-montbeliard-22",
+      "drapeau": "autre",
+      "largeur": 792,
+      "hauteur": 791,
+      "ratio": "1:1",
+      "ratio_valeur": 1.001,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 144880,
+      "transparence": false,
+      "sujet": {
+        "x": 12.3,
+        "y": 21.1,
+        "l": 49.4,
+        "h": 31.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        41,
+        45
+      ],
+      "cadrage_css": "41% 45%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.58,
+          "ton": "moyen",
+          "recouvre_sujet": 0.2
+        },
+        {
+          "cote": "droite",
+          "score": 0.57,
+          "ton": "moyen",
+          "recouvre_sujet": 0.01
+        },
+        {
+          "cote": "gauche",
+          "score": 0.33,
+          "ton": "moyen",
+          "recouvre_sujet": 0.22
+        },
+        {
+          "cote": "bas",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        }
+      ],
+      "qualite": {
+        "nettete": 51.4,
+        "bruit": 0.78,
+        "compression": 1.21,
+        "faible": true,
+        "raisons": [
+          "792 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "marque",
+        "a_verifier": true,
+        "texte": "MyTandem.fr",
+        "blocs": 1,
+        "surface": 1.5,
+        "details": [
+          {
+            "texte": "MyTandem.fr",
+            "niveau": "marque"
+          }
+        ]
+      },
+      "empreinte": "cc2773648a8c9498",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "filigrane ou marque"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-23.jpg",
+      "nom": "paraclub-montbeliard-23",
+      "drapeau": "autre",
+      "largeur": 640,
+      "hauteur": 480,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 113771,
+      "transparence": false,
+      "sujet": {
+        "x": 1.7,
+        "y": 19.2,
+        "l": 98.3,
+        "h": 68.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        46
+      ],
+      "cadrage_css": "46% 46%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.29,
+          "ton": "moyen",
+          "recouvre_sujet": 0.64
+        },
+        {
+          "cote": "gauche",
+          "score": 0.11,
+          "ton": "moyen",
+          "recouvre_sujet": 0.66
+        },
+        {
+          "cote": "haut",
+          "score": 0.04,
+          "ton": "moyen",
+          "recouvre_sujet": 0.44
+        },
+        {
+          "cote": "droite",
+          "score": 0.03,
+          "ton": "moyen",
+          "recouvre_sujet": 0.69
+        }
+      ],
+      "qualite": {
+        "nettete": 24.5,
+        "bruit": 1.29,
+        "compression": 1.06,
+        "faible": true,
+        "raisons": [
+          "640 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "c949e9798ce6e3c9",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "sauts-initiation.jpg",
+      "nom": "sauts-initiation",
+      "drapeau": "autre",
+      "largeur": 1920,
+      "hauteur": 1090,
+      "ratio": "16:9",
+      "ratio_valeur": 1.761,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 76531,
+      "transparence": false,
+      "sujet": {
+        "x": 41.2,
+        "y": 15.5,
+        "l": 17.6,
+        "h": 47.1,
+        "source": "corps"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        30
+      ],
+      "cadrage_css": "50% 30%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.85,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.61,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.61,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.51,
+          "ton": "clair",
+          "recouvre_sujet": 0.1
+        }
+      ],
+      "qualite": {
+        "nettete": 6.6,
+        "bruit": 0.26,
+        "compression": 2.18,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "fefcc8cc1e7e1f1e",
+      "drapeaux": [
+        "autre",
+        "compression visible",
+        "calme bas"
+      ]
+    },
+    {
+      "fichier": "sauts-initiation-2.jpg",
+      "nom": "sauts-initiation-2",
+      "drapeau": "autre",
+      "largeur": 960,
+      "hauteur": 720,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 101762,
+      "transparence": false,
+      "sujet": {
+        "x": 0.1,
+        "y": 26.8,
+        "l": 73.3,
+        "h": 72.9,
+        "source": "corps"
+      },
+      "visages": 5,
+      "cadrage": [
+        37,
+        49
+      ],
+      "cadrage_css": "37% 49%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.47,
+          "ton": "sombre",
+          "recouvre_sujet": 0.17
+        },
+        {
+          "cote": "droite",
+          "score": 0.16,
+          "ton": "sombre",
+          "recouvre_sujet": 0.24
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.73
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.73
+        }
+      ],
+      "qualite": {
+        "nettete": 42.5,
+        "bruit": 1.04,
+        "compression": 1.22,
+        "faible": true,
+        "raisons": [
+          "960 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "010204d2bb3b9246",
+      "drapeaux": [
+        "autre",
+        "5 visages",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "sauts-initiation-3.png",
+      "nom": "sauts-initiation-3",
+      "drapeau": "autre",
+      "largeur": 480,
+      "hauteur": 585,
+      "ratio": "0.82",
+      "ratio_valeur": 0.821,
+      "orientation": "portrait",
+      "format": "png",
+      "poids": 288983,
+      "transparence": true,
+      "sujet": {
+        "x": 26.5,
+        "y": 17.6,
+        "l": 50,
+        "h": 76.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        55
+      ],
+      "cadrage_css": "46% 55%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.32,
+          "ton": "sombre",
+          "recouvre_sujet": 0.25
+        },
+        {
+          "cote": "droite",
+          "score": 0.25,
+          "ton": "sombre",
+          "recouvre_sujet": 0.32
+        },
+        {
+          "cote": "gauche",
+          "score": 0.16,
+          "ton": "sombre",
+          "recouvre_sujet": 0.26
+        },
+        {
+          "cote": "bas",
+          "score": 0.05,
+          "ton": "moyen",
+          "recouvre_sujet": 0.42
+        }
+      ],
+      "qualite": {
+        "nettete": 30.9,
+        "bruit": 1.33,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "480 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "0f65656d4d4f4f07",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "saut-tandem-experience-unique.jpg",
+      "nom": "saut-tandem-experience-unique",
+      "drapeau": "autre",
+      "largeur": 1280,
+      "hauteur": 700,
+      "ratio": "1.83",
+      "ratio_valeur": 1.829,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 95279,
+      "transparence": false,
+      "sujet": {
+        "x": 33.8,
+        "y": 48.4,
+        "l": 25,
+        "h": 30.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        40,
+        58
+      ],
+      "cadrage_css": "40% 58%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.84,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.83,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.45,
+          "ton": "moyen",
+          "recouvre_sujet": 0.05
+        },
+        {
+          "cote": "bas",
+          "score": 0.44,
+          "ton": "moyen",
+          "recouvre_sujet": 0.1
+        }
+      ],
+      "qualite": {
+        "nettete": 49.5,
+        "bruit": 0.72,
+        "compression": 1.5,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "1d1f1f1f1f5b4f07",
+      "drapeaux": [
+        "autre",
+        "compression visible",
+        "calme haut/droite"
+      ]
+    },
+    {
+      "fichier": "saut-tandem-experience-unique-2.jpg",
+      "nom": "saut-tandem-experience-unique-2",
+      "drapeau": "autre",
+      "largeur": 550,
+      "hauteur": 366,
+      "ratio": "3:2",
+      "ratio_valeur": 1.503,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 37866,
+      "transparence": false,
+      "sujet": {
+        "x": 16.2,
+        "y": 30.6,
+        "l": 50.4,
+        "h": 52.9,
+        "source": "corps"
+      },
+      "visages": 2,
+      "cadrage": [
+        58,
+        49
+      ],
+      "cadrage_css": "58% 49%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.58,
+          "ton": "clair",
+          "recouvre_sujet": 0.09
+        },
+        {
+          "cote": "haut",
+          "score": 0.23,
+          "ton": "moyen",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "bas",
+          "score": 0.23,
+          "ton": "clair",
+          "recouvre_sujet": 0.27
+        },
+        {
+          "cote": "gauche",
+          "score": 0.09,
+          "ton": "moyen",
+          "recouvre_sujet": 0.31
+        }
+      ],
+      "qualite": {
+        "nettete": 51.6,
+        "bruit": 0.98,
+        "compression": 1.15,
+        "faible": true,
+        "raisons": [
+          "550 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "1f3f362d0f1f5c65",
+      "drapeaux": [
+        "autre",
+        "2 visages",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "maxresdefault.webp",
+      "nom": "maxresdefault",
+      "drapeau": "autre",
+      "largeur": 1280,
+      "hauteur": 720,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 34736,
+      "transparence": false,
+      "sujet": {
+        "x": 30.9,
+        "y": 17,
+        "l": 38,
+        "h": 52.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        37
+      ],
+      "cadrage_css": "48% 37%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.63,
+          "ton": "moyen",
+          "recouvre_sujet": 0.05
+        },
+        {
+          "cote": "gauche",
+          "score": 0.58,
+          "ton": "moyen",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "droite",
+          "score": 0.54,
+          "ton": "moyen",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "haut",
+          "score": 0.5,
+          "ton": "moyen",
+          "recouvre_sujet": 0.2
+        }
+      ],
+      "qualite": {
+        "nettete": 13.8,
+        "bruit": 0.38,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "8f09190b179b1213",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "sddefault.jpg",
+      "nom": "sddefault",
+      "drapeau": "autre",
+      "largeur": 640,
+      "hauteur": 480,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 31511,
+      "transparence": false,
+      "sujet": {
+        "x": 10.3,
+        "y": 10.8,
+        "l": 67.3,
+        "h": 59.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        38
+      ],
+      "cadrage_css": "46% 38%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.5,
+          "ton": "moyen",
+          "recouvre_sujet": 0.1
+        },
+        {
+          "cote": "droite",
+          "score": 0.32,
+          "ton": "moyen",
+          "recouvre_sujet": 0.26
+        },
+        {
+          "cote": "haut",
+          "score": 0.08,
+          "ton": "moyen",
+          "recouvre_sujet": 0.47
+        },
+        {
+          "cote": "gauche",
+          "score": 0.07,
+          "ton": "moyen",
+          "recouvre_sujet": 0.44
+        }
+      ],
+      "qualite": {
+        "nettete": 44.4,
+        "bruit": 0.75,
+        "compression": 1.38,
+        "faible": true,
+        "raisons": [
+          "640 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "ae8c8ec2e4e4c2cc",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "maxresdefault-2.webp",
+      "nom": "maxresdefault-2",
+      "drapeau": "autre",
+      "largeur": 1280,
+      "hauteur": 720,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 99964,
+      "transparence": false,
+      "sujet": {
+        "x": 14.7,
+        "y": 45.6,
+        "l": 41.2,
+        "h": 41.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        34,
+        66
+      ],
+      "cadrage_css": "34% 66%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.81,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.48,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.14,
+          "ton": "moyen",
+          "recouvre_sujet": 0.26
+        },
+        {
+          "cote": "bas",
+          "score": 0.11,
+          "ton": "moyen",
+          "recouvre_sujet": 0.26
+        }
+      ],
+      "qualite": {
+        "nettete": 15.5,
+        "bruit": 0.51,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "marque",
+        "a_verifier": true,
+        "texte": "images Ewan Cowie Photography · 19/20 · AQUITAINE · DECOUVERTE",
+        "blocs": 4,
+        "surface": 3,
+        "details": [
+          {
+            "texte": "images Ewan Cowie Photography",
+            "niveau": "marque"
+          },
+          {
+            "texte": "19/20",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "AQUITAINE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "DECOUVERTE",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "0000323e2d25370b",
+      "drapeaux": [
+        "autre",
+        "filigrane ou marque",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "maxresdefault-3.jpg",
+      "nom": "maxresdefault-3",
+      "drapeau": "autre",
+      "largeur": 1024,
+      "hauteur": 576,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 63493,
+      "transparence": false,
+      "sujet": {
+        "x": 44.7,
+        "y": 38.9,
+        "l": 19.2,
+        "h": 60.7,
+        "source": "corps"
+      },
+      "visages": 0,
+      "cadrage": [
+        54,
+        57
+      ],
+      "cadrage_css": "54% 57%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.58,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.4,
+          "ton": "moyen",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "gauche",
+          "score": 0.34,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.19,
+          "ton": "moyen",
+          "recouvre_sujet": 0.19
+        }
+      ],
+      "qualite": {
+        "nettete": 17.4,
+        "bruit": 0.7,
+        "compression": 1.51,
+        "faible": true,
+        "raisons": [
+          "1024 px de large",
+          "compression visible"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "c28203099a1260c9",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "compression visible"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-24.jpg",
+      "nom": "paraclub-montbeliard-24",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1620,
+      "ratio": "5:4",
+      "ratio_valeur": 1.235,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 639468,
+      "transparence": false,
+      "sujet": {
+        "x": 16.3,
+        "y": 36.5,
+        "l": 70.2,
+        "h": 63.5,
+        "source": "corps"
+      },
+      "visages": 9,
+      "cadrage": [
+        52,
+        50
+      ],
+      "cadrage_css": "52% 50%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.07,
+          "ton": "moyen",
+          "recouvre_sujet": 0.38
+        },
+        {
+          "cote": "droite",
+          "score": 0.05,
+          "ton": "moyen",
+          "recouvre_sujet": 0.42
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.7
+        }
+      ],
+      "qualite": {
+        "nettete": 55.5,
+        "bruit": 1.24,
+        "compression": 1.12,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "Parachutisme 1,2 et 3 juin 2018 Coune de France · Précision d'Atterrissage, · Voltige et · *FFP · FÉDERATION FRANÇAISE · DE PARACHUTISME · accès libre · tbéliar",
+        "blocs": 24,
+        "surface": 14.5,
+        "details": [
+          {
+            "texte": "Parachutisme 1,2 et 3 juin 2018 Coune de France",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Précision d'Atterrissage,",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Voltige et",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "*FFP",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "FÉDERATION FRANÇAISE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "DE PARACHUTISME",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "accès libre",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "tbéliard",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "MÉRATION",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Venez décou",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "PaYs & monTBéLi",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "L'ESPRIT DE DÉCOUVER",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "819919d9de5ae8cc",
+      "drapeaux": [
+        "autre",
+        "9 visages",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-25.jpg",
+      "nom": "paraclub-montbeliard-25",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1500,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 604703,
+      "transparence": false,
+      "sujet": {
+        "x": 17,
+        "y": 53.5,
+        "l": 42.4,
+        "h": 40.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        43,
+        66
+      ],
+      "cadrage_css": "43% 66%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.84,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.4,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.13,
+          "ton": "moyen",
+          "recouvre_sujet": 0.23
+        },
+        {
+          "cote": "bas",
+          "score": 0.11,
+          "ton": "moyen",
+          "recouvre_sujet": 0.35
+        }
+      ],
+      "qualite": {
+        "nettete": 93.2,
+        "bruit": 0.94,
+        "compression": 1.15,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "STAF+ · ush",
+        "blocs": 2,
+        "surface": 0.2,
+        "details": [
+          {
+            "texte": "STAF+",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "ush",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "f76505e43e0a2d35",
+      "drapeaux": [
+        "autre",
+        "texte décoratif",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-26.jpg",
+      "nom": "paraclub-montbeliard-26",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1500,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 396850,
+      "transparence": false,
+      "sujet": {
+        "x": 66.1,
+        "y": 8,
+        "l": 10.8,
+        "h": 18.8,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        71,
+        16
+      ],
+      "cadrage_css": "71% 16%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.51,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.45,
+          "ton": "sombre",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "bas",
+          "score": 0.25,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.23,
+          "ton": "sombre",
+          "recouvre_sujet": 0.05
+        }
+      ],
+      "qualite": {
+        "nettete": 25.8,
+        "bruit": 0.56,
+        "compression": 1.39,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Fuck! Who are these guys?... · Montbéliard paparazzis?...",
+        "blocs": 2,
+        "surface": 6.3,
+        "details": [
+          {
+            "texte": "Fuck! Who are these guys?...",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Montbéliard paparazzis?...",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "9c3ecdcd3c1c8685",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-27.jpg",
+      "nom": "paraclub-montbeliard-27",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1500,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 479529,
+      "transparence": false,
+      "sujet": {
+        "x": 25,
+        "y": 33.8,
+        "l": 58.8,
+        "h": 30.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        55,
+        49
+      ],
+      "cadrage_css": "55% 49%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.45,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.35,
+          "ton": "clair",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "droite",
+          "score": 0.24,
+          "ton": "moyen",
+          "recouvre_sujet": 0.18
+        },
+        {
+          "cote": "gauche",
+          "score": 0.23,
+          "ton": "sombre",
+          "recouvre_sujet": 0.12
+        }
+      ],
+      "qualite": {
+        "nettete": 41,
+        "bruit": 0.89,
+        "compression": 1.2,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "f6795cd6c6646c71",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-28.jpg",
+      "nom": "paraclub-montbeliard-28",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1500,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 491446,
+      "transparence": false,
+      "sujet": {
+        "x": 20.5,
+        "y": 5.8,
+        "l": 79.5,
+        "h": 94.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        58,
+        56
+      ],
+      "cadrage_css": "58% 56%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.32,
+          "ton": "moyen",
+          "recouvre_sujet": 0.46
+        },
+        {
+          "cote": "haut",
+          "score": 0.26,
+          "ton": "moyen",
+          "recouvre_sujet": 0.66
+        },
+        {
+          "cote": "bas",
+          "score": 0.01,
+          "ton": "moyen",
+          "recouvre_sujet": 0.8
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.94
+        }
+      ],
+      "qualite": {
+        "nettete": 51.9,
+        "bruit": 0.87,
+        "compression": 1.18,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "86056cc226149999",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-29.jpg",
+      "nom": "paraclub-montbeliard-29",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1125,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 360755,
+      "transparence": false,
+      "sujet": {
+        "x": 12.1,
+        "y": 10.6,
+        "l": 72.7,
+        "h": 84.4,
+        "source": "visage"
+      },
+      "visages": 7,
+      "cadrage": [
+        48,
+        50
+      ],
+      "cadrage_css": "48% 50%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.41,
+          "ton": "clair",
+          "recouvre_sujet": 0.51
+        },
+        {
+          "cote": "droite",
+          "score": 0.02,
+          "ton": "moyen",
+          "recouvre_sujet": 0.52
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.59
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.62
+        }
+      ],
+      "qualite": {
+        "nettete": 58.5,
+        "bruit": 1.02,
+        "compression": 1.18,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "4397971323252961",
+      "drapeaux": [
+        "autre",
+        "7 visages"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-30.jpg",
+      "nom": "paraclub-montbeliard-30",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1123,
+      "ratio": "16:9",
+      "ratio_valeur": 1.781,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 291322,
+      "transparence": false,
+      "sujet": {
+        "x": 69,
+        "y": 44.3,
+        "l": 15.6,
+        "h": 36.5,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        77,
+        60
+      ],
+      "cadrage_css": "77% 60%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.56,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.35,
+          "ton": "moyen",
+          "recouvre_sujet": 0.14
+        },
+        {
+          "cote": "gauche",
+          "score": 0.26,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.21,
+          "ton": "sombre",
+          "recouvre_sujet": 0.07
+        }
+      ],
+      "qualite": {
+        "nettete": 18.6,
+        "bruit": 0.44,
+        "compression": 1.38,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "cb2136bb0bcbcf0d",
+      "drapeaux": [
+        "autre",
+        "visage"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-31.jpg",
+      "nom": "paraclub-montbeliard-31",
+      "drapeau": "autre",
+      "largeur": 1920,
+      "hauteur": 1080,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 181870,
+      "transparence": false,
+      "sujet": {
+        "x": 24.2,
+        "y": 24.3,
+        "l": 75.8,
+        "h": 75.7,
+        "source": "visage"
+      },
+      "visages": 3,
+      "cadrage": [
+        69,
+        68
+      ],
+      "cadrage_css": "69% 68%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.43,
+          "ton": "sombre",
+          "recouvre_sujet": 0.23
+        },
+        {
+          "cote": "gauche",
+          "score": 0.15,
+          "ton": "moyen",
+          "recouvre_sujet": 0.3
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.76
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.76
+        }
+      ],
+      "qualite": {
+        "nettete": 40.9,
+        "bruit": 0.66,
+        "compression": 1.46,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "HENG ION",
+        "blocs": 1,
+        "surface": 0.3,
+        "details": [
+          {
+            "texte": "HENG ION",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "e4c4641a4bcbc362",
+      "drapeaux": [
+        "autre",
+        "3 visages",
+        "compression visible",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-32.jpg",
+      "nom": "paraclub-montbeliard-32",
+      "drapeau": "autre",
+      "largeur": 1920,
+      "hauteur": 1080,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 154365,
+      "transparence": false,
+      "sujet": {
+        "x": 75.6,
+        "y": 53.5,
+        "l": 11.4,
+        "h": 26.7,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        81,
+        65
+      ],
+      "cadrage_css": "81% 65%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.51,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.45,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.39,
+          "ton": "clair",
+          "recouvre_sujet": 0.08
+        },
+        {
+          "cote": "bas",
+          "score": 0.18,
+          "ton": "sombre",
+          "recouvre_sujet": 0.05
+        }
+      ],
+      "qualite": {
+        "nettete": 35.2,
+        "bruit": 0.6,
+        "compression": 1.32,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "375fdf9e9d6b6be1",
+      "drapeaux": [
+        "autre",
+        "visage"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-33.jpg",
+      "nom": "paraclub-montbeliard-33",
+      "drapeau": "autre",
+      "largeur": 1728,
+      "hauteur": 1152,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 293720,
+      "transparence": false,
+      "sujet": {
+        "x": 5.6,
+        "y": 18.9,
+        "l": 94.3,
+        "h": 81.1,
+        "source": "corps"
+      },
+      "visages": 3,
+      "cadrage": [
+        59,
+        44
+      ],
+      "cadrage_css": "59% 44%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.08,
+          "ton": "clair",
+          "recouvre_sujet": 0.43
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.7
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.81
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.94
+        }
+      ],
+      "qualite": {
+        "nettete": 40.3,
+        "bruit": 0.77,
+        "compression": 1.16,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "bbe0a52624242464",
+      "drapeaux": [
+        "autre",
+        "3 visages"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-34.jpg",
+      "nom": "paraclub-montbeliard-34",
+      "drapeau": "autre",
+      "largeur": 1728,
+      "hauteur": 1152,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 237583,
+      "transparence": false,
+      "sujet": {
+        "x": 34.2,
+        "y": 0,
+        "l": 65.5,
+        "h": 100,
+        "source": "corps"
+      },
+      "visages": 2,
+      "cadrage": [
+        37,
+        37
+      ],
+      "cadrage_css": "37% 37%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.15,
+          "ton": "moyen",
+          "recouvre_sujet": 0.14
+        },
+        {
+          "cote": "bas",
+          "score": 0.09,
+          "ton": "sombre",
+          "recouvre_sujet": 0.66
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.99
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.66
+        }
+      ],
+      "qualite": {
+        "nettete": 16.6,
+        "bruit": 0.55,
+        "compression": 1.21,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "4858583818d236b4",
+      "drapeaux": [
+        "autre",
+        "2 visages"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-35.jpg",
+      "nom": "paraclub-montbeliard-35",
+      "drapeau": "autre",
+      "largeur": 1728,
+      "hauteur": 1152,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 311761,
+      "transparence": false,
+      "sujet": {
+        "x": 22.8,
+        "y": 10.7,
+        "l": 77.2,
+        "h": 83.3,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        57,
+        40
+      ],
+      "cadrage_css": "57% 40%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.1,
+          "ton": "moyen",
+          "recouvre_sujet": 0.54
+        },
+        {
+          "cote": "gauche",
+          "score": 0.07,
+          "ton": "moyen",
+          "recouvre_sujet": 0.36
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.83
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.64
+        }
+      ],
+      "qualite": {
+        "nettete": 40.2,
+        "bruit": 0.7,
+        "compression": 1.22,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "ÉCOLE DE PARACHUTISME · NORD - FRANCHE-COMTE",
+        "blocs": 2,
+        "surface": 10.3,
+        "details": [
+          {
+            "texte": "ÉCOLE DE PARACHUTISME",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "NORD - FRANCHE-COMTE",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "91591c3c0c8e0606",
+      "drapeaux": [
+        "autre",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-36.jpg",
+      "nom": "paraclub-montbeliard-36",
+      "drapeau": "autre",
+      "largeur": 1360,
+      "hauteur": 1020,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 141801,
+      "transparence": false,
+      "sujet": {
+        "x": 12.5,
+        "y": 22.8,
+        "l": 76.9,
+        "h": 77.2,
+        "source": "corps"
+      },
+      "visages": 4,
+      "cadrage": [
+        52,
+        45
+      ],
+      "cadrage_css": "52% 45%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.14,
+          "ton": "clair",
+          "recouvre_sujet": 0.27
+        },
+        {
+          "cote": "droite",
+          "score": 0.04,
+          "ton": "sombre",
+          "recouvre_sujet": 0.57
+        },
+        {
+          "cote": "gauche",
+          "score": 0.01,
+          "ton": "moyen",
+          "recouvre_sujet": 0.53
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.77
+        }
+      ],
+      "qualite": {
+        "nettete": 29.9,
+        "bruit": 0.7,
+        "compression": 1.45,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "FRADLE?",
+        "blocs": 1,
+        "surface": 0.2,
+        "details": [
+          {
+            "texte": "FRADLE?",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "c59194a4e7672622",
+      "drapeaux": [
+        "autre",
+        "4 visages",
+        "compression visible",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-37.jpg",
+      "nom": "paraclub-montbeliard-37",
+      "drapeau": "autre",
+      "largeur": 1296,
+      "hauteur": 972,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 147897,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 88.7,
+        "source": "visage"
+      },
+      "visages": 5,
+      "cadrage": [
+        43,
+        46
+      ],
+      "cadrage_css": "43% 46%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.1,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.89
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.89
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.68
+        }
+      ],
+      "qualite": {
+        "nettete": 48.5,
+        "bruit": 0.9,
+        "compression": 1.17,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "02537335964e181b",
+      "drapeaux": [
+        "autre",
+        "5 visages"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-38.jpg",
+      "nom": "paraclub-montbeliard-38",
+      "drapeau": "autre",
+      "largeur": 1280,
+      "hauteur": 960,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 141784,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 6.7,
+        "l": 100,
+        "h": 93.4,
+        "source": "visage"
+      },
+      "visages": 3,
+      "cadrage": [
+        37,
+        65
+      ],
+      "cadrage_css": "37% 65%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.08,
+          "ton": "moyen",
+          "recouvre_sujet": 0.81
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.93
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.93
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 22.9,
+        "bruit": 0.85,
+        "compression": 1.53,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "SkyDiv",
+        "blocs": 1,
+        "surface": 0.8,
+        "details": [
+          {
+            "texte": "SkyDiv",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "9026bb84a60e0f23",
+      "drapeaux": [
+        "autre",
+        "3 visages",
+        "compression visible",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-39.jpg",
+      "nom": "paraclub-montbeliard-39",
+      "drapeau": "autre",
+      "largeur": 782,
+      "hauteur": 960,
+      "ratio": "4:5",
+      "ratio_valeur": 0.815,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 36355,
+      "transparence": false,
+      "sujet": {
+        "x": 31.1,
+        "y": 33.4,
+        "l": 38.2,
+        "h": 33,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        45
+      ],
+      "cadrage_css": "49% 45%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.76,
+          "ton": "clair",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "bas",
+          "score": 0.73,
+          "ton": "sombre",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "droite",
+          "score": 0.6,
+          "ton": "moyen",
+          "recouvre_sujet": 0.08
+        },
+        {
+          "cote": "gauche",
+          "score": 0.59,
+          "ton": "moyen",
+          "recouvre_sujet": 0.07
+        }
+      ],
+      "qualite": {
+        "nettete": 18.2,
+        "bruit": 0.34,
+        "compression": 2.01,
+        "faible": true,
+        "raisons": [
+          "782 px de large",
+          "compression visible"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "f0f0f8ccccf4f8fc",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "compression visible",
+        "calme haut/bas"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-40.jpg",
+      "nom": "paraclub-montbeliard-40",
+      "drapeau": "autre",
+      "largeur": 720,
+      "hauteur": 960,
+      "ratio": "3:4",
+      "ratio_valeur": 0.75,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 72345,
+      "transparence": false,
+      "sujet": {
+        "x": 0.8,
+        "y": 16.9,
+        "l": 59.8,
+        "h": 40,
+        "source": "visage"
+      },
+      "visages": 2,
+      "cadrage": [
+        31,
+        35
+      ],
+      "cadrage_css": "31% 35%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.33,
+          "ton": "clair",
+          "recouvre_sujet": 0.31
+        },
+        {
+          "cote": "droite",
+          "score": 0.21,
+          "ton": "moyen",
+          "recouvre_sujet": 0.01
+        },
+        {
+          "cote": "bas",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.08,
+          "ton": "moyen",
+          "recouvre_sujet": 0.39
+        }
+      ],
+      "qualite": {
+        "nettete": 34.4,
+        "bruit": 0.73,
+        "compression": 1.45,
+        "faible": true,
+        "raisons": [
+          "720 px de large",
+          "compression visible"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "60c2e260e10c0911",
+      "drapeaux": [
+        "autre",
+        "2 visages",
+        "petite",
+        "compression visible"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-41.jpg",
+      "nom": "paraclub-montbeliard-41",
+      "drapeau": "autre",
+      "largeur": 720,
+      "hauteur": 960,
+      "ratio": "3:4",
+      "ratio_valeur": 0.75,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 83251,
+      "transparence": false,
+      "sujet": {
+        "x": 2.7,
+        "y": 30.8,
+        "l": 57,
+        "h": 59.5,
+        "source": "corps"
+      },
+      "visages": 2,
+      "cadrage": [
+        41,
+        48
+      ],
+      "cadrage_css": "41% 48%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.42,
+          "ton": "moyen",
+          "recouvre_sujet": 0.07
+        },
+        {
+          "cote": "droite",
+          "score": 0.24,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.06,
+          "ton": "moyen",
+          "recouvre_sujet": 0.41
+        },
+        {
+          "cote": "gauche",
+          "score": 0.04,
+          "ton": "moyen",
+          "recouvre_sujet": 0.55
+        }
+      ],
+      "qualite": {
+        "nettete": 36,
+        "bruit": 0.9,
+        "compression": 1.23,
+        "faible": true,
+        "raisons": [
+          "720 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "06c69b9b09162c98",
+      "drapeaux": [
+        "autre",
+        "2 visages",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-42.jpg",
+      "nom": "paraclub-montbeliard-42",
+      "drapeau": "autre",
+      "largeur": 960,
+      "hauteur": 720,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 68512,
+      "transparence": false,
+      "sujet": {
+        "x": 37.8,
+        "y": 58.7,
+        "l": 61.5,
+        "h": 25.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        65,
+        67
+      ],
+      "cadrage_css": "65% 67%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.53,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.22,
+          "ton": "moyen",
+          "recouvre_sujet": 0.01
+        },
+        {
+          "cote": "droite",
+          "score": 0.11,
+          "ton": "moyen",
+          "recouvre_sujet": 0.25
+        },
+        {
+          "cote": "bas",
+          "score": 0.1,
+          "ton": "sombre",
+          "recouvre_sujet": 0.34
+        }
+      ],
+      "qualite": {
+        "nettete": 51.1,
+        "bruit": 0.68,
+        "compression": 1.6,
+        "faible": true,
+        "raisons": [
+          "960 px de large",
+          "compression visible"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "c2e421f213197bcf",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "compression visible"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-43.jpg",
+      "nom": "paraclub-montbeliard-43",
+      "drapeau": "autre",
+      "largeur": 960,
+      "hauteur": 720,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 82775,
+      "transparence": false,
+      "sujet": {
+        "x": 0.3,
+        "y": 0,
+        "l": 79.6,
+        "h": 74.8,
+        "source": "visage"
+      },
+      "visages": 4,
+      "cadrage": [
+        40,
+        34
+      ],
+      "cadrage_css": "40% 34%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.17,
+          "ton": "clair",
+          "recouvre_sujet": 0.37
+        },
+        {
+          "cote": "bas",
+          "score": 0.12,
+          "ton": "moyen",
+          "recouvre_sujet": 0.22
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.74
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.8
+        }
+      ],
+      "qualite": {
+        "nettete": 28.8,
+        "bruit": 0.83,
+        "compression": 1.28,
+        "faible": true,
+        "raisons": [
+          "960 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "955f2f27266e6777",
+      "drapeaux": [
+        "autre",
+        "4 visages",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-44.jpg",
+      "nom": "paraclub-montbeliard-44",
+      "drapeau": "autre",
+      "largeur": 720,
+      "hauteur": 960,
+      "ratio": "3:4",
+      "ratio_valeur": 0.75,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 63982,
+      "transparence": false,
+      "sujet": {
+        "x": 23.5,
+        "y": 11.2,
+        "l": 47.1,
+        "h": 88.7,
+        "source": "corps"
+      },
+      "visages": 1,
+      "cadrage": [
+        48,
+        37
+      ],
+      "cadrage_css": "48% 37%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.41,
+          "ton": "moyen",
+          "recouvre_sujet": 0.32
+        },
+        {
+          "cote": "gauche",
+          "score": 0.36,
+          "ton": "sombre",
+          "recouvre_sujet": 0.37
+        },
+        {
+          "cote": "droite",
+          "score": 0.12,
+          "ton": "moyen",
+          "recouvre_sujet": 0.24
+        },
+        {
+          "cote": "bas",
+          "score": 0.08,
+          "ton": "sombre",
+          "recouvre_sujet": 0.47
+        }
+      ],
+      "qualite": {
+        "nettete": 29.1,
+        "bruit": 0.67,
+        "compression": 1.3,
+        "faible": true,
+        "raisons": [
+          "720 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "77bf8b676746535a",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-45.jpg",
+      "nom": "paraclub-montbeliard-45",
+      "drapeau": "autre",
+      "largeur": 720,
+      "hauteur": 960,
+      "ratio": "3:4",
+      "ratio_valeur": 0.75,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 163695,
+      "transparence": false,
+      "sujet": {
+        "x": 14.3,
+        "y": 16.3,
+        "l": 79.7,
+        "h": 56.3,
+        "source": "corps"
+      },
+      "visages": 4,
+      "cadrage": [
+        50,
+        32
+      ],
+      "cadrage_css": "50% 32%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0.17
+        },
+        {
+          "cote": "gauche",
+          "score": 0.1,
+          "ton": "moyen",
+          "recouvre_sujet": 0.36
+        },
+        {
+          "cote": "haut",
+          "score": 0.05,
+          "ton": "moyen",
+          "recouvre_sujet": 0.43
+        },
+        {
+          "cote": "droite",
+          "score": 0.03,
+          "ton": "moyen",
+          "recouvre_sujet": 0.48
+        }
+      ],
+      "qualite": {
+        "nettete": 96,
+        "bruit": 2.09,
+        "compression": 1.09,
+        "faible": true,
+        "raisons": [
+          "720 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "5c6fc52d656f361e",
+      "drapeaux": [
+        "autre",
+        "4 visages",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-46.jpg",
+      "nom": "paraclub-montbeliard-46",
+      "drapeau": "autre",
+      "largeur": 720,
+      "hauteur": 960,
+      "ratio": "3:4",
+      "ratio_valeur": 0.75,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 70489,
+      "transparence": false,
+      "sujet": {
+        "x": 15.6,
+        "y": 20.7,
+        "l": 63.7,
+        "h": 79.3,
+        "source": "corps"
+      },
+      "visages": 1,
+      "cadrage": [
+        48,
+        43
+      ],
+      "cadrage_css": "48% 43%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.34,
+          "ton": "clair",
+          "recouvre_sujet": 0.26
+        },
+        {
+          "cote": "droite",
+          "score": 0.21,
+          "ton": "clair",
+          "recouvre_sujet": 0.38
+        },
+        {
+          "cote": "bas",
+          "score": 0.1,
+          "ton": "moyen",
+          "recouvre_sujet": 0.64
+        },
+        {
+          "cote": "gauche",
+          "score": 0.09,
+          "ton": "clair",
+          "recouvre_sujet": 0.48
+        }
+      ],
+      "qualite": {
+        "nettete": 23.9,
+        "bruit": 0.63,
+        "compression": 1.4,
+        "faible": true,
+        "raisons": [
+          "720 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "4e896d4da662a48f",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-47.jpg",
+      "nom": "paraclub-montbeliard-47",
+      "drapeau": "autre",
+      "largeur": 960,
+      "hauteur": 720,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 95587,
+      "transparence": false,
+      "sujet": {
+        "x": 10.3,
+        "y": 30.9,
+        "l": 75,
+        "h": 20.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        41
+      ],
+      "cadrage_css": "49% 41%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0.09
+        },
+        {
+          "cote": "bas",
+          "score": 0.2,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.16,
+          "ton": "sombre",
+          "recouvre_sujet": 0.13
+        },
+        {
+          "cote": "gauche",
+          "score": 0.15,
+          "ton": "sombre",
+          "recouvre_sujet": 0.15
+        }
+      ],
+      "qualite": {
+        "nettete": 34.1,
+        "bruit": 0.95,
+        "compression": 1.32,
+        "faible": true,
+        "raisons": [
+          "960 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "d9c9cdb94371e3cd",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-48.jpg",
+      "nom": "paraclub-montbeliard-48",
+      "drapeau": "autre",
+      "largeur": 720,
+      "hauteur": 960,
+      "ratio": "3:4",
+      "ratio_valeur": 0.75,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 72273,
+      "transparence": false,
+      "sujet": {
+        "x": 4,
+        "y": 27.4,
+        "l": 92.6,
+        "h": 68.6,
+        "source": "corps"
+      },
+      "visages": 4,
+      "cadrage": [
+        47,
+        46
+      ],
+      "cadrage_css": "47% 46%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.3,
+          "ton": "clair",
+          "recouvre_sujet": 0.2
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.62
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.63
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.82
+        }
+      ],
+      "qualite": {
+        "nettete": 38.9,
+        "bruit": 0.67,
+        "compression": 1.32,
+        "faible": true,
+        "raisons": [
+          "720 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "18d1dd257777f5b7",
+      "drapeaux": [
+        "autre",
+        "4 visages",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-49.jpg",
+      "nom": "paraclub-montbeliard-49",
+      "drapeau": "autre",
+      "largeur": 720,
+      "hauteur": 960,
+      "ratio": "3:4",
+      "ratio_valeur": 0.75,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 70030,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 96.7,
+        "source": "visage"
+      },
+      "visages": 3,
+      "cadrage": [
+        46,
+        40
+      ],
+      "cadrage_css": "46% 40%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.91
+        }
+      ],
+      "qualite": {
+        "nettete": 14.5,
+        "bruit": 0.56,
+        "compression": 1.55,
+        "faible": true,
+        "raisons": [
+          "720 px de large",
+          "compression visible"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "f03604087ff3313a",
+      "drapeaux": [
+        "autre",
+        "3 visages",
+        "petite",
+        "compression visible"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-50.jpg",
+      "nom": "paraclub-montbeliard-50",
+      "drapeau": "autre",
+      "largeur": 960,
+      "hauteur": 640,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 33803,
+      "transparence": false,
+      "sujet": {
+        "x": 9,
+        "y": 32,
+        "l": 24.7,
+        "h": 56.3,
+        "source": "corps"
+      },
+      "visages": 0,
+      "cadrage": [
+        21,
+        49
+      ],
+      "cadrage_css": "21% 49%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.88,
+          "ton": "clair",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "droite",
+          "score": 0.73,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.65,
+          "ton": "sombre",
+          "recouvre_sujet": 0.16
+        },
+        {
+          "cote": "gauche",
+          "score": 0.4,
+          "ton": "moyen",
+          "recouvre_sujet": 0.35
+        }
+      ],
+      "qualite": {
+        "nettete": 11.7,
+        "bruit": 0.35,
+        "compression": 1.86,
+        "faible": true,
+        "raisons": [
+          "960 px de large",
+          "compression visible"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "8f8f4f6f9faee6ce",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "compression visible",
+        "calme haut/droite/bas"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-51.jpg",
+      "nom": "paraclub-montbeliard-51",
+      "drapeau": "autre",
+      "largeur": 584,
+      "hauteur": 960,
+      "ratio": "0.61",
+      "ratio_valeur": 0.608,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 72688,
+      "transparence": false,
+      "sujet": {
+        "x": 18.5,
+        "y": 27.8,
+        "l": 78.2,
+        "h": 40.1,
+        "source": "visage"
+      },
+      "visages": 2,
+      "cadrage": [
+        58,
+        46
+      ],
+      "cadrage_css": "58% 46%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.66,
+          "ton": "clair",
+          "recouvre_sujet": 0.16
+        },
+        {
+          "cote": "bas",
+          "score": 0.27,
+          "ton": "sombre",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "droite",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0.37
+        },
+        {
+          "cote": "gauche",
+          "score": 0.18,
+          "ton": "moyen",
+          "recouvre_sujet": 0.22
+        }
+      ],
+      "qualite": {
+        "nettete": 47.1,
+        "bruit": 0.95,
+        "compression": 1.22,
+        "faible": true,
+        "raisons": [
+          "584 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "0fc038397764c7ce",
+      "drapeaux": [
+        "autre",
+        "2 visages",
+        "petite",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-52.jpg",
+      "nom": "paraclub-montbeliard-52",
+      "drapeau": "autre",
+      "largeur": 960,
+      "hauteur": 540,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 53455,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 25.2,
+        "l": 60.9,
+        "h": 74.8,
+        "source": "visage"
+      },
+      "visages": 2,
+      "cadrage": [
+        29,
+        72
+      ],
+      "cadrage_css": "29% 72%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.46,
+          "ton": "moyen",
+          "recouvre_sujet": 0.17
+        },
+        {
+          "cote": "droite",
+          "score": 0.3,
+          "ton": "moyen",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "gauche",
+          "score": 0.24,
+          "ton": "sombre",
+          "recouvre_sujet": 0.75
+        },
+        {
+          "cote": "bas",
+          "score": 0.02,
+          "ton": "sombre",
+          "recouvre_sujet": 0.61
+        }
+      ],
+      "qualite": {
+        "nettete": 44.3,
+        "bruit": 0.73,
+        "compression": 1.4,
+        "faible": true,
+        "raisons": [
+          "960 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "07065e5ba3e3db89",
+      "drapeaux": [
+        "autre",
+        "2 visages",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-53.jpg",
+      "nom": "paraclub-montbeliard-53",
+      "drapeau": "autre",
+      "largeur": 960,
+      "hauteur": 540,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 52599,
+      "transparence": false,
+      "sujet": {
+        "x": 58.6,
+        "y": 20.7,
+        "l": 15.4,
+        "h": 79.3,
+        "source": "corps"
+      },
+      "visages": 1,
+      "cadrage": [
+        68,
+        42
+      ],
+      "cadrage_css": "68% 42%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.22,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "bas",
+          "score": 0.17,
+          "ton": "sombre",
+          "recouvre_sujet": 0.15
+        },
+        {
+          "cote": "droite",
+          "score": 0.1,
+          "ton": "sombre",
+          "recouvre_sujet": 0.28
+        }
+      ],
+      "qualite": {
+        "nettete": 20.2,
+        "bruit": 0.63,
+        "compression": 1.2,
+        "faible": true,
+        "raisons": [
+          "960 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "b7b7a7a58737b7d7",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-54.jpg",
+      "nom": "paraclub-montbeliard-54",
+      "drapeau": "autre",
+      "largeur": 960,
+      "hauteur": 540,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 55053,
+      "transparence": false,
+      "sujet": {
+        "x": 0.4,
+        "y": 8.2,
+        "l": 98.9,
+        "h": 91.1,
+        "source": "corps"
+      },
+      "visages": 6,
+      "cadrage": [
+        51,
+        41
+      ],
+      "cadrage_css": "51% 41%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.16,
+          "ton": "sombre",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.9
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.9
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.76
+        }
+      ],
+      "qualite": {
+        "nettete": 21.4,
+        "bruit": 0.67,
+        "compression": 1.32,
+        "faible": true,
+        "raisons": [
+          "960 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "d8d466cde48d9dc9",
+      "drapeaux": [
+        "autre",
+        "6 visages",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-55.jpg",
+      "nom": "paraclub-montbeliard-55",
+      "drapeau": "autre",
+      "largeur": 539,
+      "hauteur": 960,
+      "ratio": "9:16",
+      "ratio_valeur": 0.561,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 97822,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 62.5,
+        "l": 100,
+        "h": 36.9,
+        "source": "corps"
+      },
+      "visages": 5,
+      "cadrage": [
+        52,
+        69
+      ],
+      "cadrage_css": "52% 69%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.29,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.08,
+          "ton": "moyen",
+          "recouvre_sujet": 0.37
+        },
+        {
+          "cote": "gauche",
+          "score": 0.07,
+          "ton": "moyen",
+          "recouvre_sujet": 0.37
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.98
+        }
+      ],
+      "qualite": {
+        "nettete": 72.1,
+        "bruit": 1.4,
+        "compression": 1.16,
+        "faible": true,
+        "raisons": [
+          "539 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "06cccd90bb6968f0",
+      "drapeaux": [
+        "autre",
+        "5 visages",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "paraclub-montbeliard-56.jpg",
+      "nom": "paraclub-montbeliard-56",
+      "drapeau": "autre",
+      "largeur": 849,
+      "hauteur": 566,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 68153,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 12.4,
+        "l": 79.3,
+        "h": 78.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        43,
+        45
+      ],
+      "cadrage_css": "43% 45%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.07,
+          "ton": "moyen",
+          "recouvre_sujet": 0.38
+        },
+        {
+          "cote": "haut",
+          "score": 0.05,
+          "ton": "clair",
+          "recouvre_sujet": 0.51
+        },
+        {
+          "cote": "bas",
+          "score": 0.02,
+          "ton": "moyen",
+          "recouvre_sujet": 0.59
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.79
+        }
+      ],
+      "qualite": {
+        "nettete": 36.3,
+        "bruit": 0.96,
+        "compression": 1.24,
+        "faible": true,
+        "raisons": [
+          "849 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "993032e66636b38c",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "maquette-echelle-1-1.jpg",
+      "nom": "maquette-echelle-1-1",
+      "drapeau": "autre",
+      "largeur": 1728,
+      "hauteur": 1152,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 355989,
+      "transparence": false,
+      "sujet": {
+        "x": 9.1,
+        "y": 23.1,
+        "l": 30.4,
+        "h": 76.6,
+        "source": "corps"
+      },
+      "visages": 1,
+      "cadrage": [
+        24,
+        46
+      ],
+      "cadrage_css": "24% 46%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.26,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0.1
+        },
+        {
+          "cote": "bas",
+          "score": 0.17,
+          "ton": "moyen",
+          "recouvre_sujet": 0.3
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.58
+        }
+      ],
+      "qualite": {
+        "nettete": 36,
+        "bruit": 1.11,
+        "compression": 1.15,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Intr vetat · AUTHENTI · TUES · Var · ACCES · SIRIGTEMENT · INTERDIT",
+        "blocs": 7,
+        "surface": 0.7,
+        "details": [
+          {
+            "texte": "Intr vetat",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "AUTHENTI",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "TUES",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Var",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "ACCES",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "SIRIGTEMENT",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "INTERDIT",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "0940327676756346",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "vehicules-piste.jpg",
+      "nom": "vehicules-piste",
+      "drapeau": "autre",
+      "largeur": 1728,
+      "hauteur": 1152,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 458767,
+      "transparence": false,
+      "sujet": {
+        "x": 43.4,
+        "y": 14.5,
+        "l": 19.7,
+        "h": 36.6,
+        "source": "visage"
+      },
+      "visages": 2,
+      "cadrage": [
+        53,
+        32
+      ],
+      "cadrage_css": "53% 32%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.25,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.25,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.19,
+          "ton": "moyen",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "haut",
+          "score": 0.17,
+          "ton": "moyen",
+          "recouvre_sujet": 0.12
+        }
+      ],
+      "qualite": {
+        "nettete": 46.3,
+        "bruit": 1.14,
+        "compression": 1.12,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "erodrome · Nord · Franci · Comi.",
+        "blocs": 4,
+        "surface": 0.1,
+        "details": [
+          {
+            "texte": "erodrome",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Nord",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Franci",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Comi.",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "7a76a6cd23631386",
+      "drapeaux": [
+        "autre",
+        "2 visages",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "partie-vie.jpg",
+      "nom": "partie-vie",
+      "drapeau": "autre",
+      "largeur": 720,
+      "hauteur": 960,
+      "ratio": "3:4",
+      "ratio_valeur": 0.75,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 98179,
+      "transparence": false,
+      "sujet": {
+        "x": 15.9,
+        "y": 3.1,
+        "l": 48.2,
+        "h": 47.8,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        40,
+        24
+      ],
+      "cadrage_css": "40% 24%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.18,
+          "ton": "moyen",
+          "recouvre_sujet": 0.05
+        },
+        {
+          "cote": "gauche",
+          "score": 0.11,
+          "ton": "moyen",
+          "recouvre_sujet": 0.29
+        },
+        {
+          "cote": "haut",
+          "score": 0.05,
+          "ton": "moyen",
+          "recouvre_sujet": 0.44
+        }
+      ],
+      "qualite": {
+        "nettete": 39.2,
+        "bruit": 0.96,
+        "compression": 1.23,
+        "faible": true,
+        "raisons": [
+          "720 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "0f292682c0daccc4",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "avion-cessna-206-soloy.jpg",
+      "nom": "avion-cessna-206-soloy",
+      "drapeau": "autre",
+      "largeur": 960,
+      "hauteur": 720,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 86308,
+      "transparence": false,
+      "sujet": {
+        "x": 1.7,
+        "y": 16.1,
+        "l": 59.1,
+        "h": 43.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        35,
+        40
+      ],
+      "cadrage_css": "35% 40%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.56,
+          "ton": "clair",
+          "recouvre_sujet": 0.32
+        },
+        {
+          "cote": "droite",
+          "score": 0.29,
+          "ton": "moyen",
+          "recouvre_sujet": 0.01
+        },
+        {
+          "cote": "bas",
+          "score": 0.29,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.06,
+          "ton": "moyen",
+          "recouvre_sujet": 0.41
+        }
+      ],
+      "qualite": {
+        "nettete": 47.3,
+        "bruit": 0.8,
+        "compression": 1.18,
+        "faible": true,
+        "raisons": [
+          "960 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "marque",
+        "a_verifier": true,
+        "texte": "www.sioy.com · M HPGR",
+        "blocs": 2,
+        "surface": 0.7,
+        "details": [
+          {
+            "texte": "www.sioy.com",
+            "niveau": "marque"
+          },
+          {
+            "texte": "M HPGR",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "80c0c01c0dc289a1",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "filigrane ou marque"
+      ]
+    },
+    {
+      "fichier": "partie-activite.jpg",
+      "nom": "partie-activite",
+      "drapeau": "autre",
+      "largeur": 960,
+      "hauteur": 540,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 68361,
+      "transparence": false,
+      "sujet": {
+        "x": 26.5,
+        "y": 36.8,
+        "l": 52.9,
+        "h": 36.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        53,
+        56
+      ],
+      "cadrage_css": "53% 56%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.26,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.22,
+          "ton": "moyen",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "bas",
+          "score": 0.17,
+          "ton": "moyen",
+          "recouvre_sujet": 0.13
+        },
+        {
+          "cote": "droite",
+          "score": 0.14,
+          "ton": "moyen",
+          "recouvre_sujet": 0.18
+        }
+      ],
+      "qualite": {
+        "nettete": 31.2,
+        "bruit": 0.87,
+        "compression": 1.48,
+        "faible": true,
+        "raisons": [
+          "960 px de large",
+          "compression visible"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "46d68e0f1cc0c559",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "compression visible"
+      ]
+    },
+    {
+      "fichier": "hebergement-25-personnes.jpg",
+      "nom": "hebergement-25-personnes",
+      "drapeau": "autre",
+      "largeur": 816,
+      "hauteur": 612,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 91515,
+      "transparence": false,
+      "sujet": {
+        "x": 19.1,
+        "y": 29.4,
+        "l": 54.4,
+        "h": 22.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        41
+      ],
+      "cadrage_css": "49% 41%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.53,
+          "ton": "moyen",
+          "recouvre_sujet": 0.09
+        },
+        {
+          "cote": "gauche",
+          "score": 0.5,
+          "ton": "moyen",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "bas",
+          "score": 0.39,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.34,
+          "ton": "moyen",
+          "recouvre_sujet": 0.07
+        }
+      ],
+      "qualite": {
+        "nettete": 29.6,
+        "bruit": 0.86,
+        "compression": 1.19,
+        "faible": true,
+        "raisons": [
+          "816 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "f3f333333335acd4",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "parc-parachutes.jpg",
+      "nom": "parc-parachutes",
+      "drapeau": "autre",
+      "largeur": 640,
+      "hauteur": 467,
+      "ratio": "1.37",
+      "ratio_valeur": 1.37,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 69539,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 8.9,
+        "l": 89.4,
+        "h": 91.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        44
+      ],
+      "cadrage_css": "46% 44%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.01,
+          "ton": "moyen",
+          "recouvre_sujet": 0.67
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.67
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.89
+        }
+      ],
+      "qualite": {
+        "nettete": 35.2,
+        "bruit": 1.26,
+        "compression": 1.09,
+        "faible": true,
+        "raisons": [
+          "640 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "fffdf9f97b7a7e3e",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "saut-st-michel.jpg",
+      "nom": "saut-st-michel",
+      "drapeau": "autre",
+      "largeur": 1280,
+      "hauteur": 720,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 65228,
+      "transparence": false,
+      "sujet": {
+        "x": 29.7,
+        "y": 28.9,
+        "l": 52.1,
+        "h": 70.2,
+        "source": "corps"
+      },
+      "visages": 1,
+      "cadrage": [
+        45,
+        51
+      ],
+      "cadrage_css": "45% 51%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.66,
+          "ton": "clair",
+          "recouvre_sujet": 0.09
+        },
+        {
+          "cote": "gauche",
+          "score": 0.51,
+          "ton": "clair",
+          "recouvre_sujet": 0.18
+        },
+        {
+          "cote": "bas",
+          "score": 0.51,
+          "ton": "sombre",
+          "recouvre_sujet": 0.51
+        },
+        {
+          "cote": "droite",
+          "score": 0.42,
+          "ton": "moyen",
+          "recouvre_sujet": 0.38
+        }
+      ],
+      "qualite": {
+        "nettete": 13.5,
+        "bruit": 0.38,
+        "compression": 1.82,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "f0e0d8c8cc64a493",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "compression visible",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "toutes-videos.jpg",
+      "nom": "toutes-videos",
+      "drapeau": "autre",
+      "largeur": 1280,
+      "hauteur": 720,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 134120,
+      "transparence": false,
+      "sujet": {
+        "x": 31.8,
+        "y": 12.9,
+        "l": 62,
+        "h": 87.1,
+        "source": "corps"
+      },
+      "visages": 1,
+      "cadrage": [
+        57,
+        40
+      ],
+      "cadrage_css": "57% 40%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.5,
+          "ton": "moyen",
+          "recouvre_sujet": 0.18
+        },
+        {
+          "cote": "haut",
+          "score": 0.44,
+          "ton": "clair",
+          "recouvre_sujet": 0.39
+        },
+        {
+          "cote": "bas",
+          "score": 0.18,
+          "ton": "sombre",
+          "recouvre_sujet": 0.62
+        },
+        {
+          "cote": "droite",
+          "score": 0.14,
+          "ton": "moyen",
+          "recouvre_sujet": 0.74
+        }
+      ],
+      "qualite": {
+        "nettete": 27.2,
+        "bruit": 0.81,
+        "compression": 1.38,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "0c1ee7ad6d474f15",
+      "drapeaux": [
+        "autre",
+        "visage"
+      ]
+    }
+  ]
+}

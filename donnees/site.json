@@ -1,0 +1,16 @@
+{
+  "nom": "ParaClub Montbéliard",
+  "adresse": "https://epnfc-maquette.vercel.app",
+  "siteActuel": "epnfc.fr",
+  "version": 1,
+  "langues": ["fr"],
+  "navigation": ["accueil", "tandem", "initiation", "progression", "reserver", "contact"],
+  "actionEntete": { "page": "reserver", "ancre": "reservation" },
+  "couleurs": { "fond": "#F5F8FB", "texte": "#0C1A2E", "voile": "#0C1A2E", "theme": "#0C1A2E", "ouverture": "#0C1A2E", "menu": "#0C1A2E" },
+  "formeVoile": "iris",
+  "contact": { "telephone": "03 81 90 21 06", "telephoneLien": "+33381902106", "email": "epnfc@wanadoo.fr", "adresse": "Aérodrome de Courcelles-lès-Montbéliard, 25420 Courcelles-lès-Montbéliard" },
+  "reseaux": { "facebook": "https://www.facebook.com/parachutismemontbeliard/", "instagram": "https://www.instagram.com/montbeliard_parachutisme/" },
+  "polices": ["/assets/fonts/archivo.woff2"],
+  "imagePartage": "grok/accueil-ouverture-1280.webp",
+  "curseur": true
+}

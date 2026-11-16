@@ -1,0 +1,458 @@
+{
+  "commun": {
+    "navigation": "Navigation principale",
+    "menu": "Menu",
+    "fermer": "Fermer",
+    "langueAutre": "Autre langue",
+    "actionEntete": "Réserver",
+    "appeler": "Appeler",
+    "sommaire": "Sommaire",
+    "confort": "Le club",
+    "retourHaut": "Retour en haut",
+    "maquette": "Maquette de démonstration : formulaires et réservations simulés, rien n'est envoyé.",
+    "evitement": "Aller au contenu",
+    "mentionIa": "Illustration générée",
+    "pause": "Pause",
+    "lecture": "Lecture",
+    "introLigne": "École de parachutisme",
+    "baseline": "École de Parachutisme Nord Franche-Comté",
+    "ouvert": "Samedis, dimanches et jours fériés",
+    "mentions": "Mentions légales : à compléter",
+    "confidentialite": "Politique de confidentialité : à compléter",
+    "reseaux": "Le club en images",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "nouvelOnglet": "(nouvel onglet)",
+    "label": "Club école labellisé depuis 2004 et affilié à la Fédération Française de Parachutisme.",
+    "appel": {
+      "surtitre": "4 000 m vous attendent",
+      "titre1": "Prêt à passer",
+      "titre2": "la porte ?",
+      "texte": "Tandem ou initiation : réservez en ligne ou appelez le club. On saute les samedis, dimanches et jours fériés.",
+      "reserver": "Réserver mon saut",
+      "offrir": "Offrir un saut"
+    }
+  },
+  "pages": {
+    "accueil": {
+      "titre": "ParaClub Montbéliard : saut en parachute en tandem et initiation",
+      "description": "École de parachutisme labellisée depuis 2004 à l'aérodrome de Courcelles-lès-Montbéliard : saut en tandem à 4 000 m, initiation, progression. Ouvert les week-ends et jours fériés.",
+      "nav": "Accueil",
+      "partageAlt": "ParaClub Montbéliard : sautez à 4 000 m",
+      "accroche": "Sautez à 4 000 m"
+    },
+    "tandem": {
+      "titre": "Saut en parachute en tandem à 4 000 m : ParaClub Montbéliard",
+      "description": "Environ 50 secondes de chute libre à 200 km/h, attaché à un moniteur diplômé, puis 5 à 8 minutes sous voile. Déroulé, vidéo, conditions.",
+      "nav": "Tandem",
+      "partageAlt": "Saut en tandem au-dessus du Pays de Montbéliard",
+      "accroche": "50 secondes de chute libre"
+    },
+    "initiation": {
+      "titre": "Saut d'initiation en parachute : ParaClub Montbéliard",
+      "description": "Une journée de formation au sol, puis votre premier saut seul à 1 200 m, ouverture automatique et guidage radio.",
+      "nav": "Initiation",
+      "partageAlt": "Saut d'initiation : seul sous votre voile",
+      "accroche": "Votre premier saut, seul"
+    },
+    "progression": {
+      "titre": "Progresser en parachutisme : brevets, vol relatif, freefly",
+      "description": "Du brevet A à l'autonomie, puis le vol relatif, le freefly, la précision ou le pilotage sous voile, au ParaClub Montbéliard.",
+      "nav": "Progression",
+      "partageAlt": "Progresser au ParaClub Montbéliard",
+      "accroche": "Du premier saut à l'autonomie"
+    },
+    "reserver": {
+      "titre": "Réserver un saut en parachute : ParaClub Montbéliard",
+      "description": "Réservez un tandem ou une initiation, recevez les tarifs par e-mail, offrez un saut. Acompte de 50 € par formule.",
+      "nav": "Réserver",
+      "partageAlt": "Réserver un saut au ParaClub Montbéliard",
+      "accroche": "Réserver votre saut"
+    },
+    "contact": {
+      "titre": "Contact et accès : ParaClub Montbéliard",
+      "description": "Aérodrome de Courcelles-lès-Montbéliard, 03 81 90 21 06, epnfc@wanadoo.fr. Ouvert les samedis, dimanches et jours fériés.",
+      "nav": "Contact",
+      "partageAlt": "Contacter le ParaClub Montbéliard",
+      "accroche": "Nous joindre"
+    },
+    "404": {
+      "titre": "Posé hors zone : ParaClub Montbéliard",
+      "description": "Cette page n'existe pas ou plus.",
+      "nav": "Page introuvable",
+      "partageAlt": "Page introuvable",
+      "accroche": "Posé hors zone"
+    }
+  },
+  "accueil": {
+    "hero": {
+      "surtitre": "École de parachutisme · Aérodrome de Courcelles-lès-Montbéliard",
+      "mot1": "Sautez",
+      "mot2": "à",
+      "mot3": "4 000 m",
+      "texte": "En tandem avec un moniteur, ou seul sous votre voile après une journée de formation. Au-dessus du Nord Franche-Comté, à 30 minutes de Mulhouse.",
+      "action": "Réserver mon saut",
+      "offrir": "Offrir un saut",
+      "info": "Ouvert les samedis, dimanches et jours fériés"
+    },
+    "deux": {
+      "surtitre": "Votre premier saut",
+      "titre1": "Deux façons de passer",
+      "titre2": "la porte",
+      "texte": "Le tandem pour vivre la chute libre sans formation, l'initiation pour sauter seul dès le premier jour.",
+      "conditions": "Dès 15 ans · 90 kg au maximum · certificat médical de moins d'un an",
+      "tandemTitre": "Le saut en tandem",
+      "tandemLien": "Tout sur le tandem",
+      "initiationTitre": "Le saut d'initiation",
+      "initiationLien": "Tout sur l'initiation"
+    },
+    "deroule": {
+      "surtitre": "Le tandem, étape par étape",
+      "titre": "De la porte au posé",
+      "aide": "Faites défiler : le saut se trace sous vos yeux.",
+      "lien": "Le déroulé complet"
+    },
+    "terrain": {
+      "surtitre": "Le terrain",
+      "titre1": "Un vrai terrain",
+      "titre2": "de parachutisme",
+      "texte": "Le club est labellisé depuis 2004 et affilié à la Fédération Française de Parachutisme. C'est le seul club école de Montbéliard et du Nord Franche-Comté.",
+      "zone": "1 700 × 800 m",
+      "zoneTexte": "de zone de saut",
+      "places": "places dans le Cessna 206 Soloy à turbine",
+      "minutes": "minutes environ pour monter à 4 000 m",
+      "hangar": "m² de hangar : pliage, atelier, salle vidéo",
+      "couchages": "couchages sur place, camping possible"
+    },
+    "club": {
+      "surtitre": "La vie au club",
+      "titre1": "Le week-end,",
+      "titre2": "on saute ensemble",
+      "texte": "Le ParaClub est d'abord une association : ses membres sont tous bénévoles. On saute, on plie, on mange ensemble et on se retrouve au clubhouse, qui accueille jusqu'à 120 personnes.",
+      "region": "Photos de la vie au club, à faire défiler",
+      "aide": "Faites glisser"
+    },
+    "progresser": {
+      "surtitre": "Et après ?",
+      "titre1": "Du premier saut",
+      "titre2": "à l'autonomie",
+      "texte": "Avec la licence annuelle, les moniteurs vous accompagnent de brevet en brevet, puis vers le vol relatif, le freefly, la précision ou le pilotage sous voile.",
+      "lien": "Voir la progression"
+    },
+    "offrir": {
+      "surtitre": "Idée cadeau",
+      "titre1": "Offrez",
+      "titre2": "4 000 mètres",
+      "texte": "Réservez un tandem ou une initiation pour un proche : le club vous envoie un bon cadeau dès la réservation confirmée.",
+      "action": "Offrir un saut",
+      "acompte": "Réservation confirmée à réception d'un acompte de 50 € par formule.",
+      "billetTitre": "Bon cadeau",
+      "billetPour": "Pour",
+      "billetPourValeur": "Une personne qui vous est chère",
+      "billetVol": "Avion",
+      "billetVolValeur": "Cessna 206",
+      "billetAltitude": "Altitude",
+      "billetAltitudeValeur": "1 200 ou 4 000 m",
+      "billetPorte": "Porte",
+      "billetPorteValeur": "Ouverte",
+      "billetDepart": "Départ",
+      "billetDepartValeur": "Courcelles-lès-Montbéliard"
+    },
+    "pratique": {
+      "surtitre": "Bon à savoir",
+      "titre": "Avant de venir",
+      "quiTitre": "Qui peut sauter ?",
+      "quiTexte": "Dès 15 ans, 90 kg au maximum, en bonne condition physique. Sous 1,40 m, les harnais s'adaptent mal. Un certificat médical de moins d'un an est demandé.",
+      "meteoTitre": "La météo décide",
+      "meteoTexte": "Vent fort, pluie ou nuages trop bas : on ne saute pas. Le club vous propose un nouveau rendez-vous et vous donne les consignes par téléphone en cas de doute.",
+      "jourTitre": "Le jour J",
+      "jourTexte": "Prévoyez une demi-journée pour un tandem. Mangez avant de venir, mettez des baskets basses et un pull : il fait plus frais en altitude.",
+      "prochesTitre": "Vos proches",
+      "prochesTexte": "Famille et amis sont les bienvenus sur le terrain, à distance de l'avion et de la zone de saut. Repas tiré du sac possible sur place.",
+      "lien": "Toutes les questions"
+    }
+  },
+  "tandem": {
+    "ouverture": {
+      "surtitre": "Saut en tandem · 4 000 m",
+      "titre": "Le saut en tandem",
+      "chiffreUnite": "s",
+      "chiffreTexte": "de chute libre à 200 km/h, environ",
+      "texte": "Attaché à un moniteur diplômé qui s'occupe de tout, vous n'avez qu'à profiter : la porte, la chute, puis 5 à 8 minutes sous voile au-dessus du Pays de Montbéliard.",
+      "action": "Réserver un tandem",
+      "info": "Dès 15 ans · 90 kg au maximum",
+      "alt": "Saut en tandem au-dessus du Pays de Montbéliard"
+    },
+    "deroule": {
+      "surtitre": "Le déroulé",
+      "titre": "Cinq temps, une demi-journée",
+      "texte": "L'heure du rendez-vous est l'heure d'arrivée sur le terrain, pas celle du saut : enregistrement, briefing, puis embarquement dans l'ordre fixé par le club."
+    },
+    "pose": {
+      "citation": "Le contact avec le sol n'est pas plus difficile que de descendre une marche d'un escalier.",
+      "texte": "La position d'atterrissage est répétée pendant le briefing, et c'est le moniteur, professionnel diplômé, qui gère le posé."
+    },
+    "video": {
+      "surtitre": "Option vidéo",
+      "titre1": "Gardez",
+      "titre2": "votre saut",
+      "texte": "Un membre du club vous filme en HD : la préparation, l'avion, toute la chute libre, le posé et vos impressions. Le film vous est remis sur clé USB. L'option se choisit à la réservation ou le jour même.",
+      "gopro": "Les caméras personnelles (type GoPro) sont interdites pour des raisons de sécurité : seuls des parachutistes qualifiés et habilités filment.",
+      "rec": "REC",
+      "action": "Réserver un tandem avec vidéo"
+    },
+    "conditions": {
+      "surtitre": "Avant de réserver",
+      "titre": "Conditions et sécurité",
+      "conditionsTitre": "Les conditions",
+      "securiteTitre": "La sécurité",
+      "jourTitre": "Le jour J"
+    }
+  },
+  "initiation": {
+    "ouverture": {
+      "surtitre": "Saut d'initiation · 1 200 m",
+      "titre1": "Votre premier saut,",
+      "titre2": "seul sous votre voile",
+      "texte": "Une journée de formation au sol avec un moniteur, puis votre saut l'après-midi. Le parachute s'ouvre automatiquement, et vous pilotez votre voile, guidé par radio.",
+      "action": "Réserver une initiation",
+      "info": "Rendez-vous à 8 h, quel que soit le temps",
+      "alt": "Un élève parachutiste assis à la porte ouverte de l'avion"
+    },
+    "journee": {
+      "titre": "La journée",
+      "h8": "8 h",
+      "h8Texte": "Accueil et début de la formation",
+      "h6": "Environ 6 h",
+      "h6Texte": "Théorie et exercices au sol",
+      "midi": "Midi",
+      "midiTexte": "Repas tiré du sac, réchauffage possible",
+      "saut": "L'après-midi",
+      "sautTexte": "Votre saut à 1 200 m",
+      "debrief": "Après",
+      "debriefTexte": "Débriefing avec votre moniteur"
+    },
+    "formation": {
+      "surtitre": "La formation",
+      "titre1": "Six heures pour",
+      "titre2": "être prêt",
+      "texte": "La théorie en salle, puis les exercices au sol : la sortie de l'avion sur la maquette à l'échelle 1:1 du club, la position, la lecture de la voile, l'atterrissage. Le saut a lieu l'après-midi, quand vous êtes prêt."
+    },
+    "saut": {
+      "surtitre": "Le saut",
+      "titre": "1 200 mètres, et la voile s'ouvre",
+      "altitude": "m d'altitude",
+      "secondes": "secondes de chute environ, puis ouverture automatique",
+      "radio": "Radio",
+      "radioTexte": "Un moniteur vous guide pour piloter votre voile jusqu'au posé",
+      "debrief": "Votre moniteur débriefe votre saut avec vous à l'atterrissage."
+    },
+    "preparer": {
+      "surtitre": "Se préparer",
+      "titre": "Ce qu'il faut savoir",
+      "conditionsTitre": "Conditions",
+      "apporterTitre": "À apporter"
+    },
+    "apres": {
+      "surtitre": "Et après ?",
+      "titre": "Vers le brevet A",
+      "texte": "Après le premier saut et la licence annuelle, vous enchaînez les sauts avec un programme d'exercices en chute et sous voile. Le brevet A demande au moins 15 sauts en chute libre.",
+      "lien": "Voir la progression"
+    }
+  },
+  "progression": {
+    "ouverture": {
+      "surtitre": "Licence, brevets et disciplines",
+      "titre1": "Du premier saut",
+      "titre2": "à l'autonomie",
+      "texte": "Après le premier saut et la licence annuelle, les moniteurs de l'équipe vous donnent un programme d'exercices en chute et sous voile, de brevet en brevet.",
+      "action": "Rejoindre le club",
+      "info": "Brevets de la Fédération Française de Parachutisme",
+      "alt": "Huit parachutistes en formation au-dessus d'une mer de nuages"
+    },
+    "brevets": {
+      "surtitre": "Les brevets",
+      "titre": "Une progression par étapes",
+      "texte": "Les brevets A et B mènent à l'autonomie. Le brevet B ouvre ensuite les brevets de spécialité.",
+      "specialites": "Les spécialités",
+      "encadrer": "Encadrer et démontrer"
+    },
+    "disciplines": {
+      "surtitre": "Les disciplines",
+      "titre": "Voler à plusieurs",
+      "vrTitre": "Vol relatif",
+      "vrTexte": "Une équipe de 4 ou 8 enchaîne des figures tirées au sort, sous l'œil d'un vidéoman qui filme pour les juges. C'est la discipline la plus pratiquée en France.",
+      "vrChiffre1": "35 s",
+      "vrChiffre1Texte": "en VR4",
+      "vrChiffre2": "50 s",
+      "vrChiffre2Texte": "en VR8",
+      "vrChiffre3": "10",
+      "vrChiffre3Texte": "manches en compétition",
+      "vrBrevet": "Brevet B2 requis",
+      "ffTitre": "Freefly",
+      "ffTexte": "Né dans les années 1990, le freefly explore toutes les positions : tête en bas, tête en haut, sur le dos ou sur le côté. Une équipe de trois présente un programme libre de 45 secondes. L'équipe de France Kristal a été sacrée championne du monde en 2012.",
+      "ffBrevet": "Brevet B4 requis",
+      "precisionTitre": "Précision d'atterrissage",
+      "precisionTexte": "Poser le pied sur la cible, au centimètre près : c'est le brevet B1.",
+      "voileTitre": "Pilotage sous voile",
+      "voileTexte": "Voiles rapides et compétition : le brevet B5, après le brevet C et 500 sauts."
+    },
+    "club": {
+      "surtitre": "Sur place",
+      "titre": "Tout pour progresser",
+      "texte": "Un parc de voiles adapté à chaque étape, une maquette d'avion à l'échelle 1:1 pour répéter les sorties, une salle vidéo pour les débriefings et de quoi dormir sur place.",
+      "voiles1": "210 à 260 pieds²",
+      "voiles1Texte": "voiles des débutants, sauts en ouverture automatique",
+      "voiles2": "170 à 260 pieds²",
+      "voiles2Texte": "voiles des élèves en progression",
+      "hebergement": "25",
+      "hebergementTexte": "couchages : chambres, dortoir, et camping-caravaning",
+      "hangar": "500 m²",
+      "hangarTexte": "de hangar : deux aires de pliage, magasin, atelier, salle vidéo"
+    }
+  },
+  "reserver": {
+    "ouverture": {
+      "surtitre": "Réservation",
+      "titre1": "Réservez",
+      "titre2": "votre saut",
+      "texte": "Choisissez votre formule et une date un samedi, un dimanche ou un jour férié. La réservation est confirmée à réception de l'acompte.",
+      "action": "Commencer la réservation",
+      "info": "Acompte de 50 € par formule",
+      "alt": "Un parachutiste sous voile arrive au-dessus de la zone de saut",
+      "billetTitre": "Carte d'embarquement",
+      "billetVol": "Avion",
+      "billetVolValeur": "Cessna 206",
+      "billetJours": "Jours de saut",
+      "billetJoursValeur": "Sam., dim. et fériés",
+      "billetTandem": "Tandem",
+      "billetTandemValeur": "4 000 m",
+      "billetInitiation": "Initiation",
+      "billetInitiationValeur": "1 200 m"
+    },
+    "formulaire": {
+      "surtitre": "En 4 étapes",
+      "titre": "Votre réservation",
+      "etapes": "Formule, date, vérifications, coordonnées : un récapitulatif vous suit jusqu'au bout.",
+      "e1": "Formule",
+      "e2": "Date",
+      "e3": "Vérifications",
+      "e4": "Coordonnées",
+      "formuleLegende": "Quelle formule ?",
+      "fTandem": "Saut en tandem",
+      "fTandemDetail": "4 000 m · environ 50 s de chute",
+      "fVideo": "Tandem avec vidéo",
+      "fVideoDetail": "Film HD remis sur clé USB",
+      "fInitiation": "Saut d'initiation",
+      "fInitiationDetail": "Formation de 6 h et saut à 1 200 m",
+      "fCadeau": "Bon cadeau",
+      "fCadeauDetail": "Tandem ou initiation à offrir",
+      "dateLegende": "Quel jour ?",
+      "dateAide": "Seuls les samedis, dimanches et jours fériés sont proposés. Les jours passés sont grisés.",
+      "dateCadeau": "Pour un bon cadeau, la personne qui reçoit le saut choisira sa date.",
+      "moisPrecedent": "Mois précédent",
+      "moisSuivant": "Mois suivant",
+      "ferie": "férié",
+      "aujourdhui": "aujourd'hui",
+      "verifLegende": "Quelques vérifications",
+      "personnes": "Nombre de personnes",
+      "v15": "Chaque personne aura 15 ans ou plus le jour du saut",
+      "v90": "Chaque personne pèse 90 kg ou moins",
+      "vCertif": "Chaque personne aura un certificat médical de moins d'un an",
+      "verifErreur": "Cochez les trois vérifications pour continuer : en cas de doute, appelez le club.",
+      "nom": "Nom et prénom",
+      "telephone": "Téléphone",
+      "email": "E-mail",
+      "message": "Un message pour le club (facultatif)",
+      "precedent": "Retour",
+      "suivant": "Continuer",
+      "envoyer": "Envoyer la demande",
+      "recapTitre": "Récapitulatif",
+      "recapFormule": "Formule",
+      "recapDate": "Date",
+      "recapPersonnes": "Personnes",
+      "recapAcompte": "Acompte",
+      "recapVide": "À choisir",
+      "recapPaiement": "Chèque à l'ordre d'EPNFC, carte ou espèces sur place, ou virement.",
+      "simule": "Maquette : rien n'a été envoyé. Sur le vrai site, le club confirmera votre date et l'acompte à régler.",
+      "rgpd": "Vos coordonnées servent uniquement à traiter votre réservation."
+    },
+    "tarifs": {
+      "surtitre": "Les tarifs",
+      "titre": "Recevoir les tarifs par e-mail",
+      "texte": "En tant que club associatif (loi 1901), le club ne publie pas ses tarifs. Laissez votre adresse : ils vous sont envoyés aussitôt par e-mail.",
+      "email": "Votre e-mail",
+      "envoyer": "Recevoir les tarifs",
+      "simule": "Maquette : rien n'a été envoyé. Sur le vrai site, les tarifs arrivent par e-mail automatique."
+    },
+    "acompte": {
+      "surtitre": "Acompte et report",
+      "titre": "Les règles du jeu",
+      "a1Titre": "50 € par formule",
+      "a1Texte": "La réservation d'un tandem, d'une initiation, d'un forfait ou d'un stage est confirmée à réception de l'acompte : chèque à l'ordre d'EPNFC, carte ou espèces sur place, ou virement.",
+      "a2Titre": "Sous deux semaines",
+      "a2Texte": "Sans acompte reçu dans les deux semaines, le créneau peut être proposé à quelqu'un d'autre.",
+      "a3Titre": "Annulation",
+      "a3Texte": "L'acompte n'est pas remboursé en cas d'annulation moins d'une semaine avant, d'absence, ou si un report ne peut pas être réattribué.",
+      "a4Titre": "Météo",
+      "a4Texte": "Si le temps ne permet pas de sauter, le club fixe avec vous un nouveau rendez-vous. Seul le club peut décider d'un report."
+    },
+    "faq": {
+      "surtitre": "Questions fréquentes",
+      "titre": "Tout ce qu'on nous demande"
+    }
+  },
+  "contact": {
+    "ouverture": {
+      "surtitre": "Contact",
+      "titre": "Une question ? Appelez le club",
+      "info": "Samedis, dimanches et jours fériés sur le terrain",
+      "texte": "Pour une date, un bon cadeau ou une licence, le plus simple est d'appeler. Vous pouvez aussi écrire au club, ou passer sur place les jours de saut.",
+      "action": "Appeler le club",
+      "ecrire": "Écrire au club",
+      "alt": "Le véhicule du club peint aux couleurs de l'École de parachutisme Nord Franche-Comté"
+    },
+    "acces": {
+      "surtitre": "Accès",
+      "titre": "L'aérodrome de Courcelles-lès-Montbéliard",
+      "texte": "Le terrain se trouve à 30 minutes de Mulhouse et à 45 minutes de Colmar. Les pratiquants viennent de tout le Nord Franche-Comté, d'Alsace, du Jura, de Suisse et d'Allemagne.",
+      "carteTitre": "Carte d'accès schématique",
+      "aerodrome": "Aérodrome",
+      "montbeliard": "Montbéliard",
+      "belfort": "Belfort",
+      "mulhouse": "Mulhouse · 30 min",
+      "colmar": "Colmar · 45 min",
+      "besancon": "Besançon",
+      "suisse": "Suisse",
+      "schema": "Schéma sans échelle"
+    },
+    "formulaire": {
+      "surtitre": "Écrire au club",
+      "titre": "Votre message",
+      "sujet": "Sujet",
+      "sTandem": "Saut en tandem",
+      "sInitiation": "Saut d'initiation",
+      "sProgression": "Progression et licence",
+      "sCadeau": "Bon cadeau",
+      "sAutre": "Autre question",
+      "nom": "Nom et prénom",
+      "email": "E-mail",
+      "telephone": "Téléphone (facultatif)",
+      "message": "Message",
+      "envoyer": "Envoyer",
+      "simule": "Maquette : rien n'a été envoyé. Sur le vrai site, le club vous répond par e-mail ou par téléphone.",
+      "rgpd": "Vos coordonnées servent uniquement à répondre à votre message."
+    },
+    "amis": {
+      "surtitre": "Nos amis",
+      "titre": "Le club et ses partenaires",
+      "texte": "Suivez la vie du club sur ses réseaux, et retrouvez les partenaires qu'il recommande."
+    }
+  },
+  "introuvable": {
+    "titre": "Posé hors zone",
+    "texte": "Cette page n'existe pas ou plus. Pas de panique : la zone de saut est par ici.",
+    "retour": "Revenir à l'accueil",
+    "alt": "Une manche à air au repos au bord d'un champ vide"
+  }
+}

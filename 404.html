@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="fr" data-v="1" data-curseur>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Posé hors zone : ParaClub Montbéliard</title>
+<meta name="description" content="Cette page n&#39;existe pas ou plus.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://epnfc-maquette.vercel.app/404">
+<style>:root{--fond:#F5F8FB;--texte:#0C1A2E;--voile-fond:#0C1A2E;--ouverture-fond:#0C1A2E;--menu-fond:#0C1A2E}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/archivo.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#0C1A2E">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="ParaClub Montbéliard">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Posé hors zone : ParaClub Montbéliard">
+<meta property="og:description" content="Cette page n&#39;existe pas ou plus.">
+<meta property="og:url" content="https://epnfc-maquette.vercel.app/404">
+<meta property="og:image" content="https://epnfc-maquette.vercel.app/assets/partage/accueil-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="ParaClub Montbéliard : sautez à 4 000 m">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SportsActivityLocation","name":"ParaClub Montbéliard (École de Parachutisme Nord Franche-Comté)","url":"https://epnfc-maquette.vercel.app/","telephone":"+33381902106","email":"epnfc@wanadoo.fr","address":{"@type":"PostalAddress","streetAddress":"Aérodrome de Courcelles-lès-Montbéliard","postalCode":"25420","addressLocality":"Courcelles-lès-Montbéliard","addressCountry":"FR"},"description":"École de parachutisme labellisée depuis 2004, affiliée à la Fédération Française de Parachutisme : sauts en tandem, initiation, progression.","sameAs":["https://www.facebook.com/parachutismemontbeliard/","https://www.instagram.com/montbeliard_parachutisme/"]}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="iris" aria-hidden="true"><div class="voile-contenu"><img class="voile-logo" src="/assets/images/logo-clair.svg" alt="" width="72" height="72"><span data-voile-libelle>Page introuvable</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <img class="ouverture-logo" src="/assets/images/logo-clair.svg" alt="" width="64" height="64" data-ouverture-objet>
+  <p class="ouverture-nom">ParaClub <em>Montbéliard</em></p>
+  <span class="ouverture-trait"></span>
+  <p class="ouverture-ligne">École de parachutisme</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil">
+      <img src="/assets/images/logo.svg" alt="" width="40" height="40"><span class="entete-nom">ParaClub <em>Montbéliard</em></span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/tandem" data-libelle="Tandem">Tandem</a></li><li><a href="/initiation" data-libelle="Initiation">Initiation</a></li><li><a href="/progression" data-libelle="Progression">Progression</a></li><li><a href="/reserver" data-libelle="Réserver">Réserver</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/reserver#reservation" data-libelle="Réserver">Réserver</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/tandem" class="menu-lien" data-libelle="Tandem">Tandem</a></li><li style="--i:2"><a href="/initiation" class="menu-lien" data-libelle="Initiation">Initiation</a></li><li style="--i:3"><a href="/progression" class="menu-lien" data-libelle="Progression">Progression</a></li><li style="--i:4"><a href="/reserver" class="menu-lien" data-libelle="Réserver">Réserver</a></li><li style="--i:5"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p><a class="bouton" href="tel:+33381902106">Appeler 03 81 90 21 06</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="introuvable" id="debut">
+  <figure class="media introuvable-media" data-grok data-fx="parallaxe" data-fx-force="8" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/appel-fond-1280.webp" srcset="/assets/images/grok/appel-fond-640.webp 640w, /assets/images/grok/appel-fond-1280.webp 1280w, /assets/images/grok/appel-fond-1920.webp 1920w" sizes="100vw" alt="" width="1280" height="720" fetchpriority="high" loading="eager" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  <div class="introuvable-texte conteneur">
+    <figure class="media introuvable-carte" data-grok data-fx="zoom" style="--cadrage:80% 50%">
+  <picture>
+    <img src="/assets/images/grok/page-404-1600.webp" srcset="/assets/images/grok/page-404-800.webp 800w, /assets/images/grok/page-404-1600.webp 1600w" sizes="(max-width: 760px) 60vw, 26vw" alt="Une manche à air au repos au bord d&#39;un champ vide" width="1600" height="900" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    <svg class="voile-svg introuvable-voile" viewBox="0 0 200 150" aria-hidden="true" focusable="false" data-iris-centre data-effet="voile">
+  <g class="voile-caissons">
+    <path class="voile-caisson" d="M14 52 Q30 34 50 27 L54 44 Q36 50 24 62 Z"/>
+    <path class="voile-caisson voile-caisson--b" d="M50 27 Q75 19 100 18 L100 36 Q78 37 54 44 Z"/>
+    <path class="voile-caisson" d="M100 18 Q125 19 150 27 L146 44 Q122 37 100 36 Z"/>
+    <path class="voile-caisson voile-caisson--b" d="M150 27 Q170 34 186 52 L176 62 Q164 50 146 44 Z"/>
+  </g>
+  <g class="voile-suspentes" fill="none" stroke-width="1.4" stroke-linecap="round">
+    <path d="M24 62 L100 122 M54 44 L100 122 M100 36 L100 122 M146 44 L100 122 M176 62 L100 122"/>
+  </g>
+  <g class="voile-pilote"><circle cx="100" cy="127" r="6"/><path d="M95 133 L100 146 L105 133 Z"/></g>
+</svg>
+    <h1 class="introuvable-titre" data-anime="lettres">Posé hors zone</h1>
+    <p data-anime>Cette page n&#39;existe pas ou plus. Pas de panique : la zone de saut est par ici.</p>
+    <p data-anime><a href="/" class="bouton" data-libelle="Accueil" data-action-principale>Revenir à l&#39;accueil</a></p>
+    <p class="hero-info" data-info-cle>Samedis, dimanches et jours fériés</p>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <p class="pied-logo"><img src="/assets/images/logo-clair.svg" alt="" width="44" height="44"><strong>ParaClub Montbéliard</strong></p>
+      <p>École de Parachutisme Nord Franche-Comté<br>Club école labellisé depuis 2004 et affilié à la Fédération Française de Parachutisme.</p>
+    </div>
+    <div>
+      <p><strong>Samedis, dimanches et jours fériés</strong></p>
+      <p>Aérodrome de Courcelles-lès-Montbéliard, 25420 Courcelles-lès-Montbéliard<br><a href="tel:+33381902106">03 81 90 21 06</a><br><a href="mailto:epnfc@wanadoo.fr">epnfc@wanadoo.fr</a></p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p><strong>Sommaire</strong></p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/tandem" data-libelle="Tandem">Tandem</a></li><li><a href="/initiation" data-libelle="Initiation">Initiation</a></li><li><a href="/progression" data-libelle="Progression">Progression</a></li><li><a href="/reserver" data-libelle="Réserver">Réserver</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li><li><a href="#haut" data-sans-transition>Retour en haut</a></li></ul>
+    </nav>
+    <div>
+      <p><strong>Le club en images</strong></p>
+      <ul>
+        <li><a href="https://www.facebook.com/parachutismemontbeliard/" target="_blank" rel="noopener">Facebook<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="https://www.instagram.com/montbeliard_parachutisme/" target="_blank" rel="noopener">Instagram<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Maquette de démonstration : formulaires et réservations simulés, rien n&#39;est envoyé.</p><p>Mentions légales : à compléter · Politique de confidentialité : à compléter</p><p>© ParaClub Montbéliard</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33381902106">Appeler</a>
+  <a class="bouton" href="/reserver#reservation" data-libelle="Réserver">Réserver</a>
+</div>
+</body>
+</html>

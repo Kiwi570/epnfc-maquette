@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="fr" data-v="1" data-curseur>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Saut d&#39;initiation en parachute : ParaClub Montbéliard</title>
+<meta name="description" content="Une journée de formation au sol, puis votre premier saut seul à 1 200 m, ouverture automatique et guidage radio.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://epnfc-maquette.vercel.app/initiation">
+<style>:root{--fond:#F5F8FB;--texte:#0C1A2E;--voile-fond:#0C1A2E;--ouverture-fond:#0C1A2E;--menu-fond:#0C1A2E}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/archivo.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#0C1A2E">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="ParaClub Montbéliard">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Saut d&#39;initiation en parachute : ParaClub Montbéliard">
+<meta property="og:description" content="Une journée de formation au sol, puis votre premier saut seul à 1 200 m, ouverture automatique et guidage radio.">
+<meta property="og:url" content="https://epnfc-maquette.vercel.app/initiation">
+<meta property="og:image" content="https://epnfc-maquette.vercel.app/assets/partage/initiation-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Saut d&#39;initiation : seul sous votre voile">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SportsActivityLocation","name":"ParaClub Montbéliard (École de Parachutisme Nord Franche-Comté)","url":"https://epnfc-maquette.vercel.app/","telephone":"+33381902106","email":"epnfc@wanadoo.fr","address":{"@type":"PostalAddress","streetAddress":"Aérodrome de Courcelles-lès-Montbéliard","postalCode":"25420","addressLocality":"Courcelles-lès-Montbéliard","addressCountry":"FR"},"description":"École de parachutisme labellisée depuis 2004, affiliée à la Fédération Française de Parachutisme : sauts en tandem, initiation, progression.","sameAs":["https://www.facebook.com/parachutismemontbeliard/","https://www.instagram.com/montbeliard_parachutisme/"]}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="iris" aria-hidden="true"><div class="voile-contenu"><img class="voile-logo" src="/assets/images/logo-clair.svg" alt="" width="72" height="72"><span data-voile-libelle>Initiation</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <img class="ouverture-logo" src="/assets/images/logo-clair.svg" alt="" width="64" height="64" data-ouverture-objet>
+  <p class="ouverture-nom">ParaClub <em>Montbéliard</em></p>
+  <span class="ouverture-trait"></span>
+  <p class="ouverture-ligne">École de parachutisme</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil">
+      <img src="/assets/images/logo.svg" alt="" width="40" height="40"><span class="entete-nom">ParaClub <em>Montbéliard</em></span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/tandem" data-libelle="Tandem">Tandem</a></li><li><a href="/initiation" data-libelle="Initiation" aria-current="page">Initiation</a></li><li><a href="/progression" data-libelle="Progression">Progression</a></li><li><a href="/reserver" data-libelle="Réserver">Réserver</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/reserver#reservation" data-libelle="Réserver">Réserver</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/tandem" class="menu-lien" data-libelle="Tandem">Tandem</a></li><li style="--i:2"><a href="/initiation" class="menu-lien" data-libelle="Initiation" aria-current="page">Initiation</a></li><li style="--i:3"><a href="/progression" class="menu-lien" data-libelle="Progression">Progression</a></li><li style="--i:4"><a href="/reserver" class="menu-lien" data-libelle="Réserver">Réserver</a></li><li style="--i:5"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p><a class="bouton" href="tel:+33381902106">Appeler 03 81 90 21 06</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="ouv ouv-init" id="debut" data-ouverture-page>
+  <div class="conteneur ouv-init-grille">
+    <figure class="media ouv-init-media" data-grok data-fx="parallaxe" data-fx-force="8" style="--cadrage:50% 45%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/initiation-ouverture-mobile-640.webp 640w, /assets/images/grok/initiation-ouverture-mobile-1080.webp 1080w" sizes="(max-width: 760px) 100vw, 40vw">
+    <img src="/assets/images/grok/initiation-ouverture-1280.webp" srcset="/assets/images/grok/initiation-ouverture-640.webp 640w, /assets/images/grok/initiation-ouverture-1280.webp 1280w" sizes="(max-width: 760px) 100vw, 40vw" alt="Un élève parachutiste assis à la porte ouverte de l&#39;avion" width="1280" height="1600" fetchpriority="high" loading="eager" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    <div class="ouv-texte">
+      <p class="surtitre" data-anime="gsap">Saut d&#39;initiation · 1 200 m</p>
+      <h1 class="ouv-titre" data-iris-centre data-anime="gsap">Votre premier saut, <em>seul sous votre voile</em></h1>
+      <p class="chapeau masque-ecran-bas" data-anime="gsap">Une journée de formation au sol avec un moniteur, puis votre saut l&#39;après-midi. Le parachute s&#39;ouvre automatiquement, et vous pilotez votre voile, guidé par radio.</p>
+      <p class="ouv-actions" data-anime="gsap"><a href="/reserver?formule=initiation#reservation" class="bouton" data-libelle="Réserver" data-action-principale data-survol="magnetique">Réserver une initiation</a></p>
+      <p class="hero-info" data-info-cle data-anime="gsap"><span class="pastille" aria-hidden="true"></span>Rendez-vous à 8 h, quel que soit le temps</p>
+    </div>
+  </div>
+</section>
+<section class="journee" id="journee" data-effet="journee">
+  <div class="conteneur">
+    <h2 class="journee-titre" data-anime="lignes">La journée</h2>
+    <div class="journee-ligne" aria-hidden="true"><span></span></div>
+    <ol class="journee-liste" data-anime="cascade"><li><p class="journee-heure">8 h</p><p>Accueil et début de la formation</p></li><li><p class="journee-heure">Environ 6 h</p><p>Théorie et exercices au sol</p></li><li><p class="journee-heure">Midi</p><p>Repas tiré du sac, réchauffage possible</p></li><li><p class="journee-heure">L&#39;après-midi</p><p>Votre saut à 1 200 m</p></li><li><p class="journee-heure">Après</p><p>Débriefing avec votre moniteur</p></li></ol>
+  </div>
+</section>
+<section class="formation" id="formation">
+  <div class="conteneur formation-grille">
+    <div>
+      <p class="surtitre" data-anime>La formation</p>
+      <h2 class="titre-section" data-anime="lignes">Six heures pour <em>être prêt</em></h2>
+      <p class="chapeau" data-anime>La théorie en salle, puis les exercices au sol : la sortie de l&#39;avion sur la maquette à l&#39;échelle 1:1 du club, la position, la lecture de la voile, l&#39;atterrissage. Le saut a lieu l&#39;après-midi, quand vous êtes prêt.</p>
+    </div>
+    <div class="formation-photos">
+      <figure class="media formation-a" data-anime="rideau" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/initiation-cours-960.webp" srcset="/assets/images/initiation-cours-480.webp 480w, /assets/images/initiation-cours-640.webp 640w, /assets/images/initiation-cours-960.webp 960w" sizes="(max-width: 760px) 100vw, 40vw" alt="Élèves en formation théorique dans une salle de cours du club" width="960" height="540" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <figure class="media formation-b" data-fx="parallaxe" data-fx-force="10" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/initiation-maquette-960.webp" srcset="/assets/images/initiation-maquette-480.webp 480w, /assets/images/initiation-maquette-640.webp 640w, /assets/images/initiation-maquette-960.webp 960w" sizes="(max-width: 760px) 50vw, 22vw" alt="Deux parachutistes devant la maquette d&#39;avion à l&#39;échelle 1:1 du club" width="960" height="640" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <figure class="media formation-c" data-fx="zoom" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/initiation-groupe-960.webp" srcset="/assets/images/initiation-groupe-480.webp 480w, /assets/images/initiation-groupe-640.webp 640w, /assets/images/initiation-groupe-960.webp 960w" sizes="(max-width: 760px) 50vw, 22vw" alt="Un groupe d&#39;élèves en combinaisons rouges dans le hangar, le jour de l&#39;initiation" width="960" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    </div>
+  </div>
+</section>
+<section class="saut" id="saut">
+  <div class="conteneur saut-grille">
+    <figure class="media saut-media" data-grok data-fx="zoom" style="--cadrage:50% 35%">
+  <picture>
+    <img src="/assets/images/grok/carte-initiation-784.webp" srcset="/assets/images/grok/carte-initiation-480.webp 480w, /assets/images/grok/carte-initiation-640.webp 640w, /assets/images/grok/carte-initiation-784.webp 784w" sizes="(max-width: 760px) 100vw, 36vw" alt="Un élève parachutiste sous sa voile d&#39;école, vu d&#39;en dessous" width="784" height="1176" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    <div>
+      <p class="surtitre surtitre--clair" data-anime>Le saut</p>
+      <h2 class="titre-section" data-anime="lignes">1 200 mètres, et la voile s&#39;ouvre</h2>
+      <ul class="chiffres saut-chiffres" data-anime="cascade">
+        <li><strong class="chiffre" data-compteur="1200">1 200</strong><span>m d&#39;altitude</span></li>
+        <li><strong class="chiffre" data-compteur="3">3</strong><span>secondes de chute environ, puis ouverture automatique</span></li>
+        <li><strong class="chiffre saut-radio">Radio</strong><span>Un moniteur vous guide pour piloter votre voile jusqu&#39;au posé</span></li>
+      </ul>
+      <p class="saut-debrief" data-anime>Votre moniteur débriefe votre saut avec vous à l&#39;atterrissage.</p>
+    </div>
+  </div>
+</section>
+<section class="conditions" id="preparer">
+  <div class="conteneur">
+    <div class="tete-section">
+      <p class="surtitre" data-anime>Se préparer</p>
+      <h2 class="titre-section" data-anime="lignes">Ce qu&#39;il faut savoir</h2>
+    </div>
+    <div class="listes-grille listes-grille--2" data-anime="cascade">
+      <article class="liste-carte"><h3>Conditions</h3><ul class="puces"><li>Dès 15 ans</li><li>90 kg au maximum recommandés</li><li>Bonne condition physique</li><li>Certificat médical d&#39;un médecin généraliste</li></ul></article>
+      <article class="liste-carte"><h3>À apporter</h3><ul class="puces"><li>Vos lunettes avec un cordon, si vous en portez</li><li>Des baskets basses</li><li>Une tenue de sport chaude</li><li>Votre repas de midi</li><li>Ni alcool, ni substance interdite avant de sauter</li></ul></article>
+    </div>
+  </div>
+</section>
+<section class="apres" id="apres">
+  <div class="conteneur apres-grille">
+    <figure class="media apres-media" data-anime="rideau" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/progression-parc-800.webp" srcset="/assets/images/progression-parc-480.webp 480w, /assets/images/progression-parc-640.webp 640w, /assets/images/progression-parc-800.webp 800w" sizes="(max-width: 760px) 100vw, 30vw" alt="Harnais et sacs-harnais colorés du parc de parachutes du club" width="800" height="600" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div>
+      <p class="surtitre" data-anime>Et après ?</p>
+      <h2 class="titre-section" data-anime="lignes">Vers le brevet A</h2>
+      <p class="chapeau" data-anime>Après le premier saut et la licence annuelle, vous enchaînez les sauts avec un programme d&#39;exercices en chute et sous voile. Le brevet A demande au moins 15 sauts en chute libre.</p>
+      <p data-anime><a href="/progression" class="bouton bouton--contour" data-libelle="Progression">Voir la progression</a></p>
+    </div>
+  </div>
+</section>
+<section class="appel" id="appel">
+  <figure class="media appel-fond" data-grok data-fx="parallaxe" data-fx-force="12" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/appel-fond-1280.webp" srcset="/assets/images/grok/appel-fond-640.webp 640w, /assets/images/grok/appel-fond-1280.webp 1280w, /assets/images/grok/appel-fond-1920.webp 1920w" sizes="100vw" alt="" width="1280" height="720" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  <div class="appel-contenu conteneur">
+    <svg class="voile-svg appel-voile" viewBox="0 0 200 150" aria-hidden="true" focusable="false" data-effet="voile" data-grille="fil">
+  <g class="voile-caissons">
+    <path class="voile-caisson" d="M14 52 Q30 34 50 27 L54 44 Q36 50 24 62 Z"/>
+    <path class="voile-caisson voile-caisson--b" d="M50 27 Q75 19 100 18 L100 36 Q78 37 54 44 Z"/>
+    <path class="voile-caisson" d="M100 18 Q125 19 150 27 L146 44 Q122 37 100 36 Z"/>
+    <path class="voile-caisson voile-caisson--b" d="M150 27 Q170 34 186 52 L176 62 Q164 50 146 44 Z"/>
+  </g>
+  <g class="voile-suspentes" fill="none" stroke-width="1.4" stroke-linecap="round">
+    <path d="M24 62 L100 122 M54 44 L100 122 M100 36 L100 122 M146 44 L100 122 M176 62 L100 122"/>
+  </g>
+  <g class="voile-pilote"><circle cx="100" cy="127" r="6"/><path d="M95 133 L100 146 L105 133 Z"/></g>
+</svg>
+    <p class="surtitre surtitre--clair" data-anime>4 000 m vous attendent</p>
+    <h2 class="appel-titre" data-anime="lignes">Prêt à passer <em>la porte ?</em></h2>
+    <p class="appel-texte" data-anime>Tandem ou initiation : réservez en ligne ou appelez le club. On saute les samedis, dimanches et jours fériés.</p>
+    <p class="appel-actions" data-anime>
+      <a href="/reserver?formule=initiation#reservation" class="bouton" data-libelle="Réserver" data-survol="magnetique">Réserver mon saut</a>
+      <a href="/reserver?formule=cadeau#reservation" class="bouton bouton--clair" data-libelle="Réserver" data-survol="magnetique">Offrir un saut</a>
+      <a class="appel-tel" href="tel:+33381902106">03 81 90 21 06</a>
+    </p>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <p class="pied-logo"><img src="/assets/images/logo-clair.svg" alt="" width="44" height="44"><strong>ParaClub Montbéliard</strong></p>
+      <p>École de Parachutisme Nord Franche-Comté<br>Club école labellisé depuis 2004 et affilié à la Fédération Française de Parachutisme.</p>
+    </div>
+    <div>
+      <p><strong>Samedis, dimanches et jours fériés</strong></p>
+      <p>Aérodrome de Courcelles-lès-Montbéliard, 25420 Courcelles-lès-Montbéliard<br><a href="tel:+33381902106">03 81 90 21 06</a><br><a href="mailto:epnfc@wanadoo.fr">epnfc@wanadoo.fr</a></p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p><strong>Sommaire</strong></p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/tandem" data-libelle="Tandem">Tandem</a></li><li><a href="/initiation" data-libelle="Initiation" aria-current="page">Initiation</a></li><li><a href="/progression" data-libelle="Progression">Progression</a></li><li><a href="/reserver" data-libelle="Réserver">Réserver</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li><li><a href="#haut" data-sans-transition>Retour en haut</a></li></ul>
+    </nav>
+    <div>
+      <p><strong>Le club en images</strong></p>
+      <ul>
+        <li><a href="https://www.facebook.com/parachutismemontbeliard/" target="_blank" rel="noopener">Facebook<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="https://www.instagram.com/montbeliard_parachutisme/" target="_blank" rel="noopener">Instagram<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Maquette de démonstration : formulaires et réservations simulés, rien n&#39;est envoyé.</p><p>Mentions légales : à compléter · Politique de confidentialité : à compléter</p><p>© ParaClub Montbéliard</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33381902106">Appeler</a>
+  <a class="bouton" href="/reserver#reservation" data-libelle="Réserver">Réserver</a>
+</div>
+</body>
+</html>

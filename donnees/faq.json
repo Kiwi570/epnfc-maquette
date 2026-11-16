@@ -1,0 +1,14 @@
+[
+  { "q": "Qui peut sauter ?", "r": "À partir de 15 ans, avec une morphologie adaptée et une bonne condition physique : il faut pouvoir bien lever les genoux et les pieds. Un certificat médical de non-contre-indication de moins d'un an est demandé." },
+  { "q": "Y a-t-il une limite de poids ou de taille ?", "r": "Le poids maximum est de 90 kg. Les harnais sont réglables, mais l'adaptation devient difficile en dessous de 1,40 m." },
+  { "q": "Y a-t-il des contre-indications ?", "r": "Pas de plongée dans les 48 heures avant le saut, pas d'alcool dans les 12 heures avant, et pas de saut pendant une grossesse. Le club peut refuser un saut si le gabarit ou l'état de santé n'est pas compatible." },
+  { "q": "Combien de temps faut-il prévoir ?", "r": "Une demi-journée pour un tandem, même si le saut lui-même dure environ 30 minutes. L'heure du rendez-vous est l'heure d'arrivée sur le site, pas celle du saut. Pour une initiation, toute la journée, dès 8 h." },
+  { "q": "Faut-il manger avant ?", "r": "Oui : sans avoir mangé, on risque des vertiges ou un malaise après l'ouverture du parachute." },
+  { "q": "Comment s'habiller ?", "r": "Des vêtements décontractés adaptés à la saison, des baskets basses et un pull : il fait souvent plus frais en altitude. Une combinaison peut être prêtée." },
+  { "q": "Je porte des lunettes, est-ce un problème ?", "r": "Non. Les lentilles sont plus confortables, mais des lunettes de chute sont fournies et se portent par-dessus les lunettes de vue." },
+  { "q": "Mes proches peuvent-ils venir ?", "r": "Oui, famille et amis sont les bienvenus sur le terrain, sans approcher l'avion ni la zone de saut. Le repas tiré du sac est possible sur place." },
+  { "q": "Et si la météo n'est pas bonne ?", "r": "Vent fort, pluie ou nuages trop bas empêchent le saut. La météo peut varier entre deux lieux proches : venez sur place, le club vous donne des consignes par téléphone en cas de doute. Un nouveau rendez-vous est fixé d'un commun accord ; seul le club peut décider d'un report." },
+  { "q": "Le tandem est-il sûr ?", "r": "Le tandem est encadré en France par des qualifications strictes. Les moniteurs ont des milliers de sauts, les parachutes principaux sont pliés et vérifiés par des personnes qualifiées et des ouvreurs de sécurité déclenchent l'ouverture automatiquement à une altitude donnée." },
+  { "q": "Comment se passe l'atterrissage ?", "r": "Le moniteur, professionnel diplômé, gère le posé pour qu'il ne soit pas brutal. La position d'atterrissage est répétée pendant le briefing." },
+  { "q": "Puis-je filmer avec ma propre caméra ?", "r": "Non, les caméras personnelles de type GoPro sont interdites pour des raisons de sécurité. L'option vidéo du club, avec un caméraman, se choisit à la réservation ou sur place." }
+]
