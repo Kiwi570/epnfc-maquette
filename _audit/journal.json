@@ -96,6 +96,59 @@
       ],
       "grilleDispenses": {},
       "notes": "favoris.json absent du dépôt public : copie locale provisoire reconstruite d'après la skill (8 favorites). Accueil et pages intérieures construits en parallèle de l’attente des images Grok (pages écrites pendant l’audit rapide de l’accueil)."
+    },
+    {
+      "version": 2,
+      "skill": "v11.1",
+      "perimetre": [
+        "accueil",
+        "tandem",
+        "initiation",
+        "progression",
+        "reserver",
+        "contact",
+        "404"
+      ],
+      "etapes": [
+        {
+          "etape": "analyse approfondie de la v1",
+          "budget": 20,
+          "debut": "2026-11-16T23:09:59+01:00",
+          "fin": "2026-11-16T23:12:22+01:00"
+        },
+        {
+          "etape": "corrections et améliorations",
+          "budget": 40,
+          "debut": "2026-11-16T23:12:22+01:00",
+          "fin": "2026-11-16T23:15:31+01:00"
+        },
+        {
+          "etape": "audit complet et corrections",
+          "budget": 50,
+          "debut": "2026-11-16T23:15:31+01:00",
+          "fin": "2026-11-16T23:44:31+01:00"
+        },
+        {
+          "etape": "livraison",
+          "budget": 5,
+          "debut": "2026-11-16T23:44:31+01:00",
+          "fin": "2026-11-16T23:44:38+01:00"
+        }
+      ],
+      "attentes": [],
+      "allersRetours": 0,
+      "modules": [],
+      "audit": {
+        "niveau": "complet (13 tailles, tous les modes, toutes les pages)",
+        "echecsPremierPassage": 1,
+        "relances": 1,
+        "corrections": [
+          "cadre photo du déroulé Tandem ramené à 540 px (photo faible au-delà de 25 % de l’écran)"
+        ]
+      },
+      "effetsRetires": [],
+      "grilleDispenses": {},
+      "notes": "Demande : audit complet, analyse approfondie (expérience, visuels, design, animations) et améliorations pour une version optimale."
     }
   ]
 }

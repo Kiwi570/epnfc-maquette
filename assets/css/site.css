@@ -168,6 +168,10 @@ html.js:not(.secours) .deroule-collant { position: sticky; top: 0; height: 100vh
 .traj-mini-voile path:first-child { fill: var(--accent); }
 .traj-mini-suspentes { fill: none; stroke: #fff; stroke-width: 1.5; }
 .traj-mini-voile { opacity: 0; }
+.traj-avion path { fill: #fff; }
+.traj-cible text { fill: #AFC2D8; font: 700 14px var(--police-texte); }
+.traj-phase { fill: #6d88a8; font: 800 17px var(--police-texte); letter-spacing: .02em; transition: fill .4s; }
+.traj-phase.actif { fill: var(--accent-clair); }
 .deroule-etapes { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: clamp(8px, 1.2vw, 18px); }
 .etape { padding: 14px 16px; border-radius: 14px; background: var(--nuit-2); border: 1px solid #23395a; transition: background-color .4s, border-color .4s, transform .4s var(--courbe); }
 .etape.actif { background: #1b3354; border-color: var(--accent); transform: translateY(-4px); }
@@ -181,7 +185,9 @@ html.js:not(.secours) .deroule-collant { position: sticky; top: 0; height: 100vh
   html.js:not(.secours) .deroule { height: auto; }
   html.js:not(.secours) .deroule-collant { position: relative; height: auto; overflow: visible; }
   .deroule-collant { padding-block: 72px 56px; }
-  .trajectoire { height: auto; aspect-ratio: 1000 / 400; }
+  .trajectoire { height: auto; aspect-ratio: 1000 / 400; position: sticky; top: calc(var(--entete-h) + 6px); z-index: 2; background: var(--nuit); padding: 6px 0; box-shadow: 0 14px 18px -10px var(--nuit); }
+  html.entete-cache .trajectoire { top: 6px; }
+  .traj-phase { font-size: 26px; }
   .deroule-etapes { grid-template-columns: minmax(0, 1fr); }
   .etape.actif { transform: none; }
 }
@@ -302,7 +308,7 @@ html:not(.js) .club-rangee, html.secours .club-rangee { overflow-x: auto; }
 /* ---------- Appel final (toutes les pages). ---------- */
 .appel { position: relative; isolation: isolate; color: #fff; background: var(--nuit); min-height: min(92svh, 820px); display: grid; align-items: center; overflow: hidden; }
 .appel-fond { position: absolute; inset: 0; z-index: -2; border-radius: 0; }
-.appel::before { content: ''; position: absolute; inset: 0; z-index: -1; pointer-events: none; background: linear-gradient(180deg, rgba(12, 26, 46, .82), rgba(12, 26, 46, .58) 55%, rgba(12, 26, 46, .86)); }
+.appel::before { content: ''; position: absolute; inset: 0; z-index: -1; pointer-events: none; background: radial-gradient(ellipse 60% 55% at 50% 52%, rgba(12, 26, 46, .78), rgba(12, 26, 46, .38) 70%), linear-gradient(180deg, rgba(12, 26, 46, .5), rgba(12, 26, 46, .2) 45%, rgba(12, 26, 46, .7)); }
 .appel-contenu { padding-block: clamp(80px, 12vw, 150px); text-align: center; display: grid; justify-items: center; }
 .appel-voile { width: clamp(100px, 11vw, 150px); margin-bottom: 18px; }
 .appel-voile .voile-suspentes { stroke: #fff; }
@@ -416,7 +422,7 @@ html:not(.js) .club-rangee, html.secours .club-rangee { overflow-x: auto; }
 .etapes-duree { font-weight: 800; margin: 0 0 .4em; }
 .etapes-liste li p:last-child { margin: 0; color: var(--texte-doux); }
 .etapes-colonne { position: sticky; top: calc(var(--entete-h) + 24px); }
-.etapes-cadre { position: relative; aspect-ratio: 4 / 5; max-width: 420px; margin-left: auto; max-height: calc(100svh - var(--entete-h) - 60px); border-radius: calc(var(--rayon) + 8px); overflow: hidden; box-shadow: var(--ombre); }
+.etapes-cadre { position: relative; aspect-ratio: 4 / 3; max-width: 540px; margin-left: auto; max-height: calc(100svh - var(--entete-h) - 60px); border-radius: calc(var(--rayon) + 8px); overflow: hidden; box-shadow: var(--ombre); }
 .etapes-photo { position: absolute; inset: 0; border-radius: 0; opacity: 0; transition: opacity .7s var(--courbe); }
 .etapes-photo.visible { opacity: 1; }
 html:not(.js) .etapes-photo:first-child, html.secours .etapes-photo:first-child { opacity: 1; }
@@ -463,18 +469,20 @@ html:not(.js) .etapes-photo:first-child, html.secours .etapes-photo:first-child 
 /* Initiation : la journée. */
 .journee { padding-block: clamp(32px, 5vw, 64px) clamp(64px, 8vw, 112px); }
 .journee-titre { font-size: clamp(1.6rem, 1.2rem + 1.6vw, 2.6rem); }
-.journee-ligne { height: 4px; border-radius: 4px; background: var(--ligne); margin: 8px 0 22px; overflow: hidden; }
+.journee-frise { position: relative; margin-top: 12px; }
+.journee-ligne { position: absolute; left: 0; right: 0; top: 7px; height: 4px; border-radius: 4px; background: var(--ligne); overflow: hidden; }
 .journee-ligne span { display: block; height: 100%; background: var(--accent); transform-origin: 0 50%; }
 .journee-liste { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: clamp(12px, 2vw, 24px); }
-.journee-liste li { position: relative; padding-top: 4px; }
-.journee-liste li::before { content: ''; position: absolute; left: 0; top: -36px; width: 16px; height: 16px; border-radius: 50%; background: var(--nuit); border: 3px solid var(--ciel); }
+.journee-liste li { position: relative; padding-top: 34px; }
+.journee-liste li::before { content: ''; position: absolute; left: 0; top: 0; width: 18px; height: 18px; border-radius: 50%; background: var(--nuit); box-shadow: 0 0 0 4px var(--ciel); }
+.journee-liste li:nth-child(4)::before { background: var(--accent); }
 .journee-heure { margin: 0 0 4px; font-family: var(--police-titres); font-stretch: 125%; font-weight: 900; font-size: clamp(1.2rem, 1rem + .8vw, 1.7rem); color: var(--accent-texte); }
 .journee-liste li p:last-child { margin: 0; font-weight: 600; }
 @media (max-width: 760px) {
   .journee-ligne { display: none; }
   .journee-liste { grid-template-columns: minmax(0, 1fr); gap: 0; border-left: 3px solid var(--accent); padding-left: 20px; }
   .journee-liste li { padding: 0 0 18px; }
-  .journee-liste li::before { left: -30px; top: 6px; }
+  .journee-liste li::before { left: -31px; top: 6px; }
 }
 
 /* Initiation : la formation, le saut, et après. */
@@ -587,6 +595,12 @@ html:not(.js) .etapes-photo:first-child, html.secours .etapes-photo:first-child 
 .cal-ferie { box-shadow: inset 0 0 0 2px var(--accent); }
 .cal-auj { outline: 2px dashed var(--nuit); outline-offset: -4px; }
 .cal-choisi { background: var(--accent); color: var(--nuit); }
+.cal-legende { display: flex; flex-wrap: wrap; gap: 6px 16px; margin: 12px 0 0; padding: 0; list-style: none; font-size: .9rem; font-weight: 700; color: var(--texte-doux); }
+.cal-legende li { display: inline-flex; align-items: center; gap: 8px; }
+.cal-legende i { width: 20px; height: 20px; border-radius: 6px; display: inline-block; }
+.cal-legende .l-ouvert { background: var(--ciel-2); }
+.cal-legende .l-ferie { box-shadow: inset 0 0 0 2px var(--accent); }
+.cal-legende .l-auj { outline: 2px dashed var(--nuit); outline-offset: -4px; }
 .case { display: flex; gap: 12px; align-items: flex-start; min-height: 44px; padding: 10px 0; cursor: pointer; font-weight: 600; }
 .case input { width: 22px; height: 22px; margin-top: 2px; flex: none; accent-color: var(--accent-texte); }
 .champ--court { max-width: 220px; }
@@ -707,4 +721,15 @@ html:not(.js) .ouv, html:not(.js) .introuvable { min-height: 0 !important; }
 @media (max-height: 820px) and (min-width: 761px) {
   .ouv-tandem-grille, .ouv-init-grille, .ouv-contact-grille { align-items: start; }
   .ouv-tandem-media, .ouv-init-media { max-height: calc(100svh - var(--entete-h) - 100px); }
+}
+
+/* Survol : les cartes se soulèvent (propriété translate, indépendante des apparitions qui tiennent transform). */
+@media (hover: hover) and (pointer: fine) {
+  .carte-saut, .pratique-carte, .brevet, .liste-carte, .discipline-petite, .formule, .ami { transition: translate .35s var(--courbe), box-shadow .35s var(--courbe), border-color .25s, background-color .25s; }
+  .carte-saut:hover, .pratique-carte:hover, .brevet:hover, .liste-carte:hover, .discipline-petite:hover { translate: 0 -6px; box-shadow: 0 26px 50px -26px rgba(12, 26, 46, .5); }
+  .ami:hover, .formule:hover { translate: 0 -3px; }
+  .carte-saut .carte-saut-media img { transition: scale .8s var(--courbe); }
+  .carte-saut:hover .carte-saut-media img { scale: 1.05; }
+  .club-photo .club-media img { transition: scale .8s var(--courbe); }
+  .club-photo:hover .club-media img { scale: 1.06; }
 }

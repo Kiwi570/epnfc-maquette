@@ -65,15 +65,22 @@ export default (c) => html`
       <p class="deroule-aide masque-ecran-bas" data-anime>${c.t('accueil.deroule.aide')} ${c.lien('tandem', { ancre: 'deroule', classe: 'lien-fleche lien-fleche--clair', texte: c.t('accueil.deroule.lien') })}</p>
     </div>
     <div class="conteneur deroule-scene">
-      <svg class="trajectoire" viewBox="0 0 1000 400" preserveAspectRatio="xMidYMid meet" data-effet="trajectoire" aria-hidden="true" focusable="false">
-        <defs><linearGradient id="traj-ciel" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1b3354"/><stop offset="1" stop-color="#0c1a2e" stop-opacity="0"/></linearGradient></defs>
-        <rect x="0" y="0" width="1000" height="400" fill="url(#traj-ciel)" opacity=".5"/>
+      <svg class="trajectoire" viewBox="0 0 1000 400" preserveAspectRatio="xMidYMid meet" data-effet="trajectoire" data-superpose aria-hidden="true" focusable="false">
         <path class="traj-sol" d="M0 384 H1000"/>
-        <g class="traj-reperes"><path d="M14 30 H40 M14 384 H40"/><text x="46" y="35">4 000 m</text><text x="46" y="378">0 m</text></g>
-        <g class="traj-cible"><circle cx="900" cy="384" r="26"/><circle cx="900" cy="384" r="12"/></g>
+        <g class="traj-reperes"><path d="M14 30 H40 M14 384 H40"/><text x="46" y="35">4 000 m</text><text x="46" y="376">0 m</text></g>
+        <g class="traj-cible"><circle cx="900" cy="384" r="26"/><circle cx="900" cy="384" r="12"/><text x="900" y="358" text-anchor="middle">${c.t('accueil.deroule.sol')}</text></g>
         <path class="traj-fond" d="M60 384 C 220 360, 420 120, 520 30 C 548 90, 566 160, 572 220 C 640 238, 700 300, 780 316 C 860 332, 900 352, 900 380"/>
         <path class="traj-trace" pathLength="1" d="M60 384 C 220 360, 420 120, 520 30 C 548 90, 566 160, 572 220 C 640 238, 700 300, 780 316 C 860 332, 900 352, 900 380"/>
-        <g class="traj-mobile"><circle class="traj-point" r="9"/><g class="traj-mini-voile"><path d="M-22 -26 Q0 -40 22 -26 L18 -20 Q0 -31 -18 -20 Z"/><path class="traj-mini-suspentes" d="M-18 -20 L0 -4 L18 -20"/></g></g>
+        <g class="traj-phases">
+          <text class="traj-phase" data-phase="0" x="250" y="250" text-anchor="end">${c.t('accueil.deroule.phaseMontee')}</text>
+          <text class="traj-phase" data-phase="1" x="600" y="110">${c.t('accueil.deroule.phaseChute')}</text>
+          <text class="traj-phase" data-phase="2" x="700" y="250">${c.t('accueil.deroule.phaseVoile')}</text>
+        </g>
+        <g class="traj-mobile">
+          <g class="traj-avion"><path d="M-26 -2 L14 -4 Q24 -4 26 0 Q24 4 14 4 L-26 3 Z"/><path d="M-4 -3 L-10 -18 L2 -18 L8 -3 Z"/><path d="M-22 -2 L-28 -12 L-22 -12 L-16 -2 Z"/></g>
+          <circle class="traj-point" r="8"/>
+          <g class="traj-mini-voile"><path d="M-22 -26 Q0 -40 22 -26 L18 -20 Q0 -31 -18 -20 Z"/><path class="traj-mini-suspentes" d="M-18 -20 L0 -4 L18 -20"/></g>
+        </g>
       </svg>
       <ol class="deroule-etapes">${c.donnees.etapes.map((e, i) => html`<li class="etape" style="--i:${i}" data-etape="${i}">
         <p class="etape-num">${e.num} · ${e.lieu}</p>
@@ -125,7 +132,7 @@ export default (c) => html`
 
 <section class="progresser" id="progresser">
   <div class="conteneur progresser-grille">
-    ${c.media({ nom: 'accueil-freefly', alt: c.donnees.images['accueil-freefly'].alt, classe: 'progresser-media', cadrage: '52% 40%', sizes: '(max-width: 760px) 100vw, 40vw', attrs: 'data-fx="zoom"' })}
+    ${c.media({ nom: 'accueil-etoile', alt: c.donnees.images['accueil-etoile'].alt, classe: 'progresser-media', cadrage: '50% 50%', sizes: '(max-width: 760px) 100vw, 40vw', attrs: 'data-fx="zoom"' })}
     <div class="progresser-texte">
       <p class="surtitre" data-anime>${c.t('accueil.progresser.surtitre')}</p>
       <h2 class="titre-section" data-anime="lignes">${c.t('accueil.progresser.titre1')} <em>${c.t('accueil.progresser.titre2')}</em></h2>

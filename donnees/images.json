@@ -2366,5 +2366,147 @@
       "grok/page-404-1600.webp": 48602
     },
     "media": "c.media({ nom: 'grok/page-404', alt: \"Une manche à air au repos au bord d'un champ vide, en fin de journée\", cadrage: '57% 87%', sizes: '100vw', ratio: '16 / 9' })"
+  },
+  "tandem-chute": {
+    "nom": "tandem-chute",
+    "source": "recu/tandem.jpg",
+    "role": "galerie",
+    "alt": "Un moniteur et son passager en pleine chute libre, bras écartés, sous un ciel bleu",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "ac55a95b2f60fbcb",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 45%",
+    "sujet": {
+      "x": 39.8,
+      "y": 36.2,
+      "l": 19.6,
+      "h": 51.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.75,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.61,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.58,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.53,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 112,
+      "top": 0,
+      "width": 1777,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "tandem-chute-480.webp",
+      "tandem-chute-640.webp",
+      "tandem-chute-960.webp"
+    ],
+    "poids": {
+      "tandem-chute-480.webp": 15504,
+      "tandem-chute-640.webp": 22926,
+      "tandem-chute-960.webp": 38972
+    },
+    "media": "c.media({ nom: 'tandem-chute', alt: \"Un moniteur et son passager en pleine chute libre, bras écartés, sous un ciel bleu\", cadrage: '50% 45%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
+  },
+  "accueil-etoile": {
+    "nom": "accueil-etoile",
+    "source": "recu/paraclub-montbeliard-2.jpg",
+    "role": "galerie",
+    "alt": "Huit parachutistes du club en formation de vol relatif au-dessus d'une mer de nuages",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "f995b7dbd76fdf03",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "51% 50%",
+    "sujet": {
+      "x": 13.1,
+      "y": 37.3,
+      "l": 75.9,
+      "h": 28.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.71,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.62,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.39,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.35,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 95,
+      "width": 1569,
+      "height": 1046,
+      "source": [
+        1569,
+        1211
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "accueil-etoile-480.webp",
+      "accueil-etoile-640.webp",
+      "accueil-etoile-960.webp"
+    ],
+    "poids": {
+      "accueil-etoile-480.webp": 16518,
+      "accueil-etoile-640.webp": 24412,
+      "accueil-etoile-960.webp": 43350
+    },
+    "media": "c.media({ nom: 'accueil-etoile', alt: \"Huit parachutistes du club en formation de vol relatif au-dessus d'une mer de nuages\", cadrage: '51% 50%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
   }
 }

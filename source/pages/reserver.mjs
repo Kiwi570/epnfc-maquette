@@ -1,7 +1,7 @@
 /* Réserver : plein cadre (Grok) avec la carte d'embarquement qui remonte, puis la réservation en quatre étapes,
    les tarifs par e-mail, l'acompte et la FAQ complète. Tout est simulé et le dit. */
 import { html } from '../../outils/gabarit.mjs';
-import { voile } from '../gabarits/blocs.mjs';
+import { voile, appel } from '../gabarits/blocs.mjs';
 
 export const page = { cle: 'reserver', fichier: 'reserver', imagePartage: 'grok/carte-initiation-784.webp' };
 
@@ -12,7 +12,7 @@ export default (c) => {
   const O = (k) => c.t(`reserver.ouverture.${k}`);
   return html`
 <section class="ouv ouv-resa" id="debut" data-ouverture-page>
-  ${c.media({ nom: 'grok/reserver-ouverture', alt: c.s('reserver.ouverture.alt'), priorite: true, classe: 'ouv-resa-media', cadrage: '60% 55%', sizes: '100vw', attrs: 'data-fx="parallaxe" data-fx-force="8"' })}
+  ${c.media({ nom: 'grok/reserver-ouverture', alt: c.s('reserver.ouverture.alt'), priorite: true, classe: 'ouv-resa-media', cadrage: '62% 28%', sizes: '100vw', attrs: 'data-fx="parallaxe" data-fx-force="8"' })}
   <div class="conteneur ouv-resa-grille">
     <div class="ouv-texte">
       <p class="surtitre" data-anime="gsap">${O('surtitre')}</p>
@@ -63,6 +63,7 @@ export default (c) => {
             </div>
             <div class="cal-jours" aria-hidden="true"><span>L</span><span>M</span><span>M</span><span>J</span><span>V</span><span>S</span><span>D</span></div>
             <div class="cal-grille"></div>
+            <ul class="cal-legende"><li><i class="l-ouvert"></i>${F('legendeOuvert')}</li><li><i class="l-ferie"></i>${F('legendeFerie')}</li><li><i class="l-auj"></i>${F('legendeAuj')}</li></ul>
             <p class="champ-erreur cal-erreur" hidden>${F('dateLegende')}</p>
           </div>
           <input type="hidden" name="date" value="">
@@ -142,5 +143,7 @@ export default (c) => {
     <div class="faq-liste" data-anime="cascade">${c.donnees.faq.map((f) => html`<details class="faq-item"><summary>${f.q}</summary><p>${f.r}</p></details>`)}</div>
   </div>
 </section>
+
+${appel(c)}
 `;
 };

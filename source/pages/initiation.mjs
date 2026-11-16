@@ -23,8 +23,10 @@ export default (c) => html`
 <section class="journee" id="journee" data-effet="journee">
   <div class="conteneur">
     <h2 class="journee-titre" data-anime="lignes">${c.t('initiation.journee.titre')}</h2>
-    <div class="journee-ligne" aria-hidden="true"><span></span></div>
-    <ol class="journee-liste" data-anime="cascade">${JOURNEE.map((k) => html`<li><p class="journee-heure">${c.t(`initiation.journee.${k}`)}</p><p>${c.t(`initiation.journee.${k}Texte`)}</p></li>`)}</ol>
+    <div class="journee-frise">
+      <div class="journee-ligne" aria-hidden="true"><span></span></div>
+      <ol class="journee-liste" data-anime="cascade">${JOURNEE.map((k) => html`<li><p class="journee-heure">${c.t(`initiation.journee.${k}`)}</p><p>${c.t(`initiation.journee.${k}Texte`)}</p></li>`)}</ol>
+    </div>
   </div>
 </section>
 

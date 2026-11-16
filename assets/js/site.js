@@ -2,7 +2,7 @@
    l'en-tête, le menu, les boucles, les mesures et la bibliothèque d'effets (posés par attributs dans les pages).
    Effets du plan (data-effet) : porte, voile, trajectoire, rangee, manche-a-air, bon-cadeau, chrono, etapes,
    rec, journee, bandeau, embarquement, numero, carte. */
-import { demarrer, boucle, etat, versObjet, quand } from './socle/index.js?v=1';
+import { demarrer, boucle, etat, versObjet, quand } from './socle/index.js?v=2';
 
 const gsap = window.gsap;
 const ST = window.ScrollTrigger;
@@ -46,34 +46,46 @@ function gonfler(tl, svg, t) {
 function trajectoire() {
   const svg = $('.trajectoire');
   if (!svg || !ST) return;
-  const trace = $('.traj-trace', svg), mobile = $('.traj-mobile', svg), mini = $('.traj-mini-voile', svg);
-  const etapes = $$('.etape');
-  let points = null;
-  /* Table des points calculée une fois, après l'ouverture (jamais pendant l'intro ni pendant le défilement). */
+  const trace = $('.traj-trace', svg), avion = $('.traj-avion', svg), point = $('.traj-point', svg), mini = $('.traj-mini-voile', svg);
+  const mobile = $('.traj-mobile', svg), phases = $$('.traj-phase', svg), etapes = $$('.etape');
+  const N = 160;
+  let points = null, sommet = 0.45, ouverture = 0.62;
+  /* Table des points calculée une fois, après l'ouverture (jamais pendant l'intro ni pendant le défilement) :
+     on y repère le sommet de la montée (sortie de l'avion) et le point d'ouverture de la voile. */
   const table = () => {
-    if (points) return points;
+    if (points) return;
     const longueur = trace.getTotalLength();
-    points = Array.from({ length: 121 }, (_, i) => { const p = trace.getPointAtLength((i / 120) * longueur); return [p.x, p.y]; });
-    return points;
+    points = Array.from({ length: N + 1 }, (_, i) => { const p = trace.getPointAtLength((i / N) * longueur); return [p.x, p.y]; });
+    let iMin = 0; points.forEach((p, i) => { if (p[1] < points[iMin][1]) iMin = i; });
+    sommet = iMin / N;
+    let iOuv = iMin; points.forEach((p, i) => { if (i > iMin && Math.hypot(p[0] - 572, p[1] - 220) < Math.hypot(points[iOuv][0] - 572, points[iOuv][1] - 220)) iOuv = i; });
+    ouverture = iOuv / N;
   };
   const poser = (p) => {
-    gsap.set(trace, { strokeDashoffset: 1 - p });
+    trace.style.strokeDashoffset = (1 - p).toFixed(4);
     if (!points) return;
-    const i = Math.min(120, Math.round(p * 120));
-    gsap.set(mobile, { x: points[i][0], y: points[i][1] });
-    /* Sous voile après la chute : la mini voile s'ouvre (60 % du tracé). */
-    gsap.set(mini, { opacity: p > 0.6 ? 1 : 0, scale: p > 0.6 ? 1 : 0.3, transformOrigin: '50% 100%' });
+    const i = Math.min(N, Math.round(p * N)), [x, y] = points[i];
+    const [x2, y2] = points[Math.min(N, i + 2)], [x0, y0] = points[Math.max(0, i - 2)];
+    const angle = Math.atan2(y2 - y0, x2 - x0) * 180 / Math.PI;
+    gsap.set(mobile, { x, y });
+    const enAvion = p < sommet, sousVoile = p >= ouverture;
+    gsap.set(avion, { opacity: enAvion ? 1 : 0, rotation: enAvion ? angle : 0, transformOrigin: '50% 50%' });
+    gsap.set(point, { opacity: enAvion ? 0 : 1 });
+    gsap.set(mini, { opacity: sousVoile ? 1 : 0, scale: sousVoile ? 1 : 0.3, transformOrigin: '50% 100%' });
+    const phase = enAvion ? 0 : sousVoile ? 2 : 1;
+    phases.forEach((t, k) => t.classList.toggle('actif', k === phase));
     const n = Math.min(etapes.length - 1, Math.floor(p * etapes.length * 0.999));
     etapes.forEach((e, k) => e.classList.toggle('actif', k === n));
   };
   gsap.set(mobile, { x: 60, y: 384 });
+  gsap.set(point, { opacity: 0 });
   quand('pret', () => {
     table();
     const section = $('#deroule');
     ST.create({
       trigger: section,
-      start: () => (ordinateur() ? 'top top' : 'top 70%'),
-      end: () => (ordinateur() ? 'bottom bottom' : 'bottom 60%'),
+      start: () => (ordinateur() ? 'top top' : 'top 60%'),
+      end: () => (ordinateur() ? 'bottom bottom' : 'bottom 75%'),
       scrub: 0.5,
       invalidateOnRefresh: true,
       onUpdate: (st) => poser(st.progress),
@@ -184,7 +196,7 @@ function carte() {
   const c = $('[data-effet="carte"]');
   if (!c) return;
   const routes = $$('.carte-route', c), pulse = $('.carte-pulse', c);
-  if (ST) gsap.fromTo(routes, { strokeDashoffset: 1 }, { strokeDashoffset: 0, stagger: 0.1, ease: 'none', scrollTrigger: { trigger: c, start: 'top 85%', end: 'center 45%', scrub: 0.5 } });
+  if (ST) gsap.fromTo(routes, { strokeDashoffset: 1 }, { strokeDashoffset: 0, autoRound: false, stagger: 0.1, ease: 'none', scrollTrigger: { trigger: c, start: 'top 85%', end: 'center 45%', scrub: 0.5 } });
   if (pulse) boucle(c, (dt, t) => { const k = (t % 2) / 2; gsap.set(pulse, { attr: { r: 10 + k * 26 }, opacity: 1 - k }); });
 }
 

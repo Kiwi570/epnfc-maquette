@@ -60,7 +60,7 @@ export default (c) => {
     <div>
       <p class="surtitre" data-anime>${F('surtitre')}</p>
       <h2 class="titre-section" data-anime="lignes">${F('titre')}</h2>
-      <p class="chapeau" data-anime>${c.t('contact.ouverture.texte')}</p>
+      <p class="chapeau" data-anime>${F('texte')}</p>
     </div>
     <form class="ecrire-form" data-formulaire novalidate data-anime>
       <div class="champ"><label for="c-sujet">${F('sujet')}</label><select id="c-sujet" name="sujet">

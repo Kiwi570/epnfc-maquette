@@ -1,51 +1,327 @@
 [
-  { "source": "recu/grok/accueil-ouverture.jpg", "source_mobile": "recu/grok/accueil-ouverture-mobile.jpg", "nom": "grok/accueil-ouverture", "role": "ouverture", "page": "Accueil", "emplacement": "Ouverture : la vue par la porte ouverte de l'avion", "priorite": "Indispensable", "mobile": "9:16", "zone_texte": "gauche", "gabarit": "ouverture",
-    "scene": "patchwork farmland, small villages and dark forested hills seen obliquely from 4,000 metres of altitude, scattered white cumulus clouds drifting below, a distant line of low blue hills on the horizon, the upper third pure clear blue sky",
-    "alt": "La campagne et les nuages vus depuis 4 000 mètres d'altitude", "beaute": 5 },
-  { "source": "recu/tandem.jpg", "nom": "carte-tandem", "role": "carte-service", "ratio": "2:3", "alt": "Un moniteur et son passager en chute libre en tandem, sous un ciel bleu", "beaute": 4 },
-  { "source": "recu/grok/accueil-initiation.jpg", "nom": "grok/carte-initiation", "role": "carte-service", "page": "Accueil", "emplacement": "Carte « Saut d'initiation »", "priorite": "Indispensable", "ratio": "2:3", "gabarit": "scene-metier",
-    "consigne_scene": "A single student skydiver under a large rectangular white and navy training parachute with one small orange panel, seen from below and slightly behind, the jumper a small dark silhouette hanging in the harness, steering lines taut, deep clear blue sky, a few small white clouds",
-    "alt": "Un élève parachutiste sous sa voile d'école, vu d'en dessous", "beaute": 4 },
-  { "source": "recu/avion-cessna-206-soloy.jpg", "nom": "terrain-avion", "role": "galerie", "ratio": "4:3", "alt": "Le Cessna 206 Soloy du club posé dans l'herbe fleurie de l'aérodrome", "beaute": 3 },
-  { "source": "recu/partie-activite.jpg", "nom": "terrain-hangar", "role": "vignette", "ratio": "16:9", "alt": "Parachutistes en train de plier leurs voiles dans le hangar", "beaute": 3 },
-  { "source": "recu/paraclub-montbeliard-29.jpg", "nom": "club-table", "role": "galerie", "ratio": "4:3", "alt": "Repas entre membres du club autour d'une grande table au clubhouse", "beaute": 4 },
-  { "source": "recu/paraclub-montbeliard-45.jpg", "nom": "club-barbecue", "role": "galerie", "ratio": "3:4", "alt": "Trois membres du club devant le barbecue garni de saucisses", "beaute": 3 },
-  { "source": "recu/paraclub-montbeliard-42.jpg", "nom": "club-grill", "role": "galerie", "ratio": "4:3", "alt": "Saucisses sur le grill, l'avion du club au loin sur la piste", "beaute": 3 },
-  { "source": "recu/paraclub-montbeliard-33.jpg", "nom": "club-equipes", "role": "galerie", "ratio": "3:2", "alt": "Trois parachutistes équipés discutent avant d'embarquer", "beaute": 4 },
-  { "source": "recu/vehicules-piste.jpg", "nom": "club-vehicule", "role": "galerie", "ratio": "3:2", "alt": "Un véhicule de piste multicolore ramène des parachutistes après leur saut", "beaute": 3 },
-  { "source": "recu/paraclub-montbeliard-43.jpg", "nom": "club-amis", "role": "galerie", "ratio": "4:3", "alt": "Quatre membres du club, bières à la main, au clubhouse", "beaute": 3 },
-  { "source": "recu/canape-biere.jpg", "nom": "club-canape", "role": "galerie", "ratio": "3:2", "alt": "Un parachutiste se repose sur un sac de voile jaune posé dans l'herbe", "beaute": 3 },
-  { "source": "recu/paraclub-montbeliard-47.jpg", "nom": "club-soiree", "role": "galerie", "ratio": "4:3", "alt": "Soirée animée dans la grande salle du clubhouse", "beaute": 3 },
-  { "source": "recu/freefly.jpg", "nom": "accueil-freefly", "role": "galerie", "ratio": "3:2", "alt": "Un parachutiste en freefly, debout dans le ciel au-dessus des nuages", "beaute": 3 },
-
-  { "source": "recu/paraclub-montbeliard.jpg", "nom": "tandem-ouverture", "role": "ouverture", "ratio": "4:5", "largeurs": [480, 800, 1100], "zone_texte": "gauche", "alt": "Saut en tandem au-dessus du Pays de Montbéliard, la ville en contrebas", "beaute": 4 },
-  { "source": "recu/paraclub-montbeliard-18.jpg", "nom": "tandem-cabine", "role": "galerie", "ratio": "3:2", "alt": "Parachutistes assis dans la cabine du Cessna, porte ouverte, pendant la montée", "beaute": 3 },
-  { "source": "recu/paraclub-montbeliard-21.jpg", "nom": "tandem-sortie", "role": "galerie", "ratio": "3:4", "alt": "Un parachutiste casqué se prépare à sortir par la porte de l'avion", "beaute": 3 },
-  { "source": "recu/saut-tandem-experience-unique.jpg", "nom": "tandem-voile", "role": "galerie", "ratio": "16:9", "alt": "Un tandem sous voile, accompagné d'un parachutiste en chute", "beaute": 3 },
-  { "source": "recu/paraclub-montbeliard-28.jpg", "nom": "tandem-video", "role": "galerie", "ratio": "4:3", "alt": "Le caméraman du club, appareil photo et caméra fixés sur le casque", "beaute": 4 },
-
-  { "source": "recu/grok/initiation-ouverture.jpg", "nom": "grok/initiation-ouverture", "role": "ouverture", "page": "Initiation", "emplacement": "Ouverture : la porte de l'avion", "priorite": "Indispensable", "ratio": "4:5", "largeurs": [640, 1280], "zone_texte": "bas", "gabarit": "scene-metier",
-    "consigne_scene": "View from inside the cabin of a small high-wing aircraft toward its wide open side door, a student skydiver seen from behind as a dark silhouette sitting in the door frame ready to exit, helmet on, gloved hands hidden against the body, bright clear sky and green patchwork fields far below outside, the dark cabin framing the light",
-    "alt": "Un élève parachutiste assis à la porte ouverte de l'avion, prêt à sortir", "beaute": 4 },
-  { "source": "recu/paraclub-montbeliard-54.jpg", "nom": "initiation-cours", "role": "galerie", "ratio": "16:9", "alt": "Élèves en formation théorique dans une salle de cours du club", "beaute": 3 },
-  { "source": "recu/sauts-initiation-2.jpg", "nom": "initiation-groupe", "role": "galerie", "ratio": "4:3", "alt": "Un groupe d'élèves en combinaisons rouges dans le hangar, le jour de l'initiation", "beaute": 3 },
-  { "source": "recu/maquette-echelle-1-1.jpg", "nom": "initiation-maquette", "role": "galerie", "ratio": "3:2", "alt": "Deux parachutistes devant la maquette d'avion à l'échelle 1:1 du club", "beaute": 3 },
-
-  { "source": "recu/paraclub-montbeliard-2.jpg", "source_mobile": "recu/freefly.jpg", "nom": "progression-ouverture", "role": "ouverture", "ratio": "16:9", "mobile": "4:5", "zone_texte": "haut", "alt": "Huit parachutistes en formation de vol relatif au-dessus d'une mer de nuages", "beaute": 4 },
-  { "source": "recu/paraclub-montbeliard-16.jpg", "nom": "progression-precision", "role": "galerie", "ratio": "4:5", "alt": "Un parachutiste pose le pied sur la cible lors d'une compétition de précision d'atterrissage", "beaute": 3 },
-  { "source": "recu/paraclub-montbeliard-20.jpg", "nom": "progression-voile", "role": "galerie", "ratio": "16:9", "alt": "Pilote de voile qui rase l'eau d'un plan d'eau avant de se poser", "beaute": 3 },
-  { "source": "recu/maxresdefault.webp", "nom": "progression-vr", "role": "galerie", "ratio": "16:9", "alt": "Quatre parachutistes en vol relatif au-dessus d'une couche de nuages", "beaute": 3 },
-  { "source": "recu/parc-parachutes.jpg", "nom": "progression-parc", "role": "vignette", "ratio": "4:3", "alt": "Harnais et sacs-harnais colorés du parc de parachutes du club", "beaute": 3 },
-
-  { "source": "recu/grok/reserver-ouverture.jpg", "source_mobile": "recu/grok/reserver-ouverture-mobile.jpg", "nom": "grok/reserver-ouverture", "role": "ouverture", "page": "Réserver", "emplacement": "Ouverture : l'arrivée sur la zone", "priorite": "Indispensable", "mobile": "9:16", "zone_texte": "gauche", "gabarit": "scene-metier",
-    "consigne_scene": "A single parachutist under a rectangular navy and white canopy on final approach, gliding low above a wide freshly mown grass field in late afternoon with a warm low sun, the figure small in the frame and seen from the side, a red-and-white striped windsock on a mast at the field edge, long soft shadows, low forested hills behind",
-    "alt": "Un parachutiste sous voile arrive au-dessus de la zone de saut, en fin d'après-midi", "beaute": 4 },
-  { "source": "recu/paraclub-montbeliard-35.jpg", "nom": "contact-ouverture", "role": "ouverture", "ratio": "4:3", "zone_texte": "bas", "alt": "Le véhicule du club peint aux couleurs de l'École de parachutisme Nord Franche-Comté", "beaute": 4 },
-
-  { "source": "recu/grok/appel-fond.jpg", "nom": "grok/appel-fond", "role": "section-fond", "page": "Toutes les pages", "emplacement": "Fond de l'appel final", "priorite": "Conseillée", "ratio": "16:9", "zone_texte": "haut", "gabarit": "section-fond",
-    "consigne_scene": "An endless sea of soft white cumulus clouds seen from above at 4,000 metres in late afternoon light, gentle golden highlights on the cloud tops, deep calm blue sky above, no aircraft, no people",
-    "alt": "Une mer de nuages vue d'en haut en fin d'après-midi", "beaute": 4 },
-  { "source": "recu/grok/page-404.jpg", "nom": "grok/page-404", "role": "404", "page": "404", "emplacement": "Image de la page introuvable", "priorite": "Conseillée", "gabarit": "404",
-    "consigne_scene": "A lone red-and-white striped windsock hanging limp on its mast at the edge of an empty mown grass field in late afternoon, warm low sun, long shadow, calm, a gentle touch of humour, no people.",
-    "alt": "Une manche à air au repos au bord d'un champ vide, en fin de journée", "beaute": 4 }
+ {
+  "source": "recu/grok/accueil-ouverture.jpg",
+  "source_mobile": "recu/grok/accueil-ouverture-mobile.jpg",
+  "nom": "grok/accueil-ouverture",
+  "role": "ouverture",
+  "page": "Accueil",
+  "emplacement": "Ouverture : la vue par la porte ouverte de l'avion",
+  "priorite": "Indispensable",
+  "mobile": "9:16",
+  "zone_texte": "gauche",
+  "gabarit": "ouverture",
+  "scene": "patchwork farmland, small villages and dark forested hills seen obliquely from 4,000 metres of altitude, scattered white cumulus clouds drifting below, a distant line of low blue hills on the horizon, the upper third pure clear blue sky",
+  "alt": "La campagne et les nuages vus depuis 4 000 mètres d'altitude",
+  "beaute": 5
+ },
+ {
+  "source": "recu/tandem.jpg",
+  "nom": "carte-tandem",
+  "role": "carte-service",
+  "ratio": "2:3",
+  "alt": "Un moniteur et son passager en chute libre en tandem, sous un ciel bleu",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/accueil-initiation.jpg",
+  "nom": "grok/carte-initiation",
+  "role": "carte-service",
+  "page": "Accueil",
+  "emplacement": "Carte « Saut d'initiation »",
+  "priorite": "Indispensable",
+  "ratio": "2:3",
+  "gabarit": "scene-metier",
+  "consigne_scene": "A single student skydiver under a large rectangular white and navy training parachute with one small orange panel, seen from below and slightly behind, the jumper a small dark silhouette hanging in the harness, steering lines taut, deep clear blue sky, a few small white clouds",
+  "alt": "Un élève parachutiste sous sa voile d'école, vu d'en dessous",
+  "beaute": 4
+ },
+ {
+  "source": "recu/avion-cessna-206-soloy.jpg",
+  "nom": "terrain-avion",
+  "role": "galerie",
+  "ratio": "4:3",
+  "alt": "Le Cessna 206 Soloy du club posé dans l'herbe fleurie de l'aérodrome",
+  "beaute": 3
+ },
+ {
+  "source": "recu/partie-activite.jpg",
+  "nom": "terrain-hangar",
+  "role": "vignette",
+  "ratio": "16:9",
+  "alt": "Parachutistes en train de plier leurs voiles dans le hangar",
+  "beaute": 3
+ },
+ {
+  "source": "recu/paraclub-montbeliard-29.jpg",
+  "nom": "club-table",
+  "role": "galerie",
+  "ratio": "4:3",
+  "alt": "Repas entre membres du club autour d'une grande table au clubhouse",
+  "beaute": 4
+ },
+ {
+  "source": "recu/paraclub-montbeliard-45.jpg",
+  "nom": "club-barbecue",
+  "role": "galerie",
+  "ratio": "3:4",
+  "alt": "Trois membres du club devant le barbecue garni de saucisses",
+  "beaute": 3
+ },
+ {
+  "source": "recu/paraclub-montbeliard-42.jpg",
+  "nom": "club-grill",
+  "role": "galerie",
+  "ratio": "4:3",
+  "alt": "Saucisses sur le grill, l'avion du club au loin sur la piste",
+  "beaute": 3
+ },
+ {
+  "source": "recu/paraclub-montbeliard-33.jpg",
+  "nom": "club-equipes",
+  "role": "galerie",
+  "ratio": "3:2",
+  "alt": "Trois parachutistes équipés discutent avant d'embarquer",
+  "beaute": 4
+ },
+ {
+  "source": "recu/vehicules-piste.jpg",
+  "nom": "club-vehicule",
+  "role": "galerie",
+  "ratio": "3:2",
+  "alt": "Un véhicule de piste multicolore ramène des parachutistes après leur saut",
+  "beaute": 3
+ },
+ {
+  "source": "recu/paraclub-montbeliard-43.jpg",
+  "nom": "club-amis",
+  "role": "galerie",
+  "ratio": "4:3",
+  "alt": "Quatre membres du club, bières à la main, au clubhouse",
+  "beaute": 3
+ },
+ {
+  "source": "recu/canape-biere.jpg",
+  "nom": "club-canape",
+  "role": "galerie",
+  "ratio": "3:2",
+  "alt": "Un parachutiste se repose sur un sac de voile jaune posé dans l'herbe",
+  "beaute": 3
+ },
+ {
+  "source": "recu/paraclub-montbeliard-47.jpg",
+  "nom": "club-soiree",
+  "role": "galerie",
+  "ratio": "4:3",
+  "alt": "Soirée animée dans la grande salle du clubhouse",
+  "beaute": 3
+ },
+ {
+  "source": "recu/freefly.jpg",
+  "nom": "accueil-freefly",
+  "role": "galerie",
+  "ratio": "3:2",
+  "alt": "Un parachutiste en freefly, debout dans le ciel au-dessus des nuages",
+  "beaute": 3
+ },
+ {
+  "source": "recu/paraclub-montbeliard.jpg",
+  "nom": "tandem-ouverture",
+  "role": "ouverture",
+  "ratio": "4:5",
+  "largeurs": [
+   480,
+   800,
+   1100
+  ],
+  "zone_texte": "gauche",
+  "alt": "Saut en tandem au-dessus du Pays de Montbéliard, la ville en contrebas",
+  "beaute": 4
+ },
+ {
+  "source": "recu/paraclub-montbeliard-18.jpg",
+  "nom": "tandem-cabine",
+  "role": "galerie",
+  "ratio": "3:2",
+  "alt": "Parachutistes assis dans la cabine du Cessna, porte ouverte, pendant la montée",
+  "beaute": 3
+ },
+ {
+  "source": "recu/paraclub-montbeliard-21.jpg",
+  "nom": "tandem-sortie",
+  "role": "galerie",
+  "ratio": "3:4",
+  "alt": "Un parachutiste casqué se prépare à sortir par la porte de l'avion",
+  "beaute": 3
+ },
+ {
+  "source": "recu/saut-tandem-experience-unique.jpg",
+  "nom": "tandem-voile",
+  "role": "galerie",
+  "ratio": "16:9",
+  "alt": "Un tandem sous voile, accompagné d'un parachutiste en chute",
+  "beaute": 3
+ },
+ {
+  "source": "recu/paraclub-montbeliard-28.jpg",
+  "nom": "tandem-video",
+  "role": "galerie",
+  "ratio": "4:3",
+  "alt": "Le caméraman du club, appareil photo et caméra fixés sur le casque",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/initiation-ouverture.jpg",
+  "nom": "grok/initiation-ouverture",
+  "role": "ouverture",
+  "page": "Initiation",
+  "emplacement": "Ouverture : la porte de l'avion",
+  "priorite": "Indispensable",
+  "ratio": "4:5",
+  "largeurs": [
+   640,
+   1280
+  ],
+  "zone_texte": "bas",
+  "gabarit": "scene-metier",
+  "consigne_scene": "View from inside the cabin of a small high-wing aircraft toward its wide open side door, a student skydiver seen from behind as a dark silhouette sitting in the door frame ready to exit, helmet on, gloved hands hidden against the body, bright clear sky and green patchwork fields far below outside, the dark cabin framing the light",
+  "alt": "Un élève parachutiste assis à la porte ouverte de l'avion, prêt à sortir",
+  "beaute": 4
+ },
+ {
+  "source": "recu/paraclub-montbeliard-54.jpg",
+  "nom": "initiation-cours",
+  "role": "galerie",
+  "ratio": "16:9",
+  "alt": "Élèves en formation théorique dans une salle de cours du club",
+  "beaute": 3
+ },
+ {
+  "source": "recu/sauts-initiation-2.jpg",
+  "nom": "initiation-groupe",
+  "role": "galerie",
+  "ratio": "4:3",
+  "alt": "Un groupe d'élèves en combinaisons rouges dans le hangar, le jour de l'initiation",
+  "beaute": 3
+ },
+ {
+  "source": "recu/maquette-echelle-1-1.jpg",
+  "nom": "initiation-maquette",
+  "role": "galerie",
+  "ratio": "3:2",
+  "alt": "Deux parachutistes devant la maquette d'avion à l'échelle 1:1 du club",
+  "beaute": 3
+ },
+ {
+  "source": "recu/paraclub-montbeliard-2.jpg",
+  "source_mobile": "recu/freefly.jpg",
+  "nom": "progression-ouverture",
+  "role": "ouverture",
+  "ratio": "16:9",
+  "mobile": "4:5",
+  "zone_texte": "haut",
+  "alt": "Huit parachutistes en formation de vol relatif au-dessus d'une mer de nuages",
+  "beaute": 4
+ },
+ {
+  "source": "recu/paraclub-montbeliard-16.jpg",
+  "nom": "progression-precision",
+  "role": "galerie",
+  "ratio": "4:5",
+  "alt": "Un parachutiste pose le pied sur la cible lors d'une compétition de précision d'atterrissage",
+  "beaute": 3
+ },
+ {
+  "source": "recu/paraclub-montbeliard-20.jpg",
+  "nom": "progression-voile",
+  "role": "galerie",
+  "ratio": "16:9",
+  "alt": "Pilote de voile qui rase l'eau d'un plan d'eau avant de se poser",
+  "beaute": 3
+ },
+ {
+  "source": "recu/maxresdefault.webp",
+  "nom": "progression-vr",
+  "role": "galerie",
+  "ratio": "16:9",
+  "alt": "Quatre parachutistes en vol relatif au-dessus d'une couche de nuages",
+  "beaute": 3
+ },
+ {
+  "source": "recu/parc-parachutes.jpg",
+  "nom": "progression-parc",
+  "role": "vignette",
+  "ratio": "4:3",
+  "alt": "Harnais et sacs-harnais colorés du parc de parachutes du club",
+  "beaute": 3
+ },
+ {
+  "source": "recu/grok/reserver-ouverture.jpg",
+  "source_mobile": "recu/grok/reserver-ouverture-mobile.jpg",
+  "nom": "grok/reserver-ouverture",
+  "role": "ouverture",
+  "page": "Réserver",
+  "emplacement": "Ouverture : l'arrivée sur la zone",
+  "priorite": "Indispensable",
+  "mobile": "9:16",
+  "zone_texte": "gauche",
+  "gabarit": "scene-metier",
+  "consigne_scene": "A single parachutist under a rectangular navy and white canopy on final approach, gliding low above a wide freshly mown grass field in late afternoon with a warm low sun, the figure small in the frame and seen from the side, a red-and-white striped windsock on a mast at the field edge, long soft shadows, low forested hills behind",
+  "alt": "Un parachutiste sous voile arrive au-dessus de la zone de saut, en fin d'après-midi",
+  "beaute": 4
+ },
+ {
+  "source": "recu/paraclub-montbeliard-35.jpg",
+  "nom": "contact-ouverture",
+  "role": "ouverture",
+  "ratio": "4:3",
+  "zone_texte": "bas",
+  "alt": "Le véhicule du club peint aux couleurs de l'École de parachutisme Nord Franche-Comté",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/appel-fond.jpg",
+  "nom": "grok/appel-fond",
+  "role": "section-fond",
+  "page": "Toutes les pages",
+  "emplacement": "Fond de l'appel final",
+  "priorite": "Conseillée",
+  "ratio": "16:9",
+  "zone_texte": "haut",
+  "gabarit": "section-fond",
+  "consigne_scene": "An endless sea of soft white cumulus clouds seen from above at 4,000 metres in late afternoon light, gentle golden highlights on the cloud tops, deep calm blue sky above, no aircraft, no people",
+  "alt": "Une mer de nuages vue d'en haut en fin d'après-midi",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/page-404.jpg",
+  "nom": "grok/page-404",
+  "role": "404",
+  "page": "404",
+  "emplacement": "Image de la page introuvable",
+  "priorite": "Conseillée",
+  "gabarit": "404",
+  "consigne_scene": "A lone red-and-white striped windsock hanging limp on its mast at the edge of an empty mown grass field in late afternoon, warm low sun, long shadow, calm, a gentle touch of humour, no people.",
+  "alt": "Une manche à air au repos au bord d'un champ vide, en fin de journée",
+  "beaute": 4
+ },
+ {
+  "source": "recu/tandem.jpg",
+  "nom": "tandem-chute",
+  "role": "galerie",
+  "ratio": "4:3",
+  "cadrage": [
+   50,
+   45
+  ],
+  "alt": "Un moniteur et son passager en pleine chute libre, bras écartés, sous un ciel bleu",
+  "beaute": 4
+ },
+ {
+  "source": "recu/paraclub-montbeliard-2.jpg",
+  "nom": "accueil-etoile",
+  "role": "galerie",
+  "ratio": "3:2",
+  "alt": "Huit parachutistes du club en formation de vol relatif au-dessus d'une mer de nuages",
+  "beaute": 4
+ }
 ]

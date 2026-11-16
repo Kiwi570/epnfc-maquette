@@ -110,7 +110,11 @@
       "surtitre": "Le tandem, étape par étape",
       "titre": "De la porte au posé",
       "aide": "Faites défiler : le saut se trace sous vos yeux.",
-      "lien": "Le déroulé complet"
+      "lien": "Le déroulé complet",
+      "phaseMontee": "Montée · 10 à 20 min",
+      "phaseChute": "Chute libre · 50 s environ",
+      "phaseVoile": "Sous voile · 5 à 8 min",
+      "sol": "Zone de saut"
     },
     "terrain": {
       "surtitre": "Le terrain",
@@ -126,7 +130,7 @@
     },
     "club": {
       "surtitre": "La vie au club",
-      "titre1": "Le week-end,",
+      "titre1": "Le week‑end,",
       "titre2": "on saute ensemble",
       "texte": "Le ParaClub est d'abord une association : ses membres sont tous bénévoles. On saute, on plie, on mange ensemble et on se retrouve au clubhouse, qui accueille jusqu'à 120 personnes.",
       "region": "Photos de la vie au club, à faire défiler",
@@ -375,7 +379,10 @@
       "recapVide": "À choisir",
       "recapPaiement": "Chèque à l'ordre d'EPNFC, carte ou espèces sur place, ou virement.",
       "simule": "Maquette : rien n'a été envoyé. Sur le vrai site, le club confirmera votre date et l'acompte à régler.",
-      "rgpd": "Vos coordonnées servent uniquement à traiter votre réservation."
+      "rgpd": "Vos coordonnées servent uniquement à traiter votre réservation.",
+      "legendeOuvert": "Jour de saut",
+      "legendeFerie": "Jour férié",
+      "legendeAuj": "Aujourd'hui"
     },
     "tarifs": {
       "surtitre": "Les tarifs",
@@ -441,7 +448,8 @@
       "message": "Message",
       "envoyer": "Envoyer",
       "simule": "Maquette : rien n'a été envoyé. Sur le vrai site, le club vous répond par e-mail ou par téléphone.",
-      "rgpd": "Vos coordonnées servent uniquement à répondre à votre message."
+      "rgpd": "Vos coordonnées servent uniquement à répondre à votre message.",
+      "texte": "Précisez le sujet de votre message : le club vous répond par e-mail ou par téléphone."
     },
     "amis": {
       "surtitre": "Nos amis",

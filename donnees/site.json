@@ -2,7 +2,7 @@
   "nom": "ParaClub Montbéliard",
   "adresse": "https://epnfc-maquette.vercel.app",
   "siteActuel": "epnfc.fr",
-  "version": 1,
+  "version": 2,
   "langues": ["fr"],
   "navigation": ["accueil", "tandem", "initiation", "progression", "reserver", "contact"],
   "actionEntete": { "page": "reserver", "ancre": "reservation" },

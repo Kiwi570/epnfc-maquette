@@ -1,15 +1,15 @@
 {
- "id": "20261116-193147-complet-cible-partiel",
- "date": "2026-11-16T19:34:33.800Z",
+ "id": "20261116-224201-complet-cible-partiel",
+ "date": "2026-11-16T22:44:07.965Z",
  "niveau": "complet",
- "pages": "/tandem,/initiation,/contact",
+ "pages": "/,/tandem",
  "etapes": [
   "fichiers",
   "mesures"
  ],
- "version": "1",
+ "version": "2",
  "echecs": 0,
- "aRegarder": 8,
+ "aRegarder": 4,
  "nonLances": 0,
  "manquants": 0,
  "statut": "complet"

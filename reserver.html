@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1" data-curseur>
+<html lang="fr" data-v="2" data-curseur>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -34,14 +34,14 @@ if (alt) location.replace(new URL(alt.href).pathname + location.search + locatio
 setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
 })();</script>
 <link rel="preload" href="/assets/fonts/archivo.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#0C1A2E">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -105,7 +105,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 </div>
 <main id="contenu" tabindex="-1">
 <section class="ouv ouv-resa" id="debut" data-ouverture-page>
-  <figure class="media ouv-resa-media" data-grok data-fx="parallaxe" data-fx-force="8" style="--cadrage:60% 55%">
+  <figure class="media ouv-resa-media" data-grok data-fx="parallaxe" data-fx-force="8" style="--cadrage:62% 28%">
   <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/reserver-ouverture-mobile-640.webp 640w, /assets/images/grok/reserver-ouverture-mobile-1080.webp 1080w" sizes="100vw">
     <img src="/assets/images/grok/reserver-ouverture-1280.webp" srcset="/assets/images/grok/reserver-ouverture-640.webp 640w, /assets/images/grok/reserver-ouverture-1280.webp 1280w, /assets/images/grok/reserver-ouverture-1920.webp 1920w" sizes="100vw" alt="Un parachutiste sous voile arrive au-dessus de la zone de saut" width="1280" height="720" fetchpriority="high" loading="eager" decoding="async">
   </picture><figcaption class="mention-ia">Illustration générée</figcaption>
@@ -170,6 +170,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
             </div>
             <div class="cal-jours" aria-hidden="true"><span>L</span><span>M</span><span>M</span><span>J</span><span>V</span><span>S</span><span>D</span></div>
             <div class="cal-grille"></div>
+            <ul class="cal-legende"><li><i class="l-ouvert"></i>Jour de saut</li><li><i class="l-ferie"></i>Jour férié</li><li><i class="l-auj"></i>Aujourd&#39;hui</li></ul>
             <p class="champ-erreur cal-erreur" hidden>Quel jour ?</p>
           </div>
           <input type="hidden" name="date" value="">
@@ -255,6 +256,35 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 </svg>
     </div>
     <div class="faq-liste" data-anime="cascade"><details class="faq-item"><summary>Qui peut sauter ?</summary><p>À partir de 15 ans, avec une morphologie adaptée et une bonne condition physique : il faut pouvoir bien lever les genoux et les pieds. Un certificat médical de non-contre-indication de moins d&#39;un an est demandé.</p></details><details class="faq-item"><summary>Y a-t-il une limite de poids ou de taille ?</summary><p>Le poids maximum est de 90 kg. Les harnais sont réglables, mais l&#39;adaptation devient difficile en dessous de 1,40 m.</p></details><details class="faq-item"><summary>Y a-t-il des contre-indications ?</summary><p>Pas de plongée dans les 48 heures avant le saut, pas d&#39;alcool dans les 12 heures avant, et pas de saut pendant une grossesse. Le club peut refuser un saut si le gabarit ou l&#39;état de santé n&#39;est pas compatible.</p></details><details class="faq-item"><summary>Combien de temps faut-il prévoir ?</summary><p>Une demi-journée pour un tandem, même si le saut lui-même dure environ 30 minutes. L&#39;heure du rendez-vous est l&#39;heure d&#39;arrivée sur le site, pas celle du saut. Pour une initiation, toute la journée, dès 8 h.</p></details><details class="faq-item"><summary>Faut-il manger avant ?</summary><p>Oui : sans avoir mangé, on risque des vertiges ou un malaise après l&#39;ouverture du parachute.</p></details><details class="faq-item"><summary>Comment s&#39;habiller ?</summary><p>Des vêtements décontractés adaptés à la saison, des baskets basses et un pull : il fait souvent plus frais en altitude. Une combinaison peut être prêtée.</p></details><details class="faq-item"><summary>Je porte des lunettes, est-ce un problème ?</summary><p>Non. Les lentilles sont plus confortables, mais des lunettes de chute sont fournies et se portent par-dessus les lunettes de vue.</p></details><details class="faq-item"><summary>Mes proches peuvent-ils venir ?</summary><p>Oui, famille et amis sont les bienvenus sur le terrain, sans approcher l&#39;avion ni la zone de saut. Le repas tiré du sac est possible sur place.</p></details><details class="faq-item"><summary>Et si la météo n&#39;est pas bonne ?</summary><p>Vent fort, pluie ou nuages trop bas empêchent le saut. La météo peut varier entre deux lieux proches : venez sur place, le club vous donne des consignes par téléphone en cas de doute. Un nouveau rendez-vous est fixé d&#39;un commun accord ; seul le club peut décider d&#39;un report.</p></details><details class="faq-item"><summary>Le tandem est-il sûr ?</summary><p>Le tandem est encadré en France par des qualifications strictes. Les moniteurs ont des milliers de sauts, les parachutes principaux sont pliés et vérifiés par des personnes qualifiées et des ouvreurs de sécurité déclenchent l&#39;ouverture automatiquement à une altitude donnée.</p></details><details class="faq-item"><summary>Comment se passe l&#39;atterrissage ?</summary><p>Le moniteur, professionnel diplômé, gère le posé pour qu&#39;il ne soit pas brutal. La position d&#39;atterrissage est répétée pendant le briefing.</p></details><details class="faq-item"><summary>Puis-je filmer avec ma propre caméra ?</summary><p>Non, les caméras personnelles de type GoPro sont interdites pour des raisons de sécurité. L&#39;option vidéo du club, avec un caméraman, se choisit à la réservation ou sur place.</p></details></div>
+  </div>
+</section>
+<section class="appel" id="appel">
+  <figure class="media appel-fond" data-grok data-fx="parallaxe" data-fx-force="12" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/appel-fond-1280.webp" srcset="/assets/images/grok/appel-fond-640.webp 640w, /assets/images/grok/appel-fond-1280.webp 1280w, /assets/images/grok/appel-fond-1920.webp 1920w" sizes="100vw" alt="" width="1280" height="720" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  <div class="appel-contenu conteneur">
+    <svg class="voile-svg appel-voile" viewBox="0 0 200 150" aria-hidden="true" focusable="false" data-effet="voile" data-grille="fil">
+  <g class="voile-caissons">
+    <path class="voile-caisson" d="M14 52 Q30 34 50 27 L54 44 Q36 50 24 62 Z"/>
+    <path class="voile-caisson voile-caisson--b" d="M50 27 Q75 19 100 18 L100 36 Q78 37 54 44 Z"/>
+    <path class="voile-caisson" d="M100 18 Q125 19 150 27 L146 44 Q122 37 100 36 Z"/>
+    <path class="voile-caisson voile-caisson--b" d="M150 27 Q170 34 186 52 L176 62 Q164 50 146 44 Z"/>
+  </g>
+  <g class="voile-suspentes" fill="none" stroke-width="1.4" stroke-linecap="round">
+    <path d="M24 62 L100 122 M54 44 L100 122 M100 36 L100 122 M146 44 L100 122 M176 62 L100 122"/>
+  </g>
+  <g class="voile-pilote"><circle cx="100" cy="127" r="6"/><path d="M95 133 L100 146 L105 133 Z"/></g>
+</svg>
+    <p class="surtitre surtitre--clair" data-anime>4 000 m vous attendent</p>
+    <h2 class="appel-titre" data-anime="lignes">Prêt à passer <em>la porte ?</em></h2>
+    <p class="appel-texte" data-anime>Tandem ou initiation : réservez en ligne ou appelez le club. On saute les samedis, dimanches et jours fériés.</p>
+    <p class="appel-actions" data-anime>
+      <a href="/reserver#reservation" class="bouton" data-libelle="Réserver" data-survol="magnetique">Réserver mon saut</a>
+      <a href="/reserver?formule=cadeau#reservation" class="bouton bouton--clair" data-libelle="Réserver" data-survol="magnetique">Offrir un saut</a>
+      <a class="appel-tel" href="tel:+33381902106">03 81 90 21 06</a>
+    </p>
   </div>
 </section>
 </main>
